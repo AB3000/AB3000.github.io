@@ -1,111 +1,63 @@
-.section {
-  /* position is relative becues we will have a lot of absolute
-  positions within */
-  position: absolute;
-  /* width: 100%; */
-  /* vh stands for viewport height, whatever we see, from top to bottom corner */
-  /* height: 100vh; */
+@import "compass/css3";
 
-  /* all the content will be in the center */
-  display: flex; 
-  align-items: center;
-  
-  
-  
+
+/*some information from various stackoverflow questions posted*/
+body {
+  background-color: #fff;
+  display: block;
+  margin: 0;
 }
 
-.header{
-  position: relative;
-  text-align: center;
-  font-family: cursive;
-}
-
-/* welcome font */
-h1{
-  font-size: 50px;
-  padding: 20px;
-  font-family: cursive;
-  text-align: center;
-  color: pink;
-  text-shadow: 2px 2px black;
-  /* white-space: nowrap; prevents text from wrapping */
-  z-index: 2;
-}
-
-h2{
-  font-size: 30px;
-  text-decoration: none;
-  color: pink;
-  padding: 30px;
-  background-color: black;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 30px;
-  box-shadow: 10px 10px 10px pink; 
-
-}
-
-h4{
-  font-size: 25px;
-  text-decoration: none;
-  color:black;
-  padding: 20px;
-  display: inline-block;
-  box-shadow: 10px 10px 10px black; 
-  z-index: 2;
-}
-
-h5{
-  font-size: 25px;
-  text-decoration: none;
-  color: pink;
-  padding: 20px;
-  display: inline-block;
-  box-shadow: 10px 10px 10px pink; 
-  z-index: 2;
-}
-
-
-h6{
-  font-size: 25px;
-  text-decoration: none;
-  color: pink;
-  padding: 20px;
-  display: inline-block;
-  background-color: black;
-  box-shadow: 10px 10px 10px black; 
-  z-index: 2;
-}
-
-/* we created a video container div class, so now we can style it here */
-.video-container{
-  position: absolute;
-  top: 0;
-  left: 0;
+.horizontal-nav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-family:'Open Sans', 'Helvetica', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  /* display: -webkit-inline-box; */
+  display: inline-flex;
   width: 100%;
-}
-
-.container {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
+  z-index: 3;
+  
 }
 
-/* for zooming buttons in the home page */
-.zoom {
-  padding: 30px;
-  transition: transform 1s; /* the animation */
-  display: inline-block;
-  position: relative;
-  z-index: 2;
-
+li ul{
+  padding-left:0;
 }
 
-.zoom:hover {
-  transform: scale(1.1); 
+.horizontal-nav li {
+   width: inherit;
+   
+}
+
+.horizontal-nav li a:link, a:visited {
+  -webkit-transition: all 0.3s linear;
+  background-color: #000000;
+  display: block;
+  color:rgb(255, 138, 177);
+  width: auto;
+  text-align:center;
+  padding:20px 20px 20px 15px;
+  text-decoration:none;
+  
+}
+.horizontal-nav li a:hover, a:active {
+  background-color: #363636;
+  color: #fff;
+}
+
+.horizontal-nav li ul{
+  height: 0px;
+  overflow: hidden;
+  transition:height 0.3s;
+  -webkit-transition:height 0.3s;
+  -ms-transition:height 0.3s;
+}
+
+.horizontal-nav li:hover ul {
+  height: inherit;
 }
 
 /* for zooming images */
@@ -114,7 +66,7 @@ h6{
   display: inline-block;
   position: relative;
   z-index: 2;
-  padding: 4px;
+  padding: 30px;
   transition: .5s ease;
   backface-visibility: hidden;
 
@@ -127,40 +79,85 @@ h6{
 
 .zoomimage:hover .middle {
   opacity: 1;
-  }
-
-
-/* for zooming buttons in the header (all pages) */
-.zoomheader { 
-  padding: 20px;
-  transition: transform 1s; /* the animation */
-  display: inline-block;
-  position: relative;
-  z-index: 2;
-
 }
-
-.zoomheader:hover {
-  transform: scale(1.2); 
-}
-
 
 .middle {
-transition: .5s ease;
-opacity: 0;
-position: absolute;
-top: 35%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  }
+  
+  .text {
+  color:rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgb(253, 190, 243);
+  font-weight: 900;
+  font-size: 40px; 
 
+  }
+
+html, body {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  margin-top: -100px;
+  position: absolute;
+  font-size: 60px;
+  padding-left: 20px;
+  top: 30%;
+  left: 0;
+  right: 0;
+  color: rgb(71, 61, 61);
+  text-shadow: rgb(255, 185, 228) 2px 2px;
+  white-space: nowrap;
+ 
+}
+
+.bottom-anchor {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.bottom-anchor img {
+  align-self: flex-end;
+  width: 35%;
+}
+
+.video-container{
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  width: 50%;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
 }
 
 
-.text {
-color:white;
-text-shadow: 2px 2px black;
-font-size: 20px; 
-/* padding: 16px 32px; */
-}
 
