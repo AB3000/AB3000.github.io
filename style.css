@@ -1,6 +1,3 @@
-@import "compass/css3";
-
-
 /*some information from various stackoverflow questions posted*/
 body {
   background-color: #fff;
@@ -15,7 +12,6 @@ body {
   font-family:'Open Sans', 'Helvetica', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  /* display: -webkit-inline-box; */
   display: inline-flex;
   width: 100%;
   position: absolute;
@@ -28,8 +24,7 @@ li ul{
 }
 
 .horizontal-nav li {
-   width: inherit;
-   
+   width: inherit; 
 }
 
 .horizontal-nav li a:link, a:visited {
@@ -43,6 +38,8 @@ li ul{
   text-decoration:none;
   
 }
+
+
 .horizontal-nav li a:hover, a:active {
   background-color: #363636;
   color: #fff;
@@ -60,46 +57,6 @@ li ul{
   height: inherit;
 }
 
-/* for zooming images */
-.zoomimage {
-  transition: transform 1s; /* the animation */
-  display: inline-block;
-  position: relative;
-  z-index: 2;
-  padding: 30px;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
-}
-
-.zoomimage:hover {
-  transform: scale(0.9); 
-  opacity: 0.8;
-}
-
-.zoomimage:hover .middle {
-  opacity: 1;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  
-  }
-  
-  .text {
-  color:rgb(0, 0, 0);
-  text-shadow: 2px 2px 5px rgb(253, 190, 243);
-  font-weight: 900;
-  font-size: 40px; 
-
-  }
-
 html, body {
   min-height: 100%;
 }
@@ -107,13 +64,6 @@ body {
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
 
 h1 {
@@ -127,36 +77,6 @@ h1 {
   color: rgb(71, 61, 61);
   text-shadow: rgb(255, 185, 228) 2px 2px;
   white-space: nowrap;
- 
-}
-
-.bottom-anchor {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.bottom-anchor img {
-  align-self: flex-end;
-  width: 35%;
-}
-
-.video-container{
-  position: absolute;
-  top: 30%;
-  left: 20px;
-  width: 50%;
-}
-
-.container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
 }
 
 
