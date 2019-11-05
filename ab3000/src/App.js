@@ -3,6 +3,7 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/homePage';
 import ProfessionalPage from './pages/professionalPage';
+import HobbiesPage from './pages/hobbiesPage';
 //transition group components for smooth transition to pages
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
@@ -60,6 +61,7 @@ class App extends Component {
             <Switch location={location}>
               <Route path='/' exact component={HomePage} /> {/* depth 0*/}
               <Route path='/professional' exact component={ProfessionalPage} />
+              <Route path='/hobbies' exact component={HobbiesPage} />
             </Switch>
           </div>
         </CSSTransition>
