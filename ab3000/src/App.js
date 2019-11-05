@@ -2,21 +2,29 @@ import React, { Component } from 'react';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/homePage';
-import ProfessionalPage from './pages/professionalPage'
-
+import ProfessionalPage from './pages/professionalPage';
 //transition group components for smooth transition to pages
-import { TransitionGroup, CSSTransition } from 'react-transition-group'
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+
+//smooth transition scss
+import './pageTransitions/slideTransition.scss'
 
 class App extends Component {
-
   constructor(props) {
     super(props);
+    //to know the current page
     this.state = {
-
+      //previous page's depth
+      prevDepth: this.getPathDepth(this.props.location)
     };
   }
 
-  //gets path's depth
+  //registers a new propse for the super function
+  componentWillReceiveProps() {
+    this.setState({ prevDepth: this.getPathDepth(this.props.location) });
+  }
+
+  //function to get path's depth
   getPathDepth(location) {
     // gives path e.g: home is '/', professional is '/professional'
     let pathArr = location.pathname.split('/');
@@ -27,17 +35,33 @@ class App extends Component {
 
   render() {
     const { location } = this.props;
-
+    //if key (pathname w/o '/' if something after '/') changes, then animation reapplied
+    const currentKey = location.pathname.split('/')[1] || '/';
     //time it takes for mounting the components and applying the animation (ms)
-    const { timeout } = { enter: 800, exit: 400 };
+    const timeout = { enter: 800, exit: 400 };
+
     return (
       <TransitionGroup component='div' className='App'>
         {/* for smooth animation */}
-        <CSSTransition timeout={timeout} className='pageSlider' mountOnEnter={false} mountOnExit={true} >
-          <Switch location={location} >
-            <Route path='/' exact component={HomePage} />   {/* depth 0*/}
-            <Route path='/professional' exact component={ProfessionalPage} />  {/* depth 1*/}
-          </Switch>
+        <CSSTransition
+          key={currentKey}
+          timeout={timeout}
+          classNames='pageSlider'
+          mountOnEnter={false}
+          unmountOnExit={true}
+        >
+          <div
+            className={
+              this.getPathDepth(location) - this.state.prevDepth >= 0
+                ? 'left'
+                : 'right'
+            }
+          >
+            <Switch location={location}>
+              <Route path='/' exact component={HomePage} /> {/* depth 0*/}
+              <Route path='/professional' exact component={ProfessionalPage} />
+            </Switch>
+          </div>
         </CSSTransition>
       </TransitionGroup>
     );

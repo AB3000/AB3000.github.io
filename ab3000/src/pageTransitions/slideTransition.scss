@@ -1,0 +1,36 @@
+// every class name that has 'page' will have animation
+.pageSlider-exit > .page {
+  z-index: 1;
+}
+
+//elevate the page
+.pageSlider-enter > .page {
+    z-index: 10;
+}
+
+//left to right transition
+.pageSlider-enter.left > .page {
+    transform: translate3d(100%, 0, 0);
+}
+
+//right to left transition
+.pageSlider-enter.right > .page {
+    transform: translate3d(-100%, 0, 0);
+}
+
+//left to right exit
+.pageSlider-exit.left > .page {
+    transform: translate3d(-100%, 0, 0);
+}
+
+//right to left exit
+.pageSlider-exit.right > .page {
+    transform: translate3d(100%, 0, 0);
+}
+
+//when animation is active, disable/stop it and show page
+.pageSlider-enter.pageSlider-enter-active > .page {
+    transform: translate3d(0, 0, 0);
+    transition: all 800ms ease-in-out; //anim. for enter and exit
+}
+
