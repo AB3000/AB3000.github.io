@@ -11,16 +11,18 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+
+    };
   }
 
   //gets path's depth
-  getPathDepth(location){
+  getPathDepth(location) {
     // gives path e.g: home is '/', professional is '/professional'
     let pathArr = location.pathname.split('/');
     //returns all elements in path that are not empty strings
     pathArr = pathArr.filter(n => n !== '');
-    return pathArr.length; 
+    return pathArr.length;
   }
 
   render() {
