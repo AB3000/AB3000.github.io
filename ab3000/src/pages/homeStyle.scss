@@ -1,32 +1,18 @@
-.welcome-container {
-    width: 100%;
-    min-height: 100vh;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
-    // margin-bottom: 25px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 11px 1px rgba(15, 15, 15, 0.2);
-    font-size: 18px;
-    background: linear-gradient(
-        to right,
-        rgba(255, 183, 183, 0.68),
-        rgba(90, 151, 206, 0.82)
-      );
-    background-size: cover;
-    color: #fff;
-  }
-  
-  .our-story {
-    font-size: 11px;
-    font-weight: 100;
-    font-family: monospace;
-    inline-size: 66%;
-    line-height: 1.5;
-    margin: auto;
-  }
+.home-container {
+  background: linear-gradient(
+    to right,
+    rgba(255, 183, 183, 0.68),
+    rgba(90, 151, 206, 0.82)
+  );
+  font-family: Aclonica;
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  font-weight: 30;
+  font-size: 75px;
+}
 
+a:link{
+  text-decoration: none!important;
+}
 
