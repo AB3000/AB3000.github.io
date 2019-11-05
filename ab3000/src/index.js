@@ -31,7 +31,7 @@ const theme = createMuiTheme({
         height: 70,
         padding: "0px 70px",
         margin: "100px",
-        textDecoration: "none",
+        textDecoration: "none"
         // boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .30)"
       }
     }

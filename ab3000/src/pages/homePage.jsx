@@ -1,5 +1,4 @@
 import React from "react";
-import Text from "react-text";
 import "./homeStyle.scss";
 import { Link } from "react-router-dom";
 import SplitText from "react-pose-text";
