@@ -11,14 +11,25 @@
   font-weight: 30;
   font-size: 75px;
   position: relative;
-  overflow: auto;
   display: table;
+  
   
 }
 
-.svg-container{
+.svg-container-left{
   position: absolute;
   width : 50%;
+  left: 0px;
+  height: inherit;
+  display: table-row;
+}
+
+.svg-container-right{
+  position: absolute;
+  width : 50%;
+  right: 0px;
+  height: inherit;
+  display: table-row;
 }
 
 .home-text {

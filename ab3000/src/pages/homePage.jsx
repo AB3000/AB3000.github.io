@@ -121,7 +121,15 @@ export default class HomePage extends React.Component {
   render() {
     return (
       <div className="home-container">
-        <div className="svg-container">
+        <div className="svg-container-left">
+          <svg width="100%" height="100%" viewBox="0 0 520 500">
+            <Icon
+              style={styles[this.state.pathIndex]}
+              pose={pathIds[this.state.pathIndex]}
+            />
+          </svg>
+        </div>
+        <div className="svg-container-right">
           <svg width="100%" height="100%" viewBox="0 0 520 500">
             <Icon
               style={styles[this.state.pathIndex]}
