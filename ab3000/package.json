@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.2",
+    "flubber": "^0.4.2",
     "node-sass": "^4.13.0",
+    "popmotion": "^8.7.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-pose": "^4.0.9",
