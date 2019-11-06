@@ -39,7 +39,7 @@ class App extends Component {
     //if key (pathname w/o '/' if something after '/') changes, then animation reapplied
     const currentKey = location.pathname.split('/')[1] || '/';
     //time it takes for mounting the components and applying the animation (ms)
-    const timeout = { enter: 800, exit: 400 };
+    const timeout = { enter: 800, exit: 20};
 
     return (
       <TransitionGroup component='div' className='App'>
