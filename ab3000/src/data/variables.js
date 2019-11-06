@@ -126,65 +126,72 @@ export const paths = {
 
 export const professionalData = [
   {
-    text:
-      "Building a sample app that involves text and facial recognition. " +
-      "Customizing existing AWS services, such as Comprehend and Rokognitino, in python.",
+    text: [
+      "Building a sample app that involves text and facial recognition.",
+      "Customizing existing AWS services, such as Comprehend and Rokognitino, in python."
+    ],
     date: "October 2019 - Present",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    company: "UEGroup",
+    title: "UEGroup",
     position: "Machine Learning Intern",
     location: "remote"
   },
   {
-    text:
-      "Built a chrome extension that crawls through a website in real time." +
-      "Designed a natural language processing algorithm to extract vital information from the page." +
-      "Developing this extension to improve runtime and utility as a startup team. Won first place, most technical, best prototype, and best UI/UX recognition for this project in HACKXD, 2019." +
-      "Our product was featured on Fox59 and CBS4.",
+    text: [
+      "Built a chrome extension that crawls through a website in real time.",
+      "Designed a natural language processing algorithm to extract vital information from the page.",
+      "Developing this extension to improve runtime and utility as a startup team.",
+      "Won first place, most technical, best prototype, and best UI/UX recognition for this project in HACKXD, 2019.",
+      "Our product was featured on Fox59 and CBS4."
+    ],
     date: "September 2019",
     category: {
       tag: "Experience",
       color: "#ad7fad"
-    }
+    },
+    title: "HackXD, 2019: Oculis"
   },
   {
-    text:
-      "Devising new ways to improve the DeepPool algorithm for ridesharing. " +
-      "Connecting Google's Distance Matrix API and Waze's API to gather real-time data. " +
-      "Presenting this research in Purdue's Fall Research Expo.",
+    text: [
+      "Devising new ways to improve the DeepPool algorithm for ridesharing.",
+      "Connecting Google's Distance Matrix API and Waze's API to gather real-time data.",
+      "Presenting this research in Purdue's Fall Research Expo."
+    ],
     date: "August 2019 - Present",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    company: "Purdue University: Electrical & Computer Engineering Department",
+    title: "Purdue University: Electrical & Computer Engineering Department",
     position: "Undergraduate Research Assistant",
     location: "West lafayette, IN"
   },
   {
-    text: `Designed projects for AI + Machine Learning customers in Java, Python, and JavaScript + HTML.
-      Created data generation algorithms in Python for various Machine Learning exercises related to regression and classification.
-      Identified several blocker bugs and UI issues with the main website and suggested new features and enhancements to facilitate customer usage.
-      Assisted in the front-end development of the project website (https://aiclub.world/).
-      
-      Crowdsourced data for text-based lessons and reached out to clients for testing.
-      Developed curriculum and ensured readability of project documentation.`,
+    text: [
+      "Designed projects for AI + Machine Learning customers in Java, Python, and JavaScript + HTML.",
+      "Created data generation algorithms in Python for various Machine Learning exercises related to regression and classification.",
+      "Identified several blocker bugs and UI issues with the main website and suggested new features and enhancements to facilitate customer usage.",
+      "Assisted in the front-end development of the project website (https://aiclub.world/).",
+      "Crowdsourced data for text-based lessons and reached out to clients for testing.",
+      "Developed curriculum and ensured readability of project documentation."
+    ],
     date: "August 2019 - Present",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    company: "Pyxeda AI",
+    title: "Pyxeda AI",
     position: "Software + Machine Learning Intern",
     location: "Santa Clara, CA"
   },
   {
-    text:
-      "Composed curriculum in Canvas for a game coding course geared to preteens. Added lessons in Processing to facilitate " +
-      "the transition from drag-and-drop code to typed programming.",
+    text: [
+      "Composed curriculum in Canvas for a game coding course geared to preteens.",
+      "Added lessons in Processing to facilitate the transition from drag-and-drop code to typed programming."
+    ],
     date: "January 2019 -  May 2019",
     category: {
       tag: "Work Experience",
@@ -194,15 +201,16 @@ export const professionalData = [
       url: "https://github.com/AB3000/Adventures-Game-Coding-Curriculum",
       text: "See Repo"
     },
-    company: "Digital Media Academy",
+    title: "Digital Media Academy",
     position: "Curriculum Developer",
     location: "remote"
   },
   {
-    text:
-      "Assisted students with class projects regarding Unix/Linux commands, C, and C++. " +
-      "Reviewed students' code to ensure that their submissions meet formatting standards. " +
-      "Occasionally graded students in class with questions to check their understanding of concepts implemented.",
+    text: [
+      "Assisted students with class projects regarding Unix/Linux commands, C, and C++.",
+      "Reviewed students' code to ensure that their submissions meet formatting standards.",
+      "Occasionally graded students in class with questions to check their understanding of concepts implemented."
+    ],
     date: "January 2019 -  May 2019",
     category: {
       tag: "Work Experience",
@@ -212,14 +220,15 @@ export const professionalData = [
       url: "https://github.com/AB3000/Avoid-the-objects-",
       text: "See Repo"
     },
-    company: "Purdue University: Department of Computer Science",
+    title: "Purdue University: Department of Computer Science",
     position: "Undergraduate Teaching Assistant, CS240 (Programming in C)",
     location: "West Lafayette, IN"
   },
   {
-    text:
-      "Programmed a single-level 2D game in Unity. The player must avoid colliding with any falling objects. " +
-      "I experimented with threads and a point-system in this game.",
+    text: [
+      "Programmed a single-level 2D game in Unity. The player must avoid colliding with any falling objects.",
+      "I experimented with threads and a point-system in this game."
+    ],
     date: "December 2018 -  January 2019",
     category: {
       tag: "Game",
@@ -228,12 +237,14 @@ export const professionalData = [
     link: {
       url: "https://github.com/AB3000/Avoid-the-objects-",
       text: "See Repo"
-    }
+    },
+    title: "Avoid the Objects"
   },
   {
-    text:
-      "Programmed a single-level 2D RPG game in Unity. This game follows a woman who lost her briefcase in her house. " +
-      "I experimented with animation, triggers, and dialogue.",
+    text: [
+      "Programmed a single-level 2D RPG game in Unity. This game follows a woman who lost her briefcase in her house.",
+      "I experimented with animation, triggers, and dialogue."
+    ],
     date: "September -  December 2018",
     category: {
       tag: "Game",
@@ -242,30 +253,31 @@ export const professionalData = [
     link: {
       url: "https://github.com/AB3000/Office-Trouble-",
       text: "See Repo"
-    }
+    },
+    title: "Office Trouble"
   },
   {
-    text:
-      "Returned to Digital Media Academy as an instructor. Taught students aged 5 - 12 about " +
-      " artificial intelligence, game development, and lego robotics. Planned final projects " +
-      "that allowed students to express their creativity and showcase to their parents. " +
-      "Wrote weekly reports so that students had an idea of their progress and potential next steps. ",
+    text: [
+      "Returned to Digital Media Academy as an instructor. Taught students aged 5 - 12 about artificial intelligence, game development, and lego robotics. ",
+      "Planned final projects that allowed students to express their creativity and showcase to their parents.",
+      "Wrote weekly reports so that students had an idea of their progress and potential next steps."
+    ],
     date: "June -  August 2018",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    company: "Digital Media Academy",
+    title: "Digital Media Academy",
     position: "Instructor",
     location: "Palo Alto, CA"
   },
   {
-    text:
-      "Teamed up with five students from the Graduate and Undergraduate Department in Computer Science" +
-      " to build a dining app. This app allows students to customize plates " +
-      " based on options from the campus dining courts with their personal nutritional needs." +
-      " I designed the graphics and charts to display the nutritional information of the plates." +
-      " The app is available on Google Play.",
+    text: [
+      "Teamed up with five students from the Graduate and Undergraduate Department in Computer Science to build a dining app.",
+      "This app allows students to customize plates based on options from the campus dining courts with their personal nutritional needs.",
+      "I designed the graphics and charts to display the nutritional information of the plates.",
+      "The app is available on Google Play."
+    ],
     date: "January - April 2018",
     category: {
       tag: "App",
@@ -278,13 +290,15 @@ export const professionalData = [
     secondLink: {
       url: "https://play.google.com/store/apps/details?id=com.reprincipia.phd",
       text: "See App!"
-    }
+    },
+    title: "Purdue Dining App"
   },
   {
-    text:
-      "Collaborated with two people to design a game that teaches recursion. Players drag " +
-      "and drop blocks to solve a given recursion problem. I designed the " +
-      " UI and programmed the button triggers.",
+    text: [
+      "Collaborated with two people to design a game that teaches recursion.",
+      "Players drag and drop blocks to solve a given recursion problem.",
+      "I designed the UI and programmed the button triggers."
+    ],
     date: "November - December 2017",
     category: {
       tag: "Game",
@@ -293,13 +307,14 @@ export const professionalData = [
     link: {
       url: "https://github.com/AB3000/Recursive-Tree",
       text: "See Repo"
-    }
+    },
+    title: "Recursive Tree Puzzle"
   },
   {
-    text:
-      "Created my first 3D RPG game (a horror maze) in Unity. I worked with a group of seven people as part of a game " +
-      "programming club. I led the team with whiteboard brainstorming sessions, modeled some of the assets, " +
-      " and programmed the game triggers.",
+    text: [
+      "Created my first 3D RPG game (a horror maze) in Unity with a group of seven people as part of a game programming club.",
+      "I led the team with whiteboard brainstorming sessions, modeled some of the assets, and programmed the game triggers."
+    ],
     date: "October - November 2017",
     category: {
       tag: "Game",
@@ -308,13 +323,15 @@ export const professionalData = [
     link: {
       url: "https://github.com/AB3000/Defy-The-Maze-2017",
       text: "See Repo"
-    }
+    },
+    title: "Defy the Maze"
   },
   {
-    text:
-      "Built my first 2D mini-RPG game in Unity. The game followed a teenage girl trying to find the mystery behind the janitor's closet at her high school. " +
-      "This was under Purdue's Launchpad program, " +
-      "a one-to-one program that helps students bring their ideas to life!",
+    text: [
+      "Built my first 2D mini-RPG game in Unity.",
+      "The game followed a teenage girl trying to find the mystery behind the janitor's closet at her high school.",
+      "This was under Purdue's Launchpad program, a one-to-one program that helps students bring their ideas to life!"
+    ],
     date: "September - October 2017",
     category: {
       tag: "Game",
@@ -323,26 +340,29 @@ export const professionalData = [
     link: {
       url: "https://github.com/AB3000/dreaming-crazy",
       text: "See Repo"
-    }
+    },
+    title: "Dreaming Crazy"
   },
   {
-    text: "Started College at Purdue University!",
+    text: ["Started College at Purdue University!"],
     date: "August 2017",
     category: {
       tag: "Event",
       color: "#ff7214"
-    }
+    },
+    title: "Purdue University"
   },
   {
-    text:
-      "Helped students one-to-one with their weekly projects in wearable technology, animation, game programming, robotics, and physics. " +
-      "Engaged students in healthy outdoor break-time activities.",
+    text: [
+      "Helped students one-to-one with their weekly projects in wearable technology, animation, game programming, robotics, and physics.",
+      "Engaged students in healthy outdoor break-time activities."
+    ],
     date: "Summer 2016, Summer 2017",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    company: "Digital Media Academy",
+    title: "Digital Media Academy",
     position: "Teaching Assistant",
     location: "Palo Alto, CA"
   }
