@@ -3,10 +3,10 @@ import "./homeStyle.scss";
 import { Link } from "react-router-dom";
 import SplitText from "react-pose-text";
 import Button from "@material-ui/core/Button";
-import posed, { PoseGroup } from "react-pose";
+import posed from "react-pose";
 import { tween } from "popmotion";
 import { interpolate } from "flubber";
-import {home_styles, paths} from '../data/variables';
+import { homeStyles, paths } from "../data/variables";
 
 const charPoses = {
   exit: { opacity: 0, y: 20 },
@@ -60,7 +60,7 @@ export default class HomePage extends React.Component {
         <div className="svg-container">
           <svg width="100%" height="100%" viewBox="0 0 520 500">
             <Icon
-              style={home_styles[this.state.pathIndex]}
+              style={homeStyles[this.state.pathIndex]}
               pose={pathIds[this.state.pathIndex]}
             />
           </svg>
