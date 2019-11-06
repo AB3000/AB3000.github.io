@@ -127,6 +127,125 @@ export const paths = {
 export const professionalData = [
   {
     text:
+      "Building a sample app that involves text and facial recognition. " +
+      "Customizing existing AWS services, such as Comprehend and Rokognitino, in python.",
+    date: "October 2019 - Present",
+    category: {
+      tag: "Work Experience",
+      color: "#ad7fad"
+    },
+    company: "UEGroup",
+    position: "Machine Learning Intern",
+    location: "remote"
+  },
+  {
+    text:
+      "Built a chrome extension that crawls through a website in real time." +
+      "Designed a natural language processing algorithm to extract vital information from the page." +
+      "Developing this extension to improve runtime and utility as a startup team. Won first place, most technical, best prototype, and best UI/UX recognition for this project in HACKXD, 2019." +
+      "Our product was featured on Fox59 and CBS4.",
+    date: "September 2019",
+    category: {
+      tag: "Experience",
+      color: "#ad7fad"
+    }
+  },
+  {
+    text:
+      "Devising new ways to improve the DeepPool algorithm for ridesharing. " +
+      "Connecting Google's Distance Matrix API and Waze's API to gather real-time data. " +
+      "Presenting this research in Purdue's Fall Research Expo.",
+    date: "August 2019 - Present",
+    category: {
+      tag: "Work Experience",
+      color: "#ad7fad"
+    },
+    company: "Purdue University: Electrical & Computer Engineering Department",
+    position: "Undergraduate Research Assistant",
+    location: "West lafayette, IN"
+  },
+  {
+    text: `Designed projects for AI + Machine Learning customers in Java, Python, and JavaScript + HTML.
+      Created data generation algorithms in Python for various Machine Learning exercises related to regression and classification.
+      Identified several blocker bugs and UI issues with the main website and suggested new features and enhancements to facilitate customer usage.
+      Assisted in the front-end development of the project website (https://aiclub.world/).
+      
+      Crowdsourced data for text-based lessons and reached out to clients for testing.
+      Developed curriculum and ensured readability of project documentation.`,
+    date: "August 2019 - Present",
+    category: {
+      tag: "Work Experience",
+      color: "#ad7fad"
+    },
+    company: "Pyxeda AI",
+    position: "Software + Machine Learning Intern",
+    location: "Santa Clara, CA"
+  },
+  {
+    text:
+      "Composed curriculum in Canvas for a game coding course geared to preteens. Added lessons in Processing to facilitate " +
+      "the transition from drag-and-drop code to typed programming.",
+    date: "January 2019 -  May 2019",
+    category: {
+      tag: "Work Experience",
+      color: "#ad7fad"
+    },
+    link: {
+      url: "https://github.com/AB3000/Adventures-Game-Coding-Curriculum",
+      text: "See Repo"
+    },
+    company: "Digital Media Academy",
+    position: "Curriculum Developer",
+    location: "remote"
+  },
+  {
+    text:
+      "Assisted students with class projects regarding Unix/Linux commands, C, and C++. " +
+      "Reviewed students' code to ensure that their submissions meet formatting standards. " +
+      "Occasionally graded students in class with questions to check their understanding of concepts implemented.",
+    date: "January 2019 -  May 2019",
+    category: {
+      tag: "Work Experience",
+      color: "#ad7fad"
+    },
+    link: {
+      url: "https://github.com/AB3000/Avoid-the-objects-",
+      text: "See Repo"
+    },
+    company: "Purdue University: Department of Computer Science",
+    position: "Undergraduate Teaching Assistant, CS240 (Programming in C)",
+    location: "West Lafayette, IN"
+  },
+  {
+    text:
+      "Programmed a single-level 2D game in Unity. The player must avoid colliding with any falling objects. " +
+      "I experimented with threads and a point-system in this game.",
+    date: "December 2018 -  January 2019",
+    category: {
+      tag: "Game",
+      color: "#018f69"
+    },
+    link: {
+      url: "https://github.com/AB3000/Avoid-the-objects-",
+      text: "See Repo"
+    }
+  },
+  {
+    text:
+      "Programmed a single-level 2D RPG game in Unity. This game follows a woman who lost her briefcase in her house. " +
+      "I experimented with animation, triggers, and dialogue.",
+    date: "September -  December 2018",
+    category: {
+      tag: "Game",
+      color: "#018f69"
+    },
+    link: {
+      url: "https://github.com/AB3000/Office-Trouble-",
+      text: "See Repo"
+    }
+  },
+  {
+    text:
       "Returned to Digital Media Academy as an instructor. Taught students aged 5 - 12 about " +
       " artificial intelligence, game development, and lego robotics. Planned final projects " +
       "that allowed students to express their creativity and showcase to their parents. " +
@@ -135,7 +254,10 @@ export const professionalData = [
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
-    }
+    },
+    company: "Digital Media Academy",
+    position: "Instructor",
+    location: "Palo Alto, CA"
   },
   {
     text:
@@ -213,13 +335,15 @@ export const professionalData = [
   },
   {
     text:
-      "Worked at Digital Media Academy as a Teaching Assistant for two summers. Helped students one-to-one " +
-      "with their weekly projects in wearable technology, animation, game programming, robotics, and physics. " +
+      "Helped students one-to-one with their weekly projects in wearable technology, animation, game programming, robotics, and physics. " +
       "Engaged students in healthy outdoor break-time activities.",
     date: "Summer 2016, Summer 2017",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
-    }
+    },
+    company: "Digital Media Academy",
+    position: "Teaching Assistant",
+    location: "Palo Alto, CA"
   }
 ];

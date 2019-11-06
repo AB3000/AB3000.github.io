@@ -13,6 +13,9 @@ const TimelineItem = ({ data }) => (
       <span className="tag" style={{ background: data.category.color }}>
         {data.category.tag}
       </span>
+      {data.company && <h3>{data.company}</h3>}
+      {data.position && <h4>Position: {data.position}</h4>}
+      {data.location && <h5>Location: {data.location}</h5>}
       <time>{data.date}</time>
       <p>{data.text}</p>
       {data.link && (
