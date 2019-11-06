@@ -7,6 +7,7 @@ import "./professionalStyle.scss";
 
 //creates a timeline based on data from variables.js
 //Credits to Florin Pop for the tutorial!
+
 const TimelineItem = ({ data }) => (
   <div className="timeline-item">
     <div className="timeline-item-content">
@@ -17,7 +18,7 @@ const TimelineItem = ({ data }) => (
       {data.position && <h4>Position: {data.position}</h4>}
       {data.location && <h5>Location: {data.location}</h5>}
       <time>{data.date}</time>
-      <p>{data.text}</p>
+      {splitBullets(data.text)}
       {data.link && (
         <a href={data.link.url} target="_blank" rel="noopener noreferrer">
           {data.link.text}
@@ -43,7 +44,24 @@ const Timeline = () =>
     </div>
   );
 
+function splitBullets(points) {
+  // console.log("HERE, points is ", points);
+  if (points.length <= 1){
+
+  } else {
+
+    points = points.map(point => <li>{point}</li>);
+  }
+  return (<ul>{points}</ul>);
+}
+
+
 export default class ProfessionalPage extends React.Component {
+  // constructor(props) {
+  //   super(props);
+  //   this.splitBullets = this.splitBullets.bind(this);
+  // }
+
   render() {
     return (
       <div className="page-container page">
