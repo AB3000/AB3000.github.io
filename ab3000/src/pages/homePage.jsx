@@ -6,16 +6,7 @@ import Button from "@material-ui/core/Button";
 import posed from "react-pose";
 import { tween } from "popmotion";
 import { interpolate } from "flubber";
-import { homeStyles, paths } from "../data/variables";
-
-const charPoses = {
-  exit: { opacity: 0, y: 20 },
-  enter: {
-    opacity: 1,
-    y: 0,
-    delay: ({ charIndex }) => charIndex * 30
-  }
-};
+import { homeStyles, paths, charPoses } from "../data/variables";
 
 const pathIds = Object.keys(paths);
 
