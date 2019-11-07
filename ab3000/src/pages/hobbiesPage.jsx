@@ -9,7 +9,6 @@ export default class HobbiesPage extends React.Component {
       <div className='page-container page'>
         <div className='home-page inner-container'>
           <div className='welcome-container'>
-            HOBBIES
               <Link to='/'>
                 <Button>Home</Button>
               </Link>
