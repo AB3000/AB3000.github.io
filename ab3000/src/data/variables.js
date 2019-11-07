@@ -1,3 +1,21 @@
+export const charPoses = {
+  exit: { opacity: 0, y: 20 },
+  enter: {
+    opacity: 1,
+    y: 0,
+    delay: ({ charIndex }) => charIndex * 30
+  }
+};
+
+export var fasterCharPoses = {
+  exit: { opacity: 0, y: 20 },
+  enter: {
+    opacity: 1,
+    y: 0,
+    delay: ({ charIndex }) => charIndex * 5
+  }
+};
+
 export const homeStyles = [
   {
     opacity: 1,
@@ -178,7 +196,7 @@ export const professionalData = [
       "Crowdsourced data for text-based lessons and reached out to clients for testing.",
       "Developed curriculum and ensured readability of project documentation."
     ],
-    date: "August 2019 - Present",
+    date: "May 2019 - July 2019",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
@@ -197,10 +215,12 @@ export const professionalData = [
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    links: [{
-      url: "https://github.com/AB3000/Adventures-Game-Coding-Curriculum",
-      text: "See Repo"
-    }],
+    links: [
+      {
+        url: "https://github.com/AB3000/Adventures-Game-Coding-Curriculum",
+        text: "See Repo"
+      }
+    ],
     title: "Digital Media Academy",
     position: "Curriculum Developer",
     location: "remote"
@@ -216,10 +236,6 @@ export const professionalData = [
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    links: [{
-      url: "https://github.com/AB3000/Avoid-the-objects-",
-      text: "See Repo"
-    }],
     title: "Purdue University: Department of Computer Science",
     position: "Undergraduate Teaching Assistant, CS240 (Programming in C)",
     location: "West Lafayette, IN"
@@ -234,10 +250,12 @@ export const professionalData = [
       tag: "Game",
       color: "#018f69"
     },
-    links: [{
-      url: "https://github.com/AB3000/Avoid-the-objects-",
-      text: "See Repo"
-    }],
+    links: [
+      {
+        url: "https://github.com/AB3000/Avoid-the-objects-",
+        text: "See Repo"
+      }
+    ],
     title: "Avoid the Objects"
   },
   {
@@ -250,10 +268,12 @@ export const professionalData = [
       tag: "Game",
       color: "#018f69"
     },
-    links: [{
-      url: "https://github.com/AB3000/Office-Trouble-",
-      text: "See Repo"
-    }],
+    links: [
+      {
+        url: "https://github.com/AB3000/Office-Trouble-",
+        text: "See Repo"
+      }
+    ],
     title: "Office Trouble"
   },
   {
@@ -291,7 +311,7 @@ export const professionalData = [
       {
         url:
           "https://play.google.com/store/apps/details?id=com.reprincipia.phd",
-        text: "See App!"
+        text: "See App"
       }
     ],
 

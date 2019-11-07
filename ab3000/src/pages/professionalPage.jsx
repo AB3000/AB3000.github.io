@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
-import { professionalData } from "../data/variables";
+import { professionalData, fasterCharPoses } from "../data/variables";
+import SplitText from "react-pose-text";
 
 import "./professionalStyle.scss";
 
@@ -44,28 +45,24 @@ function splitBullets(points) {
 
 function addLinks(links) {
   if (links.length >= 1) {
-    console.log("TRUE, there are links bitches", links);
     return (
       <div>
         {links.map(link => (
-          <a href={link.url} target="_blank" rel="noopener noreferrer">
-            <br></br>
+          <a
+            class="button"
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {link.text}
           </a>
-          
         ))}
       </div>
     );
   }
-  // return <div>{links}</div>;
 }
 
 export default class ProfessionalPage extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.splitBullets = this.splitBullets.bind(this);
-  // }
-
   render() {
     return (
       <div className="page-container page">
@@ -78,6 +75,15 @@ export default class ProfessionalPage extends React.Component {
               <Button>Hobbies</Button>
             </Link>
           </div>
+        </div>
+        <div className="center-panel">
+          <SplitText initialPose="exit" pose="enter" charPoses={fasterCharPoses}>
+            Most of my professional work involves research and internships in
+            machine learning and education. I enjoy collaborating with
+            people to design applications for entertainment and scholastic
+            purposes. For my personal projects, I am interested in learning
+            new things through designing mini games and text analysis programs.
+          </SplitText>
         </div>
         <Timeline></Timeline>
       </div>
