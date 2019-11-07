@@ -128,7 +128,7 @@ export const professionalData = [
   {
     text: [
       "Building a sample app that involves text and facial recognition.",
-      "Customizing existing AWS services, such as Comprehend and Rokognitino, in python."
+      "Customizing existing AWS services, such as Comprehend and Rekognition, in python."
     ],
     date: "October 2019 - Present",
     category: {
