@@ -197,10 +197,10 @@ export const professionalData = [
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    link: {
+    links: [{
       url: "https://github.com/AB3000/Adventures-Game-Coding-Curriculum",
       text: "See Repo"
-    },
+    }],
     title: "Digital Media Academy",
     position: "Curriculum Developer",
     location: "remote"
@@ -216,10 +216,10 @@ export const professionalData = [
       tag: "Work Experience",
       color: "#ad7fad"
     },
-    link: {
+    links: [{
       url: "https://github.com/AB3000/Avoid-the-objects-",
       text: "See Repo"
-    },
+    }],
     title: "Purdue University: Department of Computer Science",
     position: "Undergraduate Teaching Assistant, CS240 (Programming in C)",
     location: "West Lafayette, IN"
@@ -234,10 +234,10 @@ export const professionalData = [
       tag: "Game",
       color: "#018f69"
     },
-    link: {
+    links: [{
       url: "https://github.com/AB3000/Avoid-the-objects-",
       text: "See Repo"
-    },
+    }],
     title: "Avoid the Objects"
   },
   {
@@ -250,10 +250,10 @@ export const professionalData = [
       tag: "Game",
       color: "#018f69"
     },
-    link: {
+    links: [{
       url: "https://github.com/AB3000/Office-Trouble-",
       text: "See Repo"
-    },
+    }],
     title: "Office Trouble"
   },
   {
@@ -283,14 +283,18 @@ export const professionalData = [
       tag: "App",
       color: "#ad7fad"
     },
-    link: {
-      url: "https://github.com/magickaiyang/purdue-healthy-dining",
-      text: "See Repo"
-    },
-    secondLink: {
-      url: "https://play.google.com/store/apps/details?id=com.reprincipia.phd",
-      text: "See App!"
-    },
+    links: [
+      {
+        url: "https://github.com/magickaiyang/purdue-healthy-dining",
+        text: "See Repo"
+      },
+      {
+        url:
+          "https://play.google.com/store/apps/details?id=com.reprincipia.phd",
+        text: "See App!"
+      }
+    ],
+
     title: "Purdue Dining App"
   },
   {
@@ -304,10 +308,12 @@ export const professionalData = [
       tag: "Game",
       color: "#018f69"
     },
-    link: {
-      url: "https://github.com/AB3000/Recursive-Tree",
-      text: "See Repo"
-    },
+    links: [
+      {
+        url: "https://github.com/AB3000/Recursive-Tree",
+        text: "See Repo"
+      }
+    ],
     title: "Recursive Tree Puzzle"
   },
   {
@@ -320,10 +326,12 @@ export const professionalData = [
       tag: "Game",
       color: "#018f69"
     },
-    link: {
-      url: "https://github.com/AB3000/Defy-The-Maze-2017",
-      text: "See Repo"
-    },
+    links: [
+      {
+        url: "https://github.com/AB3000/Defy-The-Maze-2017",
+        text: "See Repo"
+      }
+    ],
     title: "Defy the Maze"
   },
   {
@@ -337,10 +345,12 @@ export const professionalData = [
       tag: "Game",
       color: "#018f69"
     },
-    link: {
-      url: "https://github.com/AB3000/dreaming-crazy",
-      text: "See Repo"
-    },
+    links: [
+      {
+        url: "https://github.com/AB3000/dreaming-crazy",
+        text: "See Repo"
+      }
+    ],
     title: "Dreaming Crazy"
   },
   {

@@ -19,16 +19,7 @@ const TimelineItem = ({ data }) => (
       {data.location && <h5>Location: {data.location}</h5>}
       <time>{data.date}</time>
       {splitBullets(data.text)}
-      {data.link && (
-        <a href={data.link.url} target="_blank" rel="noopener noreferrer">
-          {data.link.text}
-        </a>
-      )}
-      {data.secondLink && (
-        <a href={data.secondLink.url} target="_blank" rel="noopener noreferrer">
-          {data.secondLink.text}
-        </a>
-      )}
+      {"links" in data ? addLinks(data.links) : ""}
       <span className="circle" />
     </div>
   </div>
@@ -45,16 +36,29 @@ const Timeline = () =>
   );
 
 function splitBullets(points) {
-  // console.log("HERE, points is ", points);
-  if (points.length <= 1){
-
-  } else {
-
+  if (points.length > 1) {
     points = points.map(point => <li>{point}</li>);
   }
-  return (<ul>{points}</ul>);
+  return <ul>{points}</ul>;
 }
 
+function addLinks(links) {
+  if (links.length >= 1) {
+    console.log("TRUE, there are links bitches", links);
+    return (
+      <div>
+        {links.map(link => (
+          <a href={link.url} target="_blank" rel="noopener noreferrer">
+            <br></br>
+            {link.text}
+          </a>
+          
+        ))}
+      </div>
+    );
+  }
+  // return <div>{links}</div>;
+}
 
 export default class ProfessionalPage extends React.Component {
   // constructor(props) {
