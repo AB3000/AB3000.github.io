@@ -397,3 +397,8 @@ export const professionalData = [
     location: "Palo Alto, CA"
   }
 ];
+
+export const animationData = [
+  {
+  },
+];
