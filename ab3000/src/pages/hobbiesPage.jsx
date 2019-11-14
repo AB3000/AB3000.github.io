@@ -79,3 +79,23 @@
 //     );
 //   }
 // }
+
+export default class HobbiesPage extends React.Component {
+  render() {
+    return (
+      <div className="page-container page">
+        <div className="home-page inner-container">
+          <div className="welcome-container">
+            <Link to="/">
+              <Button>Home</Button>
+            </Link>
+            <Link to="/professional">
+              <Button>Professional</Button>
+            </Link>
+            <h1>Under construction!</h1>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
