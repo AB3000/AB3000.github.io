@@ -1,9 +1,9 @@
-// import React from "react";
-// import "./homeStyle.scss";
-// import { Link } from "react-router-dom";
-// import { Button, Grid } from "@material-ui/core";
-// import { Row, Col } from "reactstrap";
-// import Swiper from "react-id-swiper";
+import React from "react";
+import "./homeStyle.scss";
+import { Link } from "react-router-dom";
+import { Button, Grid } from "@material-ui/core";
+import { Row, Col } from "reactstrap";
+import Swiper from "react-id-swiper";
 
 // import "swiper/css/swiper.css";
 
