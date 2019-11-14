@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/AB3000/AB3000.github.io/issues"
   },
-  "homepage": "https://github.com/AB3000/AB3000.github.io/"
+  "homepage": "https://github.com/AB3000/AB3000.github.io#readme"
 }
