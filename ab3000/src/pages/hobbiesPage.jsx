@@ -5,18 +5,15 @@ import { Button, Grid } from "@material-ui/core";
 import Swiper from "react-id-swiper";
 import { MDBContainer, MDBCard } from "mdbreact";
 import "swiper/css/swiper.css";
-import { braceletData } from "../data/variables";
-// import {pic1} from '../assets/images/Web-Files/JewelryFiles/Bracelets/Jewelry - 10.png'
-
-//check if at least one element in the array
-// const Timeline = () =>
-//   professionalData.length > 0 && (
-//     <div className="timeline-container">
-//       {professionalData.map((data, idx) => (
-//         <TimelineItem data={data} key={idx} />
-//       ))}
-//     </div>
-//   );
+import {
+  braceletData,
+  bottlesData,
+  earringData,
+  necklaceData,
+  sewingData,
+  modelingData,
+  animationData,
+} from "../data/hobbyVariables";
 
 const params = {
   pagination: ".swiper-pagination",
@@ -32,18 +29,23 @@ const params = {
     modifier: 1,
     slideShadows: true
   },
-  autoHeight: true,
+  autoHeight: true
 };
-
-console.log("data path is ", braceletData[1].path);
 
 const SlideShow = ({ dataset }) => (
   <MDBContainer>
     <MDBCard className="card-body">
       <Swiper {...params}>
-        {dataset.map((data, idx) => (
-          <img class="img" src={data.path} key={idx} alt=""></img>
-        ))}
+        {dataset.map((data, idx) => {
+          if (data.path.match(/[^/]+(jpg|png|gif|jpeg|JPG)$/))
+            return <img src={data.path} key={idx} alt=""></img>;
+          else
+            return (
+              <video preload='auto' key={idx} autoPlay loop>
+                <source src={data.path} type="video/mp4"/>
+              </video>
+            );
+        })}
       </Swiper>
     </MDBCard>
   </MDBContainer>
@@ -61,7 +63,7 @@ export default class HobbiesPage extends React.Component {
             <Link to="/professional">
               <Button>Professional</Button>
             </Link>
-            <SlideShow dataset={braceletData}></SlideShow>
+            <SlideShow dataset={animationData}></SlideShow>
             <h1>Under construction!</h1>
           </div>
         </div>
