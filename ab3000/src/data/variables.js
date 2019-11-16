@@ -398,7 +398,95 @@ export const professionalData = [
   }
 ];
 
-export const animationData = [
+export const braceletData = [
+  // {
+  //   path:
+  //     require("../assets/images/Web-Files/JewelryFiles/Bracelets/FullSizeRender 2.png")
+  // },
+  // {
+  //   path:
+  //     require("../assets/images/Web-Files/JewelryFiles/Bracelets/FullSizeRender 3.png")
+  // },
+  // {
+  //   path:
+  //     require("../assets/images/Web-Files/JewelryFiles/Bracelets/FullSizeRender 4.png")
+  // },
+  // {
+  //   path:
+  //     require("../assets/images/Web-Files/JewelryFiles/Bracelets/FullSizeRender 5.png")
+  // },
+  // {
+  //   path:
+  //     require("../assets/images/Web-Files/JewelryFiles/Bracelets/FullSizeRender 6.png")
+  // },
+  // {
+  //   path:
+  //     require("../assets/images/Web-Files/JewelryFiles/Bracelets/FullSizeRender 7.png")
+  // },
+  // {
+  //   path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/FullSizeRender.png")
+  // },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3688.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3699.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3701.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3703.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3704.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3705.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3706.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3707.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3708.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3717.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3718.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3719.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3721.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3723.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3724.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3768.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3774.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3776.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3777.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3840.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_3841.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4004.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4005.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4006.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4007.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4009.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4010.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4012.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4013.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4014.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4015.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4018.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4019.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4020.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4021.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4022.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4024.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4025.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4026.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4027.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4028.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4029.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4030.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4064.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4068.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4268.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4269.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4424.jpeg") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4426.jpeg") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4427.jpeg") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4428.png") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4456.JPG") },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/IMG_4463.JPG") },
   {
+    path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/Jewelry - 10.png")
   },
+  {
+    path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/Jewelry - 22.png")
+  },
+  {
+    path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/Jewelry - 25.png")
+  },
+  { path: require("../assets/images/Web-Files/JewelryFiles/Bracelets/Jewelry - 32.png") }
 ];

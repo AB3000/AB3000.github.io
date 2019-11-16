@@ -1,84 +1,53 @@
 import React from "react";
-import "./homeStyle.scss";
+import "./hobbiesStyle.scss";
 import { Link } from "react-router-dom";
 import { Button, Grid } from "@material-ui/core";
-import { Row, Col } from "reactstrap";
 import Swiper from "react-id-swiper";
+import { MDBContainer, MDBCard } from "mdbreact";
+import "swiper/css/swiper.css";
+import { braceletData } from "../data/variables";
+// import {pic1} from '../assets/images/Web-Files/JewelryFiles/Bracelets/Jewelry - 10.png'
 
-// import "swiper/css/swiper.css";
+//check if at least one element in the array
+// const Timeline = () =>
+//   professionalData.length > 0 && (
+//     <div className="timeline-container">
+//       {professionalData.map((data, idx) => (
+//         <TimelineItem data={data} key={idx} />
+//       ))}
+//     </div>
+//   );
 
-// const params = {
-//   pagination: ".swiper-pagination",
-//   paginationClickable: true,
-//   effect: "coverflow",
-//   grabCursor: true,
-//   centeredSlides: true,
-//   slidesPerView: "auto",
-//   coverflow: {
-//     rotate: 50,
-//     stretch: 0,
-//     depth: 100,
-//     modifier: 1,
-//     slideShadows: true
-//   }
-// };
+const params = {
+  pagination: ".swiper-pagination",
+  paginationClickable: true,
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflow: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true
+  },
+  autoHeight: true,
+};
 
-// export default class HobbiesPage extends React.Component {
-//   render() {
-//     return (
-//       <div className="page-container page">
-//         <div className="home-page inner-container">
-//           <div className="welcome-container">
-//             <Link to="/">
-//               <Button>Home</Button>
-//             </Link>
-//             <Link to="/professional">
-//               <Button>Professional</Button>
-//             </Link>
-//           </div>
-//           <Row>
-//             <Col sm="12" md="12" lg="12">
-//               <Swiper {...params}>
-//                 <img
-//                   src={require("../assets/images/Web-Files/AnimationClips/abstract.png")}
-//                   alt="Smiley face"
-//                   height="50px"
-//                   width="20px"
-//                 ></img>
-//                 <img
-//                   src={require("../assets/images/Web-Files/AnimationClips/abstract.png")}
-//                   alt="Smiley face"
-//                   height="50px"
-//                   width="20px"
-//                 ></img>
-//                                 <img
-//                   src={require("../assets/images/Web-Files/AnimationClips/abstract.png")}
-//                   alt="Smiley face"
-//                   height="50px"
-//                   width="20px"
-//                 ></img>
-//               </Swiper>
-//             </Col>
-//           </Row>
-//           <Swiper {...params}>
-//             <div>
-//               <img
-//                 src={require("../assets/images/Web-Files/AnimationClips/abstract.png")}
-//                 alt="Smiley face"
-//               ></img>
-//             </div>
-//             <div>
-//               <img
-//                 src={require("../assets/images/Web-Files/AnimationClips/abstract.png")}
-//                 alt="Smiley face"
-//               ></img>
-//             </div>
-//           </Swiper>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
+console.log("data path is ", braceletData[1].path);
+
+const SlideShow = ({ dataset }) => (
+  <MDBContainer>
+    <MDBCard className="card-body">
+      <Swiper {...params}>
+        {dataset.map((data, idx) => (
+          <img class="img" src={data.path} key={idx} alt=""></img>
+        ))}
+      </Swiper>
+    </MDBCard>
+  </MDBContainer>
+);
 
 export default class HobbiesPage extends React.Component {
   render() {
@@ -92,6 +61,7 @@ export default class HobbiesPage extends React.Component {
             <Link to="/professional">
               <Button>Professional</Button>
             </Link>
+            <SlideShow dataset={braceletData}></SlideShow>
             <h1>Under construction!</h1>
           </div>
         </div>
