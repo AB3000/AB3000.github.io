@@ -8,6 +8,7 @@
     "bootstrap": "^3.4.1",
     "flubber": "^0.4.2",
     "gh-pages": "^2.1.1",
+    "material-ui": "^0.20.2",
     "mdbreact": "^4.22.1",
     "node-sass": "^4.13.0",
     "popmotion": "^8.7.0",
