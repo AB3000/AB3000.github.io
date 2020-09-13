@@ -46,7 +46,7 @@ const SlideShow = ({ dataset }) => (
               </video>
             );
         })}
-      </Swiper>
+      </Swper>
     </MDBCard>
   </MDBContainer>
 );
