@@ -13,7 +13,8 @@
     "node-sass": "^4.13.0",
     "popmotion": "^8.7.0",
     "prop-types": "^15.7.2",
-    "react": "^16.11.0",
+    "react": "^17.0.1",
+    "react-blob": "^2.1.0",
     "react-bootstrap-slider": "^2.2.2",
     "react-dom": "^16.11.0",
     "react-id-swiper": "^2.4.0",
@@ -26,6 +27,7 @@
     "react-transition-group": "^4.3.0",
     "reactstrap": "^8.1.1",
     "resolve-url-loader": "^3.1.1",
+    "styled-components": "^5.2.1",
     "swipe-js-iso": "^2.1.5",
     "swiper": "^5.2.0",
     "typescript": "^3.7.2"
