@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import { professionalData, fasterCharPoses } from "../data/variables";
 import SplitText from "react-pose-text";
-
 import "./professionalStyle.scss";
 
 //creates a timeline based on data from variables.js
@@ -38,7 +37,7 @@ const Timeline = () =>
 
 function splitBullets(points) {
   if (points.length > 1) {
-    points = points.map(point => <li>{point}</li>);
+    points = points.map((point) => <li>{point}</li>);
   }
   return <ul>{points}</ul>;
 }
@@ -47,7 +46,7 @@ function addLinks(links) {
   if (links.length >= 1) {
     return (
       <div>
-        {links.map(link => (
+        {links.map((link) => (
           <a
             class="button"
             href={link.url}
@@ -77,12 +76,16 @@ export default class ProfessionalPage extends React.Component {
           </div>
         </div>
         <div className="center-panel">
-          <SplitText initialPose="exit" pose="enter" charPoses={fasterCharPoses}>
+          <SplitText
+            initialPose="exit"
+            pose="enter"
+            charPoses={fasterCharPoses}
+          >
             Most of my professional work involves research and internships in
-            machine learning and education. I enjoy collaborating with
-            people to design applications for entertainment and scholastic
-            purposes. For my personal projects, I am interested in learning
-            new things through designing mini games and text analysis programs.
+            machine learning and education. I enjoy collaborating with people to
+            design applications for entertainment and scholastic purposes. For
+            my personal projects, I am interested in learning new things through
+            designing mini games and text analysis programs.
           </SplitText>
         </div>
         <Timeline></Timeline>
