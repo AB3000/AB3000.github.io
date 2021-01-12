@@ -378,7 +378,7 @@ export const professionalData = [
     date: "August 2017",
     category: {
       tag: "Event",
-      color: "#ff7214"
+      color: "#ffa257"
     },
     title: "Purdue University"
   },
