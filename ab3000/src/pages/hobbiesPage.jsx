@@ -2,9 +2,9 @@ import React from "react";
 import "./hobbiesStyle.scss";
 import { Link } from "react-router-dom";
 import { Button, Grid } from "@material-ui/core";
-import Swiper from "react-id-swiper";
+//import Swiper from "react-id-swiper";
 import { MDBContainer, MDBCard } from "mdbreact";
-import "swiper/css/swiper.css";
+import Swiper from "swiper/swiper.scss";
 import {
   braceletData,
   bottlesData,
