@@ -19,107 +19,115 @@ export var fasterCharPoses = {
 export const homeStyles = [
   {
     opacity: 1,
-    fill: "#000000",
+    fill: "#ff8787",
     fillOpacity: 1,
     fillRule: "evenodd",
-    stroke: "#000000",
+    stroke: "#ff8787",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
     strokeDasharray: "none",
     strokeDashoffset: 0,
-    strokeOpacity: 1
+    strokeOpacity: 1,
+    mixBlendMode: "difference"
   },
   {
     opacity: 1,
-    fill: "#000000",
+    fill: "#ff8787",
     fillOpacity: 1,
     fillRule: "evenodd",
-    stroke: "#000000",
+    stroke: "#ff8787",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
     strokeDasharray: "none",
     strokeDashoffset: 0,
-    strokeOpacity: 1
+    strokeOpacity: 1,
+    mixBlendMode: "difference"
   },
   {
     opacity: 1,
-    fill: "#000000",
+    fill: "#ff8787",
     fillOpacity: 1,
     fillRule: "evenodd",
-    stroke: "#000000",
+    stroke: "#ff8787",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
     strokeDasharray: "none",
     strokeDashoffset: 0,
-    strokeOpacity: 1
+    strokeOpacity: 1,
+    mixBlendMode: "difference"
   },
   {
     opacity: 1,
-    fill: "#000000",
+    fill: "#ff8787",
     fillOpacity: 1,
     fillRule: "evenodd",
-    stroke: "#000000",
+    stroke: "#ff8787",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
     strokeDasharray: "none",
     strokeDashoffset: 0,
-    strokeOpacity: 1
+    strokeOpacity: 1,
+    mixBlendMode: "difference"
   },
   {
     opacity: 1,
-    fill: "#000000",
+    fill: "#ff8787",
     fillOpacity: 1,
     fillRule: "evenodd",
-    stroke: "#000000",
+    stroke: "#ff8787",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
     strokeDasharray: "none",
     strokeDashoffset: 0,
-    strokeOpacity: 1
+    strokeOpacity: 1,
+    mixBlendMode: "difference"
   },
   {
     opacity: 1,
-    fill: "#000000",
+    fill: "#ff8787",
     fillOpacity: 1,
     fillRule: "evenodd",
-    stroke: "#000000",
+    stroke: "#ff8787",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
     strokeDasharray: "none",
     strokeDashoffset: 0,
-    strokeOpacity: 1
+    strokeOpacity: 1,
+    mixBlendMode: "difference"
   },
   {
     opacity: 1,
-    fill: "#000000",
+    fill: "#ff8787",
     fillOpacity: 1,
     fillRule: "evenodd",
-    stroke: "#000000",
+    stroke: "#ff8787",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
     strokeDasharray: "none",
     strokeDashoffset: 0,
-    strokeOpacity: 1
+    strokeOpacity: 1,
+    mixBlendMode: "difference"
   },
   {
     opacity: 1,
-    fill: "#000000",
+    fill: "#ff8787",
     fillOpacity: 1,
     fillRule: "evenodd",
-    stroke: "#000000",
+    stroke: "#ff8787",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
     strokeDasharray: "none",
     strokeDashoffset: 0,
-    strokeOpacity: 1
+    strokeOpacity: 1,
+    mixBlendMode: "difference"
   }
 ];
 
