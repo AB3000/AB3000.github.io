@@ -13,14 +13,14 @@ const pathIds = Object.keys(paths);
 const morphTransition = ({ from, to }) =>
   tween({
     from: 0,
-    to: 1
+    to: 1,
   }).pipe(interpolate(from, to));
 
 const Icon = posed.path(
   pathIds.reduce((config, id) => {
     config[id] = {
       d: paths[id],
-      transition: morphTransition
+      transition: morphTransition,
     };
     return config;
   }, {})
@@ -33,7 +33,7 @@ export default class HomePage extends React.Component {
     const { pathIndex } = this.state;
     const nextIndex = pathIndex + 1;
     this.setState({
-      pathIndex: nextIndex > pathIds.length - 1 ? 0 : nextIndex
+      pathIndex: nextIndex > pathIds.length - 1 ? 0 : nextIndex,
     });
   };
 
@@ -48,8 +48,15 @@ export default class HomePage extends React.Component {
   render() {
     return (
       <div className="home-container">
+           <div className="svg-container">
+            <svg width="100%" height="100%" viewBox="0 0 520 500">
+              <Icon
+                style={homeStyles[this.state.pathIndex]}
+                pose={pathIds[this.state.pathIndex]}
+              />
+            </svg>
+          </div>
         <div className="profile-container">
-              this test
         </div>
         {/* <div className="svg-container">
           <svg width="100%" height="100%" viewBox="0 0 520 500">
