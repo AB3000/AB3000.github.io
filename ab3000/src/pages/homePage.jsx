@@ -80,7 +80,7 @@ export default class HomePage extends React.Component {
             Glad to have you here!
           </SplitText> */}
           <br></br>
-          <Link to="/hobbies">
+          {/* <Link to="/hobbies">
             <Button color="primary" variant="contained">
               Hobbies
             </Button>
@@ -89,7 +89,7 @@ export default class HomePage extends React.Component {
             <Button color="primary" variant="contained">
               Professional
             </Button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     );

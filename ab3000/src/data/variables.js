@@ -71,7 +71,8 @@ export const homeStyles = [
     strokeDasharray: "none",
     strokeDashoffset: 0,
     strokeOpacity: 1,
-    mixBlendMode: "difference"
+    mixBlendMode: "difference",
+    transform: "translate(150px,0px)"
   },
   {
     opacity: 1,
@@ -85,7 +86,9 @@ export const homeStyles = [
     strokeDasharray: "none",
     strokeDashoffset: 0,
     strokeOpacity: 1,
-    mixBlendMode: "difference"
+    mixBlendMode: "difference",
+    transform: "scale(0.5)",
+    transform: "translate(150px,0px)"
   },
   {
     opacity: 1,
@@ -99,7 +102,8 @@ export const homeStyles = [
     strokeDasharray: "none",
     strokeDashoffset: 0,
     strokeOpacity: 1,
-    mixBlendMode: "difference"
+    mixBlendMode: "difference",
+    transform: "scale(0.5)"
   },
   {
     opacity: 1,
@@ -113,7 +117,9 @@ export const homeStyles = [
     strokeDasharray: "none",
     strokeDashoffset: 0,
     strokeOpacity: 1,
-    mixBlendMode: "difference"
+    mixBlendMode: "difference", 
+    transform: "scale(0.5)",
+    transform: "translate(250px,0px)"
   },
   {
     opacity: 1,
@@ -127,7 +133,8 @@ export const homeStyles = [
     strokeDasharray: "none",
     strokeDashoffset: 0,
     strokeOpacity: 1,
-    mixBlendMode: "difference"
+    mixBlendMode: "difference",
+    transform: "translate(250px,0px)"
   }
 ];
 
