@@ -1,8 +1,15 @@
 .home-container {
+  // background: linear-gradient(
+  //   to right,
+  //   rgba(255, 183, 183, 0.68),
+  //   rgba(90, 151, 206, 0.82)
+  // );
   background: linear-gradient(
-    to right,
-    rgba(255, 183, 183, 0.68),
-    rgba(90, 151, 206, 0.82)
+    to right, 
+    #ff8787 0%, 
+    #ff8787 50%, 
+    #000000 50%, 
+    #000000 100%
   );
   font-family: Aclonica;
   width: 100%;
@@ -11,6 +18,16 @@
   font-weight: 30;
   font-size: 75px;
   position: relative;
+  display: table;
+}
+
+.profile-container{
+  background-color: rgb(255, 214, 214);
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   display: table;
 }
 

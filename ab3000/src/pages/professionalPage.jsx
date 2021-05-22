@@ -48,7 +48,7 @@ function addLinks(links) {
       <div>
         {links.map((link) => (
           <a
-            class="button"
+            className="button"
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
