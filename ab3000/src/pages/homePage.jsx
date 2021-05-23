@@ -3,10 +3,13 @@ import "./homeStyle.scss";
 import { Link } from "react-router-dom";
 import SplitText from "react-pose-text";
 import Button from "@material-ui/core/Button";
+import SvgIcon from "@material-ui/core/SvgIcon";
 import posed from "react-pose";
 import { tween } from "popmotion";
 import { interpolate } from "flubber";
 import { homeStyles, paths, charPoses } from "../data/variables";
+//import {default as Arrow} from '../arrow/arrow.js';
+import { ReactComponent as Arrow } from "../arrow/arrow.svg";
 
 const pathIds = Object.keys(paths);
 
@@ -47,26 +50,28 @@ export default class HomePage extends React.Component {
 
   render() {
     return (
+      
       <div className="home-container">
-           <div className="svg-container">
-            <svg width="100%" height="100%" viewBox="0 0 520 500">
-              <Icon
-                style={homeStyles[this.state.pathIndex]}
-                pose={pathIds[this.state.pathIndex]}
-              />
-            </svg>
-          </div>
-        <div className="profile-container">
-        </div>
-        {/* <div className="svg-container">
+        <div className="svg-container">
           <svg width="100%" height="100%" viewBox="0 0 520 500">
             <Icon
               style={homeStyles[this.state.pathIndex]}
               pose={pathIds[this.state.pathIndex]}
             />
           </svg>
-        </div> */}
+        </div>
+        <div className="profile-container">
+          Aarushi Banerjee
+          <h6> Software Engineer </h6>
+        </div>
+        {/* <div className="button-center-left"> */}
+          <Arrow fill="black" width="300px" height="200px" />
+        {/* </div> */}
+        {/* <div className="button-center-right"> */}
+          <Arrow  transform="scale(-1, 1)" fill="pink" width="300px" height="200px"/>
+        {/* </div> */}
         <br></br>
+
         <div className="home-text page">
           {/* <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
             Welcome aboard!
