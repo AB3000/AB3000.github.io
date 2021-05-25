@@ -49,6 +49,12 @@ export default class HomePage extends React.Component {
   }
 
   render() {
+    const verticallyCenteredStyle = {
+      position: "absolute",
+      top: "50%",
+      transform: "translateY(-50%)"
+    };
+
     return (
       <div className="home-container">
         <div className="svg-container">
@@ -61,7 +67,11 @@ export default class HomePage extends React.Component {
         </div>
         <div className="center-container">
           <Arrow
-            style={{ float: "left" }}
+            style={{ float: "left",
+            margin: "0",
+            top: "50%",
+            msTransform: "translateY(-50%)",
+            transform: "translateY(-50%)"}}
             fill="black"
             width="300px"
             height="100px"

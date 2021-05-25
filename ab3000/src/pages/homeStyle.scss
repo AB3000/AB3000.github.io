@@ -13,7 +13,7 @@
   font-weight: 30;
   font-size: 75px;
   position: relative;
-  display: table;
+  //display: table;
   // overflow: hidden;
 }
 
@@ -33,7 +33,7 @@
   margin: 0 auto;
   //left: 50%;
   //transform: translateX(-50%);
-  //display: table;
+  display: table;
   color: #000000;
   font-family: "Snell Roundhand";
   font-size: 50px;
@@ -85,10 +85,28 @@
   width: 95%;
   //float: right;
   display: inline-block;
-}ß
+}
 
 .center-container {
+  // margin: 0 auto;
   width: 100%;
+  // //margin: 0;
+  // position: relative;
+  // // top: 50%;
+  // // -ms-transform: translateY(-50%);
+  // // transform: translateY(-50%);
+  //display: flex;
+  // // justify-content: center;
+  // // align-items: center;
+  // //display: flex;
+  // //justify-content: center;
+  // //align-items: center;
+  // height: 200px;
+  //margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .button-center-left:hover {
