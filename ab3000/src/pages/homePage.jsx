@@ -50,7 +50,6 @@ export default class HomePage extends React.Component {
 
   render() {
     return (
-      
       <div className="home-container">
         <div className="svg-container">
           <svg width="100%" height="100%" viewBox="0 0 520 500">
@@ -60,17 +59,26 @@ export default class HomePage extends React.Component {
             />
           </svg>
         </div>
-        <div className="profile-container">
-          Aarushi Banerjee
-          <h6> Software Engineer </h6>
+        <div className="center-container">
+          <Arrow
+            style={{ float: "left" }}
+            fill="black"
+            width="300px"
+            height="100px"
+          />
+          <Arrow
+            style={{ float: "right" }}
+            transform="scale(-1, 1)"
+            fill="pink"
+            width="300px"
+            height="100px"
+          />
+          <div className="profile-container" style={{ float: "center" }}>
+            Aarushi Banerjee
+            <h6> Software Engineer </h6>
+          </div>
+          <br></br>
         </div>
-        {/* <div className="button-center-left"> */}
-          <Arrow fill="black" width="300px" height="200px" />
-        {/* </div> */}
-        {/* <div className="button-center-right"> */}
-          <Arrow  transform="scale(-1, 1)" fill="pink" width="300px" height="200px"/>
-        {/* </div> */}
-        <br></br>
 
         <div className="home-text page">
           {/* <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
