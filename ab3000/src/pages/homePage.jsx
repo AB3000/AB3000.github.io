@@ -92,7 +92,6 @@ export default class HomePage extends React.Component {
           <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
             Glad to have you here!
           </SplitText> */}
-          <br></br>
           {/* <Link to="/hobbies">
             <Button color="primary" variant="contained">
               Hobbies
