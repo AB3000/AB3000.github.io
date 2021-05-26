@@ -17,11 +17,7 @@
    height="111.83659"
    viewBox="0 0 157.13503 29.590098"
    version="1.1"
-   id="svg8"
-   inkscapeVersion="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodiDocname="arrow_test.svg"
-   sodipodiDocname="arrow_test copy.svg"
-   inkscapeVersion="1.0.2 (e86c8708, 2021-01-15)">
+   id="svg8">
   <sodipodiNamedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -121,7 +117,7 @@
      inkscapeLabel="Layer 1"
      inkscapeGroupmode="layer"
      id="layer1"
-     transform="translate(-12.499495,-120.69633)">
+     transform="translate(-12.499495,-120.69633)" >
     <path
        id="path25"
        style="fill:current;fill-rule:evenodd;stroke-width:0.415597"
