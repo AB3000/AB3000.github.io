@@ -1,15 +1,10 @@
 import React from "react";
 import "./homeStyle.scss";
 import { Link } from "react-router-dom";
-import SplitText from "react-pose-text";
-import Button from "@material-ui/core/Button";
-import SvgIcon from "@material-ui/core/SvgIcon";
 import posed from "react-pose";
 import { tween } from "popmotion";
 import { interpolate } from "flubber";
-import { homeStyles, paths, charPoses } from "../data/variables";
-//import {default as Arrow} from '../arrow/arrow.js';
-import { ReactComponent as Arrow } from "../arrow/arrow.svg";
+import { homeStyles, paths } from "../data/variables";
 
 const pathIds = Object.keys(paths);
 
@@ -134,25 +129,6 @@ export default class HomePage extends React.Component {
           </div>
           <br></br>
         </div>
-
-        {/* <div className="home-text page">
-          <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-            Welcome aboard!
-          </SplitText>
-          <br></br>
-          <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-            My name is Aarushi.
-          </SplitText>
-          <br></br>
-          <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-            Glad to have you here!
-          </SplitText>
-          <Link to="/hobbies">
-            <Button color="primary" variant="contained">
-              Hobbies
-            </Button>
-          </Link>
-        </div> */}
       </div>
     );
   }
