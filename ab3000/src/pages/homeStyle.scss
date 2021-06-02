@@ -16,13 +16,14 @@
 }
 
 .profile-container {
-  background: linear-gradient(
-    to bottom,
-    rgb(255, 214, 214) 0%,
-    rgb(255, 214, 214) 85%,
-    #fff0de 85%,
-    #fff0de 100%
-  );
+  // background: linear-gradient(
+  //   to bottom,
+  //   rgb(255, 214, 214) 0%,
+  //   rgb(255, 214, 214) 85%,
+  //   #fff0de 85%,
+  //   #fff0de 100%
+  // );
+  background-color: #ffd6d6;//rgb(255, 214, 214);
   width: 300px;
   height: 400px;
   float: center;
@@ -35,6 +36,11 @@
   color: #000000;
   font-family: "Snell Roundhand";
   font-size: 50px;
+}
+
+.icon-container{
+  background-color: #fff0de; 
+  padding: 10px;
 }
 
 .svg-container {
