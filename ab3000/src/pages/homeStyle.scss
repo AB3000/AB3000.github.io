@@ -16,14 +16,7 @@
 }
 
 .profile-container {
-  // background: linear-gradient(
-  //   to bottom,
-  //   rgb(255, 214, 214) 0%,
-  //   rgb(255, 214, 214) 85%,
-  //   #fff0de 85%,
-  //   #fff0de 100%
-  // );
-  background-color: #ffd6d6;//rgb(255, 214, 214);
+  background-color: #ffd6d6; //rgb(255, 214, 214);
   width: 300px;
   height: 400px;
   float: center;
@@ -38,9 +31,11 @@
   font-size: 50px;
 }
 
-.icon-container{
-  background-color: #fff0de; 
+.icon-container {
+  background-color: #fff0de;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .svg-container {
@@ -59,26 +54,42 @@
   overflow: hidden;
 }
 
+a {
+  color: inherit;
+}
+
 a:link {
   text-decoration: none !important;
 }
 
 .animation-right:hover {
-  animation: danceRight 1s linear infinite;  
+  animation: danceRight 1s linear infinite;
 }
 
 @keyframes danceRight {
-  0%   { transform: translate(0, 0); }
-  50% { transform: translate(-3%, 0); }
-  50% { transform: translate(3%, 0); }
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-3%, 0);
+  }
+  50% {
+    transform: translate(3%, 0);
+  }
 }
 
 .animation-left:hover {
-  animation: danceLeft 1s linear infinite;  
+  animation: danceLeft 1s linear infinite;
 }
 
 @keyframes danceLeft {
-  0%   { transform: translate(0, 0); }
-  50% { transform: translate(3%, 0); }
-  50% { transform: translate(-3%, 0); }
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3%, 0);
+  }
+  50% {
+    transform: translate(-3%, 0);
+  }
 }
