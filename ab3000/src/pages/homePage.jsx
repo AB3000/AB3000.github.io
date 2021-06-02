@@ -5,7 +5,6 @@ import posed from "react-pose";
 import { tween } from "popmotion";
 import { interpolate } from "flubber";
 import { homeStyles, paths } from "../data/variables";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
