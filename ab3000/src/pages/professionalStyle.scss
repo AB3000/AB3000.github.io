@@ -6,7 +6,7 @@
 }
 
 .timeline-container::after {
-  background-color: #ffd1d1;
+  background-color: rgb(225, 180, 180);
   content: "";
   position: absolute;
   left: calc(50% - 2px);
@@ -30,14 +30,11 @@
   padding-right: 0;
 }
 
+//timeline item boxes
 .timeline-item-content {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  background: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgba(255, 255, 255, 0.119)
-  );
+  //box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background: pink;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -48,17 +45,6 @@
   text-align: left;
 }
 
-.timeline-item-content::after {
-  content: " ";
-  background-color: #fff;
-  box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  right: -7.5px;
-  top: calc(50% - 7.5px);
-  transform: rotate(45deg);
-  width: 15px;
-  height: 15px;
-}
 
 .timeline-item:nth-child(odd) .timeline-item-content {
   text-align: left;
@@ -146,7 +132,7 @@
 }
 
 .button {
-  background-color: #65759b;
+  background-color: #000000;
   border: none;
   color: white;
   padding: 10px;
@@ -163,11 +149,7 @@
 }
 
 .page-container{
-  background: linear-gradient(
-    to right,
-    rgba(159, 159, 159, 0.68),
-    rgba(90, 151, 206, 0.82)
-  );
+  background: rgb(29, 29, 29);
   width: 100%;
   height: 100vh;
   position: relative;
