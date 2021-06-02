@@ -43,56 +43,36 @@
   height: 100%;
 }
 
-.home-text {
-  z-index: 1;
-  left: 0;
-  position: relative;
-  text-align: center;
-  top: 20%;
-  width: 100%;
-  display: table-row;
-  height: inherit;
-  white-space: nowrap;
-}
-
-.button-center-left {
-  margin: 0;
-  position: relative;
-  width: 5%;
-  display: inline-block;
-}
-
-.button-center-right {
-  margin: 0;
-  -moz-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
-  -ms-filter: fliph; /*IE*/
-  filter: fliph; /*IE*/
-  position: relative;
-  -ms-transform: translateY(-60%);
-  transform: translateY(-60%);
-  width: 95%;
-  display: inline-block;
-}
-
 .center-container {
   width: 100%;
   position: absolute;
   top: 50%;
+  height: 500px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.button-center-left:hover {
-  color: pink;
-}
-
-.button-center-right:hover {
-  color: pink;
+  overflow: hidden;
 }
 
 a:link {
   text-decoration: none !important;
+}
+
+.animation-right:hover {
+  animation: danceRight 1s linear infinite;  
+}
+
+@keyframes danceRight {
+  0%   { transform: translate(0, 0); }
+  50% { transform: translate(-3%, 0); }
+  50% { transform: translate(3%, 0); }
+}
+
+.animation-left:hover {
+  animation: danceLeft 1s linear infinite;  
+}
+
+@keyframes danceLeft {
+  0%   { transform: translate(0, 0); }
+  50% { transform: translate(3%, 0); }
+  50% { transform: translate(-3%, 0); }
 }

@@ -61,9 +61,10 @@ export default class HomePage extends React.Component {
           </svg>
         </div>
         <div className="center-container">
+          <div className="animation-left">
           <Link to="/hobbies">
             <svg
-              transform="translate(0, 10) scale(1,-1)"
+              transform="translate(0, 200) scale(1,-1)"
               fill="black"
               style={{
                 float: "left",
@@ -91,10 +92,12 @@ export default class HomePage extends React.Component {
               </text>
             </svg>
           </Link>
+          </div>
 
+          <div className="animation-right">
           <Link to="/professional">
-            <svg
-              transform="translate(0, 10) scale(-1,-1)"
+            <svg 
+              transform="translate(0, 200) scale(-1,-1)"
               fill="pink"
               style={{
                 float: "right",
@@ -123,6 +126,7 @@ export default class HomePage extends React.Component {
               </text>
             </svg>
           </Link>
+          </div>
           <div className="profile-container">
             Aarushi Banerjee
             <h6> Software Engineer </h6>
