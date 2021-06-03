@@ -65,7 +65,7 @@ export default class ProfessionalPage extends React.Component {
   render() {
     return (
       <div className="page-container page">
-        <div className="home-page inner-container">
+        {/* <div className="home-page inner-container"> */}
         <div className="animation-left">
             <Link to="/">
               <svg
@@ -100,7 +100,7 @@ export default class ProfessionalPage extends React.Component {
           </div>
 
           <div className="animation-right">
-            <Link to="/professional">
+            <Link to="/hobbies">
               <svg
                 transform="translate(0, 200) scale(-1,-1)"
                 fill="#ff8787"
@@ -132,12 +132,16 @@ export default class ProfessionalPage extends React.Component {
               </svg>
             </Link>
           </div>
-        </div>
+        {/* </div> */}
+        <div className="welcome-container" style={{
+              margin: "130px",
+            }}>
         <div className="center-panel">
           <SplitText
             initialPose="exit"
             pose="enter"
             charPoses={fasterCharPoses}
+            
           >
             Most of my professional work involves research and internships in
             machine learning and education. I enjoy collaborating with people to
@@ -146,6 +150,8 @@ export default class ProfessionalPage extends React.Component {
             designing mini games and text analysis programs.
           </SplitText>
         </div>
+          </div>
+       
         <Timeline></Timeline>
       </div>
     );
