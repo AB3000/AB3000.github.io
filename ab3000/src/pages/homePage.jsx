@@ -137,13 +137,19 @@ export default class HomePage extends React.Component {
             Aarushi Banerjee
             <h6> Software Engineer </h6>
             <div className="icon-container">
+              <a
+                href="https://www.instagram.com/someone_alive_somehow/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
               <a href="https://github.com/AB3000" target="_blank">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
-              <a href="https://www.instagram.com/someone_alive_somehow/" target="_blank">
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a href="https://www.linkedin.com/in/aarushi-b-06a2a0a8/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/aarushi-b-06a2a0a8/"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </div>
