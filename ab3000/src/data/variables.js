@@ -193,6 +193,7 @@ export const professionalData = [
     location: "remote",
     icon: faBriefcase,
     iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
     className: "vertical-timeline-element--work"
   },
   {
@@ -211,6 +212,7 @@ export const professionalData = [
     title: "HackXD, 2019: Oculis",
     icon: faLaptopCode,
     iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
     className: "vertical-timeline-element--project"
   },
   {
@@ -228,7 +230,10 @@ export const professionalData = [
     position: "Undergraduate Research Assistant",
     location: "West lafayette, IN",
     icon: faLaptopCode,
-    iconOffset: "left-5"
+    iconOffset: "left-5", 
+    iconColor: "rgb(183, 255, 248)",
+    className: "vertical-timeline-element--project"
+
   },
   {
     text: [
@@ -249,6 +254,7 @@ export const professionalData = [
     location: "Santa Clara, CA",
     icon: faBriefcase,
     iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
     className: "vertical-timeline-element--work"
 
   },
@@ -273,6 +279,7 @@ export const professionalData = [
     location: "remote",
     icon: faBriefcase,
     iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
     className: "vertical-timeline-element--work"
   },
   {
@@ -291,6 +298,7 @@ export const professionalData = [
     location: "West Lafayette, IN",
     icon: faBriefcase,
     iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
     className: "vertical-timeline-element--work"
   },
   {
@@ -312,6 +320,7 @@ export const professionalData = [
     title: "Avoid the Objects",
     icon: faLaptopCode,
     iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
     className: "vertical-timeline-element--project"
   },
   {
@@ -333,6 +342,7 @@ export const professionalData = [
     title: "Office Trouble",
     icon: faLaptopCode,
     iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
     className: "vertical-timeline-element--project"
   },
   {
@@ -351,6 +361,7 @@ export const professionalData = [
     location: "Palo Alto, CA",
     icon: faBriefcase,
     iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
     className: "vertical-timeline-element--work"
   },
   {
@@ -380,6 +391,7 @@ export const professionalData = [
     title: "Purdue Dining App",
     icon: faLaptopCode,
     iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
     className: "vertical-timeline-element--project"
   },
   {
@@ -402,6 +414,7 @@ export const professionalData = [
     title: "Recursive Tree Puzzle",
     icon: faLaptopCode,
     iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
     className: "vertical-timeline-element--project"
   },
   {
@@ -423,6 +436,7 @@ export const professionalData = [
     title: "Defy the Maze",
     icon: faLaptopCode,
     iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
     className: "vertical-timeline-element--project"
   },
   {
@@ -445,6 +459,7 @@ export const professionalData = [
     title: "Dreaming Crazy",
     icon: faLaptopCode,
     iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
     className: "vertical-timeline-element--project"
   },
   {
@@ -457,6 +472,7 @@ export const professionalData = [
     title: "Purdue University",
     icon: faSchool,
     iconOffset: "left-5",
+    
     className: "vertical-timeline-element--school"
   },
   {
@@ -474,6 +490,7 @@ export const professionalData = [
     location: "Palo Alto, CA",
     icon: faBriefcase,
     iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
     className: "vertical-timeline-element--work"
   }
 ];

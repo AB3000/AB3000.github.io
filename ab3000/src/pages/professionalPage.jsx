@@ -36,7 +36,7 @@ const TimelineItem = ({ data }) => (
     // date={data.date}
     className={data.className}
     contentStyle={{ background: "#ff8787", color: "#000" }}
-    iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+    iconStyle={{ background: "#424242", color: data.iconColor }}
     icon={
       <FontAwesomeIcon
         // style={{
@@ -77,7 +77,7 @@ const Timeline = () =>
 
 function splitBullets(points) {
   if (points.length > 1) {
-    points = points.map((point) => <h7>{point}</h7>);
+    points = points.map((point) => <li>{point}</li>);
   }
   return <ul>{points}</ul>;
 }
