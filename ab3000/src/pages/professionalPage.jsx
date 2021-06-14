@@ -34,6 +34,7 @@ iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 const TimelineItem = ({ data }) => (
   <VerticalTimelineElement
     // date={data.date}
+    className={data.className}
     contentStyle={{ background: "#ff8787", color: "#000" }}
     iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
     icon={
