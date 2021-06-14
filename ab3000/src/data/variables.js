@@ -187,7 +187,8 @@ export const professionalData = [
     },
     title: "UEGroup",
     position: "Machine Learning Intern",
-    location: "remote"
+    location: "remote",
+    icon: ""
   },
   {
     text: [
