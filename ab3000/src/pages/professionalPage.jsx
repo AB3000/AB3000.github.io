@@ -106,7 +106,7 @@ export default class ProfessionalPage extends React.Component {
       <div className="page-container page">
         {/* <Timeline></Timeline> */}
         {/* <VerticalTimeline></VerticalTimeline> */}
-        <VerticalTimeline>
+        <VerticalTimeline className="vertical-timeline-custom-line">
           <Timeline></Timeline>
           <VerticalTimelineElement
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
