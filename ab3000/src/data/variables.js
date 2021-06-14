@@ -1,3 +1,6 @@
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase, faLaptopCode, faSchool } from "@fortawesome/free-solid-svg-icons";
+
 export const charPoses = {
   exit: { opacity: 0, y: 20 },
   enter: {
@@ -188,7 +191,8 @@ export const professionalData = [
     title: "UEGroup",
     position: "Machine Learning Intern",
     location: "remote",
-    icon: ""
+    icon: faBriefcase,
+    iconOffset: "left-2.5"
   },
   {
     text: [
@@ -203,7 +207,9 @@ export const professionalData = [
       tag: "Experience",
       color: "#ad7fad"
     },
-    title: "HackXD, 2019: Oculis"
+    title: "HackXD, 2019: Oculis",
+    icon: faLaptopCode,
+    iconOffset: "left-5"
   },
   {
     text: [
@@ -218,7 +224,9 @@ export const professionalData = [
     },
     title: "Purdue University: Electrical & Computer Engineering Department",
     position: "Undergraduate Research Assistant",
-    location: "West lafayette, IN"
+    location: "West lafayette, IN",
+    icon: faLaptopCode,
+    iconOffset: "left-5"
   },
   {
     text: [
@@ -236,7 +244,10 @@ export const professionalData = [
     },
     title: "Pyxeda AI",
     position: "Software + Machine Learning Intern",
-    location: "Santa Clara, CA"
+    location: "Santa Clara, CA",
+    icon: faBriefcase,
+    iconOffset: "left-2.5"
+
   },
   {
     text: [
@@ -256,7 +267,9 @@ export const professionalData = [
     ],
     title: "Digital Media Academy",
     position: "Curriculum Developer",
-    location: "remote"
+    location: "remote",
+    icon: faBriefcase,
+    iconOffset: "left-2.5"
   },
   {
     text: [
@@ -271,7 +284,9 @@ export const professionalData = [
     },
     title: "Purdue University: Department of Computer Science",
     position: "Undergraduate Teaching Assistant, CS240 (Programming in C)",
-    location: "West Lafayette, IN"
+    location: "West Lafayette, IN",
+    icon: faBriefcase,
+    iconOffset: "left-2.5"
   },
   {
     text: [
@@ -289,7 +304,9 @@ export const professionalData = [
         text: "See Repo"
       }
     ],
-    title: "Avoid the Objects"
+    title: "Avoid the Objects",
+    icon: faLaptopCode,
+    iconOffset: "left-5"
   },
   {
     text: [
@@ -307,7 +324,9 @@ export const professionalData = [
         text: "See Repo"
       }
     ],
-    title: "Office Trouble"
+    title: "Office Trouble",
+    icon: faLaptopCode,
+    iconOffset: "left-5"
   },
   {
     text: [
@@ -322,7 +341,9 @@ export const professionalData = [
     },
     title: "Digital Media Academy",
     position: "Instructor",
-    location: "Palo Alto, CA"
+    location: "Palo Alto, CA",
+    icon: faBriefcase,
+    iconOffset: "left-2.5"
   },
   {
     text: [
@@ -348,7 +369,9 @@ export const professionalData = [
       }
     ],
 
-    title: "Purdue Dining App"
+    title: "Purdue Dining App",
+    icon: faLaptopCode,
+    iconOffset: "left-5"
   },
   {
     text: [
@@ -367,7 +390,9 @@ export const professionalData = [
         text: "See Repo"
       }
     ],
-    title: "Recursive Tree Puzzle"
+    title: "Recursive Tree Puzzle",
+    icon: faLaptopCode,
+    iconOffset: "left-5"
   },
   {
     text: [
@@ -385,7 +410,9 @@ export const professionalData = [
         text: "See Repo"
       }
     ],
-    title: "Defy the Maze"
+    title: "Defy the Maze",
+    icon: faLaptopCode,
+    iconOffset: "left-5"
   },
   {
     text: [
@@ -404,7 +431,9 @@ export const professionalData = [
         text: "See Repo"
       }
     ],
-    title: "Dreaming Crazy"
+    title: "Dreaming Crazy",
+    icon: faLaptopCode,
+    iconOffset: "left-5"
   },
   {
     text: ["Started College at Purdue University!"],
@@ -413,7 +442,9 @@ export const professionalData = [
       tag: "Event",
       color: "#ffa257"
     },
-    title: "Purdue University"
+    title: "Purdue University",
+    icon: faSchool,
+    iconOffset: "left-5"
   },
   {
     text: [
@@ -427,6 +458,8 @@ export const professionalData = [
     },
     title: "Digital Media Academy",
     position: "Teaching Assistant",
-    location: "Palo Alto, CA"
+    location: "Palo Alto, CA",
+    icon: faBriefcase,
+    iconOffset: "left-2.5"
   }
 ];

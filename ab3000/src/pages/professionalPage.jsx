@@ -42,8 +42,9 @@ const TimelineItem = ({ data }) => (
         //   transform: "translateY(-4%)",
         //   color: "purple"
         // }}
-        transform="left-5"
-        icon={faLaptopCode}
+        transform={data.iconOffset}
+        // icon={faLaptopCode}
+        icon={data.icon}
         size="2x"
       />
     }
