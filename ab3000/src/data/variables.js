@@ -188,6 +188,12 @@ export const professionalData = [
       "Our product was featured on Fox59 and CBS4."
     ],
     date: "September 2019",
+    links: [
+      {
+        url: "https://fox59.com/news/purdue-students-working-to-make-technology-more-transparent/",
+        text: "See news article and video"
+      }
+    ],
     title: "HackXD, 2019: Birds Aren't Real",
     icon: faLaptopCode,
     iconOffset: "left-5",
@@ -233,7 +239,7 @@ export const professionalData = [
     links: [
       {
         url: "https://github.com/AB3000/Adventures-Game-Coding-Curriculum",
-        text: "See Repo"
+        text: "See repository"
       }
     ],
     title: "Digital Media Academy",
@@ -267,7 +273,7 @@ export const professionalData = [
     links: [
       {
         url: "https://github.com/AB3000/Avoid-the-objects-",
-        text: "See Repo"
+        text: "See repository"
       }
     ],
     title: "Avoid the Objects",
@@ -284,7 +290,7 @@ export const professionalData = [
     links: [
       {
         url: "https://github.com/AB3000/Office-Trouble-",
-        text: "See Repo"
+        text: "See repository"
       }
     ],
     title: "Office Trouble",
@@ -318,7 +324,7 @@ export const professionalData = [
     links: [
       {
         url: "https://github.com/magickaiyang/purdue-healthy-dining",
-        text: "See Repo"
+        text: "See repository"
       }
     ],
     title: "Purdue Dining App",
@@ -336,7 +342,7 @@ export const professionalData = [
     links: [
       {
         url: "https://github.com/AB3000/Recursive-Tree",
-        text: "See Repo"
+        text: "See repository"
       }
     ],
     title: "Recursive Tree Puzzle",
@@ -354,7 +360,7 @@ export const professionalData = [
     links: [
       {
         url: "https://github.com/AB3000/Defy-The-Maze-2017",
-        text: "See Repo"
+        text: "See repository"
       }
     ],
     title: "Defy the Maze",
@@ -373,7 +379,7 @@ export const professionalData = [
     links: [
       {
         url: "https://github.com/AB3000/dreaming-crazy",
-        text: "See Repo"
+        text: "See repository"
       }
     ],
     title: "Dreaming Crazy",
