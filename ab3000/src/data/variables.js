@@ -267,7 +267,7 @@ export const professionalData = [
   {
     text: [
       "Programmed a single-level 2D game in Unity. The player must avoid colliding with any falling objects.",
-      "I experimented with threads and a point-system in this game."
+      "Experimented with threads and a point-system in this game."
     ],
     date: "December 2018 -  January 2019",
     links: [
@@ -284,7 +284,7 @@ export const professionalData = [
   {
     text: [
       "Programmed a single-level 2D RPG game in Unity. This game follows a woman who lost her briefcase in her house.",
-      "I experimented with animation, triggers, and dialogue."
+      "Experimented with animation, triggers, and dialogue."
     ],
     date: "September - December 2018",
     links: [
@@ -317,7 +317,7 @@ export const professionalData = [
     text: [
       "Teamed up with five students from the Graduate and Undergraduate Department in Computer Science to build a dining app.",
       "This app allows students to customize plates based on options from the campus dining courts with their personal nutritional needs.",
-      "I designed the graphics and charts to display the nutritional information of the plates.",
+      "Designed the graphics and charts to display the nutritional information of the plates.",
       "The app is available on Google Play."
     ],
     date: "January - April 2018",
@@ -336,7 +336,7 @@ export const professionalData = [
     text: [
       "Collaborated with two people to design a game that teaches recursion.",
       "Players drag and drop blocks to solve a given recursion problem.",
-      "I designed the UI and programmed the button triggers."
+      "Designed the UI and programmed the button triggers."
     ],
     date: "November - December 2017",
     links: [
@@ -354,7 +354,7 @@ export const professionalData = [
   {
     text: [
       "Created my first 3D RPG game (a horror maze) in Unity with a group of seven people as part of a game programming club.",
-      "I led the team with whiteboard brainstorming sessions, modeled some of the assets, and programmed the game triggers."
+      "Led the team with whiteboard brainstorming sessions, modeled some of the assets, and programmed the game triggers."
     ],
     date: "October - November 2017",
     links: [
