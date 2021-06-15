@@ -162,6 +162,28 @@ export const paths = {
 
 export const professionalData = [
   {
+    date: "May 2021 - Present",
+    title: "Cisco",
+    position: "Software Engineer",
+    location: "San Jose, CA",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+  },
+  {
+    text: [
+      "Moved conveyor panels in InControlWare to match Autocad specifications.",
+      "Designed and leveraged SQL scripts to manipulate the length, position, and angle of panels in bulk."
+    ],
+    date: "February - May 2021",
+    title: "Honeywell",
+    position: "Software Engineer I",
+    location: "Roseville, CA",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+  },
+  {
     date: "December 2020",
     title: "Graduated Purdue University!",
     location: "West Lafayette, IN",
