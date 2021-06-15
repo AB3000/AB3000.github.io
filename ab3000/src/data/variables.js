@@ -290,7 +290,7 @@ export const professionalData = [
       "Reviewed students' code to ensure that their submissions meet formatting standards.",
       "Occasionally graded students in class with questions to check their understanding of concepts implemented."
     ],
-    date: "January 2019 -  May 2019",
+    date: "January - May 2019",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
@@ -330,7 +330,7 @@ export const professionalData = [
       "Programmed a single-level 2D RPG game in Unity. This game follows a woman who lost her briefcase in her house.",
       "I experimented with animation, triggers, and dialogue."
     ],
-    date: "September -  December 2018",
+    date: "September - December 2018",
     category: {
       tag: "Game",
       color: "#018f69"
@@ -353,7 +353,7 @@ export const professionalData = [
       "Planned final projects that allowed students to express their creativity and showcase to their parents.",
       "Wrote weekly reports so that students had an idea of their progress and potential next steps."
     ],
-    date: "June -  August 2018",
+    date: "June - August 2018",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
