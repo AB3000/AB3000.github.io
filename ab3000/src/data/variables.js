@@ -166,6 +166,7 @@ export const professionalData = [
   {
     date: "December 2020",
     title: "Graduated Purdue University!",
+    location: "West Lafayette, IN",
     icon: faGraduationCap,
     iconOffset: "left-4.5",
     iconColor: "rgb(255, 205, 205)",
@@ -215,7 +216,7 @@ export const professionalData = [
     date: "August 2019 - May 2020",
     title: "Purdue University: Electrical & Computer Engineering Department",
     position: "Undergraduate Research Assistant",
-    location: "West lafayette, IN",
+    location: "West Lafayette, IN",
     icon: faSearch,
     iconOffset: "left-3", 
     iconColor: "rgb(216, 205, 255)",
@@ -397,6 +398,7 @@ export const professionalData = [
   {
     date: "August 2017",
     title: "Started college at Purdue University!",
+    location: "West Lafayette, IN",
     icon: faSchool,
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",
