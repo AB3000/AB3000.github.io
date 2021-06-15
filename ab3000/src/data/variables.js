@@ -1,4 +1,3 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase, faLaptopCode, faSchool, faSearch, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 export const charPoses = {
