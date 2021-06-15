@@ -139,21 +139,6 @@ export const homeStyles = [
     mixBlendMode: "difference",
     transform: "translate(250px,0px)"
   },
-  // { //fake add temporary
-  //   opacity: 1,
-  //   fill: "#ff8787",
-  //   fillOpacity: 1,
-  //   fillRule: "evenodd",
-  //   stroke: "#ff8787",
-  //   strokeWidth: 0,
-  //   strokeLinejoin: "round",
-  //   strokeMiterlimit: 4,
-  //   strokeDasharray: "none",
-  //   strokeDashoffset: 0,
-  //   strokeOpacity: 1,
-  //   mixBlendMode: "difference",
-  //   transform: "translate(250px,0px)"
-  // }
 ];
 
 export const paths = {
@@ -184,20 +169,15 @@ export const professionalData = [
       "Single-handedly created a standalone web application from scratch to perform automated chapter marking on videos. Led the programming.",
       "Designed a Natural Language Processing (machine learning) algorithm to chapter videos based on sentiment or common topics.",
       "Leveraged the capabilities of python libraries and Amazon Web Services (Comprehend and Transcribe) to maximize overall performance.",
-      "Customizing existing AWS services, such as Comprehend and Rekognition, in python."
+      "Customized existing AWS services, such as Comprehend and Rekognition, in python."
     ],
     date: "October 2019 - August 2020",
-    category: {
-      tag: "Work Experience",
-      color: "#ad7fad"
-    },
     title: "UEGroup",
     position: "Machine Learning Intern",
     location: "Remote (2019), San Jose (2020)",
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    
   },
   {
     text: [
@@ -208,34 +188,24 @@ export const professionalData = [
       "Our product was featured on Fox59 and CBS4."
     ],
     date: "September 2019",
-    category: {
-      tag: "Experience",
-      color: "#ad7fad"
-    },
     title: "HackXD, 2019: Oculis",
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    
   },
   {
     text: [
-      "Devising new ways to improve the DeepPool algorithm for ridesharing.",
-      "Connecting Google's Distance Matrix API and Waze's API to gather real-time data.",
-      "Presenting this research in Purdue's Fall Research Expo."
+      "Devised new ways to improve the DeepPool algorithm for ridesharing.",
+      "Connected Google's Distance Matrix API and Waze's API to gather real-time data.",
+      "Presented this research in Purdue's Fall 2019 Research Expo."
     ],
-    date: "August 2019 - Present",
-    category: {
-      tag: "Work Experience",
-      color: "#ad7fad"
-    },
+    date: "August 2019 - May 2020",
     title: "Purdue University: Electrical & Computer Engineering Department",
     position: "Undergraduate Research Assistant",
     location: "West lafayette, IN",
     icon: faLaptopCode,
     iconOffset: "left-5", 
     iconColor: "rgb(183, 255, 248)",
-
   },
   {
     text: [
@@ -247,18 +217,12 @@ export const professionalData = [
       "Developed curriculum and ensured readability of project documentation."
     ],
     date: "May - July 2019",
-    category: {
-      tag: "Work Experience",
-      color: "#ad7fad"
-    },
     title: "Pyxeda AI",
     position: "Software + Machine Learning Intern",
     location: "Santa Clara, CA",
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    
-
   },
   {
     text: [
@@ -266,10 +230,6 @@ export const professionalData = [
       "Added lessons in Processing to facilitate the transition from drag-and-drop code to typed programming."
     ],
     date: "January - May 2019",
-    category: {
-      tag: "Work Experience",
-      color: "#ad7fad"
-    },
     links: [
       {
         url: "https://github.com/AB3000/Adventures-Game-Coding-Curriculum",
@@ -282,7 +242,6 @@ export const professionalData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    
   },
   {
     text: [
@@ -291,10 +250,6 @@ export const professionalData = [
       "Occasionally graded students in class with questions to check their understanding of concepts implemented."
     ],
     date: "January - May 2019",
-    category: {
-      tag: "Work Experience",
-      color: "#ad7fad"
-    },
     title: "Purdue University: Department of Computer Science",
     position: "Undergraduate Teaching Assistant, CS240 (Programming in C)",
     location: "West Lafayette, IN",
@@ -309,10 +264,6 @@ export const professionalData = [
       "I experimented with threads and a point-system in this game."
     ],
     date: "December 2018 -  January 2019",
-    category: {
-      tag: "Game",
-      color: "#018f69"
-    },
     links: [
       {
         url: "https://github.com/AB3000/Avoid-the-objects-",
@@ -331,10 +282,6 @@ export const professionalData = [
       "I experimented with animation, triggers, and dialogue."
     ],
     date: "September - December 2018",
-    category: {
-      tag: "Game",
-      color: "#018f69"
-    },
     links: [
       {
         url: "https://github.com/AB3000/Office-Trouble-",
@@ -354,10 +301,6 @@ export const professionalData = [
       "Wrote weekly reports so that students had an idea of their progress and potential next steps."
     ],
     date: "June - August 2018",
-    category: {
-      tag: "Work Experience",
-      color: "#ad7fad"
-    },
     title: "Digital Media Academy",
     position: "Instructor",
     location: "Palo Alto, CA",
@@ -374,10 +317,6 @@ export const professionalData = [
       "The app is available on Google Play."
     ],
     date: "January - April 2018",
-    category: {
-      tag: "App",
-      color: "#ad7fad"
-    },
     links: [
       {
         url: "https://github.com/magickaiyang/purdue-healthy-dining",
@@ -396,10 +335,6 @@ export const professionalData = [
       "I designed the UI and programmed the button triggers."
     ],
     date: "November - December 2017",
-    category: {
-      tag: "Game",
-      color: "#018f69"
-    },
     links: [
       {
         url: "https://github.com/AB3000/Recursive-Tree",
@@ -418,10 +353,6 @@ export const professionalData = [
       "I led the team with whiteboard brainstorming sessions, modeled some of the assets, and programmed the game triggers."
     ],
     date: "October - November 2017",
-    category: {
-      tag: "Game",
-      color: "#018f69"
-    },
     links: [
       {
         url: "https://github.com/AB3000/Defy-The-Maze-2017",
@@ -441,10 +372,6 @@ export const professionalData = [
       "This was under Purdue's Launchpad program, a one-to-one program that helps students bring their ideas to life!"
     ],
     date: "September - October 2017",
-    category: {
-      tag: "Game",
-      color: "#018f69"
-    },
     links: [
       {
         url: "https://github.com/AB3000/dreaming-crazy",
@@ -455,15 +382,10 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    
   },
   {
     text: ["Started College at Purdue University!"],
     date: "August 2017",
-    category: {
-      tag: "Event",
-      color: "#ffa257"
-    },
     title: "Purdue University",
     icon: faSchool,
     iconOffset: "left-5",
@@ -474,10 +396,6 @@ export const professionalData = [
       "Engaged students in healthy outdoor break-time activities."
     ],
     date: "Summer 2016, Summer 2017",
-    category: {
-      tag: "Work Experience",
-      color: "#ad7fad"
-    },
     title: "Digital Media Academy",
     position: "Teaching Assistant",
     location: "Palo Alto, CA",
