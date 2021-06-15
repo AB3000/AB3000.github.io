@@ -33,18 +33,13 @@ iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 
 const TimelineItem = ({ data }) => (
   <VerticalTimelineElement
-    date={data.location}
+    date={data.date}
     // className={data.className}
     contentStyle={{ background: "#ff8787", color: "#000" }}
     iconStyle={{ background: "#424242", color: data.iconColor }}
     icon={
       <FontAwesomeIcon
-        // style={{
-        //   transform: "translateY(-4%)",
-        //   color: "purple"
-        // }}
         transform={data.iconOffset}
-        // icon={faLaptopCode}
         icon={data.icon}
         size="2x"
       />
@@ -57,7 +52,7 @@ const TimelineItem = ({ data }) => (
     {data.title && <h3>{data.title}</h3>}
     {data.position && <h4>Position: {data.position}</h4>}
     {/* {data.location && <h5>Location: {data.location}</h5>} */}
-    <time>{data.date}</time>
+    <time>{data.location}</time>
     {/* {data.text} */}
     {splitBullets(data.text)}
     {"links" in data ? addLinks(data.links) : ""}
@@ -110,7 +105,7 @@ export default class ProfessionalPage extends React.Component {
         <VerticalTimeline className="vertical-timeline-custom-line">
           <Timeline></Timeline>
           <VerticalTimelineElement
-            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+            iconStyle={{ background: "#424242", color: "#fff" }}
             // icon={<StarIcon />}
           />
         </VerticalTimeline>

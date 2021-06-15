@@ -12,6 +12,17 @@
 //       tag: "Event",
 //       color: "#ffa257"
 //     },
+// links: [
+//     {
+//       url: "https://github.com/magickaiyang/purdue-healthy-dining",
+//       text: "See Repo"
+//     },
+//     {
+//       url:
+//         "https://play.google.com/store/apps/details?id=com.reprincipia.phd",
+//       text: "See App"
+//     }
+//   ],
 //     title: "Purdue University",
 //     icon: faSchool,
 //     iconOffset: "left-5",

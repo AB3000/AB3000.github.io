@@ -180,17 +180,20 @@ export const paths = {
 export const professionalData = [
   {
     text: [
-      "Building a sample app that involves text and facial recognition.",
+      "Brainstormed and collaborated with the Director of Design to flesh out a project that would enhance user experience.",
+      "Single-handedly created a standalone web application from scratch to perform automated chapter marking on videos. Led the programming.",
+      "Designed a Natural Language Processing (machine learning) algorithm to chapter videos based on sentiment or common topics.",
+      "Leveraged the capabilities of python libraries and Amazon Web Services (Comprehend and Transcribe) to maximize overall performance.",
       "Customizing existing AWS services, such as Comprehend and Rekognition, in python."
     ],
-    date: "October 2019 - Present",
+    date: "October 2019 - August 2020",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
     },
     title: "UEGroup",
     position: "Machine Learning Intern",
-    location: "Remote",
+    location: "Remote (2019), San Jose (2020)",
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
@@ -243,7 +246,7 @@ export const professionalData = [
       "Crowdsourced data for text-based lessons and reached out to clients for testing.",
       "Developed curriculum and ensured readability of project documentation."
     ],
-    date: "May 2019 - July 2019",
+    date: "May - July 2019",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
@@ -262,7 +265,7 @@ export const professionalData = [
       "Composed curriculum in Canvas for a game coding course geared to preteens.",
       "Added lessons in Processing to facilitate the transition from drag-and-drop code to typed programming."
     ],
-    date: "January 2019 -  May 2019",
+    date: "January - May 2019",
     category: {
       tag: "Work Experience",
       color: "#ad7fad"
@@ -379,19 +382,12 @@ export const professionalData = [
       {
         url: "https://github.com/magickaiyang/purdue-healthy-dining",
         text: "See Repo"
-      },
-      {
-        url:
-          "https://play.google.com/store/apps/details?id=com.reprincipia.phd",
-        text: "See App"
       }
     ],
-
     title: "Purdue Dining App",
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    
   },
   {
     text: [
