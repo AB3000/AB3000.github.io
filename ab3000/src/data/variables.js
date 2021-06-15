@@ -172,7 +172,7 @@ export const professionalData = [
   {
     text: [
       "Moved conveyor panels in InControlWare to match Autocad specifications.",
-      "Designed and leveraged SQL scripts to manipulate the length, position, and angle of panels in bulk."
+      "Designed and leveraged SQL scripts to manipulate the lengths, positions, and angles of panels in bulk."
     ],
     date: "February - May 2021",
     title: "Honeywell",
