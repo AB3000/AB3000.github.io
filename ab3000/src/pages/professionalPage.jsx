@@ -33,8 +33,8 @@ iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 
 const TimelineItem = ({ data }) => (
   <VerticalTimelineElement
-    // date={data.date}
-    className={data.className}
+    date={data.location}
+    // className={data.className}
     contentStyle={{ background: "#ff8787", color: "#000" }}
     iconStyle={{ background: "#424242", color: data.iconColor }}
     icon={
@@ -56,7 +56,7 @@ const TimelineItem = ({ data }) => (
       </span> */}
     {data.title && <h3>{data.title}</h3>}
     {data.position && <h4>Position: {data.position}</h4>}
-    {data.location && <h5>Location: {data.location}</h5>}
+    {/* {data.location && <h5>Location: {data.location}</h5>} */}
     <time>{data.date}</time>
     {/* {data.text} */}
     {splitBullets(data.text)}

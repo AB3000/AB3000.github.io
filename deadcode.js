@@ -17,3 +17,11 @@
 //     iconOffset: "left-5",
 //     className: "vertical-timeline-element--work"
 //   },
+
+
+//  <VerticalTimelineElement
+    // date={data.date}
+    // className={data.className}
+    // .
+    // .
+    // . />

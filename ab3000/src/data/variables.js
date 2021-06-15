@@ -190,11 +190,11 @@ export const professionalData = [
     },
     title: "UEGroup",
     position: "Machine Learning Intern",
-    location: "remote",
+    location: "Remote",
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    className: "vertical-timeline-element--work"
+    
   },
   {
     text: [
@@ -213,7 +213,7 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    className: "vertical-timeline-element--project"
+    
   },
   {
     text: [
@@ -232,7 +232,6 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5", 
     iconColor: "rgb(183, 255, 248)",
-    className: "vertical-timeline-element--project"
 
   },
   {
@@ -255,7 +254,7 @@ export const professionalData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    className: "vertical-timeline-element--work"
+    
 
   },
   {
@@ -276,11 +275,11 @@ export const professionalData = [
     ],
     title: "Digital Media Academy",
     position: "Curriculum Developer",
-    location: "remote",
+    location: "Remote",
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    className: "vertical-timeline-element--work"
+    
   },
   {
     text: [
@@ -299,7 +298,7 @@ export const professionalData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    className: "vertical-timeline-element--work"
+    
   },
   {
     text: [
@@ -321,7 +320,7 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    className: "vertical-timeline-element--project"
+    
   },
   {
     text: [
@@ -343,7 +342,7 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    className: "vertical-timeline-element--project"
+    
   },
   {
     text: [
@@ -362,7 +361,7 @@ export const professionalData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    className: "vertical-timeline-element--work"
+    
   },
   {
     text: [
@@ -392,7 +391,7 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    className: "vertical-timeline-element--project"
+    
   },
   {
     text: [
@@ -415,7 +414,7 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    className: "vertical-timeline-element--project"
+    
   },
   {
     text: [
@@ -437,7 +436,7 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    className: "vertical-timeline-element--project"
+    
   },
   {
     text: [
@@ -460,7 +459,7 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    className: "vertical-timeline-element--project"
+    
   },
   {
     text: ["Started College at Purdue University!"],
@@ -472,8 +471,6 @@ export const professionalData = [
     title: "Purdue University",
     icon: faSchool,
     iconOffset: "left-5",
-    
-    className: "vertical-timeline-element--school"
   },
   {
     text: [
@@ -491,6 +488,6 @@ export const professionalData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    className: "vertical-timeline-element--work"
+    
   }
 ];
