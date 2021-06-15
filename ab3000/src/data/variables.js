@@ -1,5 +1,5 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faLaptopCode, faSchool, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faLaptopCode, faSchool, faSearch, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 export const charPoses = {
   exit: { opacity: 0, y: 20 },
@@ -163,6 +163,13 @@ export const paths = {
 };
 
 export const professionalData = [
+  {
+    date: "December 2020",
+    title: "Graduated Purdue University!",
+    icon: faGraduationCap,
+    iconOffset: "left-4.5",
+    iconColor: "rgb(255, 205, 205)",
+  },
   {
     text: [
       "Brainstormed and collaborated with the Director of Design to flesh out a project that would enhance user experience.",
@@ -388,9 +395,8 @@ export const professionalData = [
     iconColor: "rgb(183, 255, 248)",
   },
   {
-    text: ["Started College at Purdue University!"],
     date: "August 2017",
-    title: "Purdue University",
+    title: "Started college at Purdue University!",
     icon: faSchool,
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",

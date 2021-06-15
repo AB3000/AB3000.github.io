@@ -44,12 +44,12 @@ const TimelineItem = ({ data }) => (
     {/* <span className="tag" style={{ background: data.category.color }}>
         {data.category.tag}
       </span> */}
-    {data.title && <h3>{data.title}</h3>}
+    {data.title && <h2>{data.title}</h2>}
     {data.position && <h4>Position: {data.position}</h4>}
     {/* {data.location && <h5>Location: {data.location}</h5>} */}
     <time>{data.location}</time>
     {/* {data.text} */}
-    {splitBullets(data.text)}
+    {"text" in data ? splitBullets(data.text) : ""}
     {"links" in data ? addLinks(data.links) : ""}
     {/* </div> */}
   </VerticalTimelineElement>
