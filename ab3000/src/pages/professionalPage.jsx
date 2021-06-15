@@ -21,6 +21,7 @@ const TimelineItem = ({ data }) => (
     icon={
       <FontAwesomeIcon transform={data.iconOffset} icon={data.icon} size="2x" />
     }
+    contentArrowStyle={{ borderRight: '7px solid  #424242' }}
   >
     {data.title && <h2>{data.title}</h2>}
     {data.position && <h4>Position: {data.position}</h4>}
