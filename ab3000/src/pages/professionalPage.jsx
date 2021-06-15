@@ -10,8 +10,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faBriefcase, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
-import { purple } from "@material-ui/core/colors";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 //creates a timeline based on data from variables.js
 //Credits to Florin Pop for the tutorial!
@@ -38,11 +37,7 @@ const TimelineItem = ({ data }) => (
     contentStyle={{ background: "#ff8787", color: "#000" }}
     iconStyle={{ background: "#424242", color: data.iconColor }}
     icon={
-      <FontAwesomeIcon
-        transform={data.iconOffset}
-        icon={data.icon}
-        size="2x"
-      />
+      <FontAwesomeIcon transform={data.iconOffset} icon={data.icon} size="2x" />
     }
   >
     {/* <div className="timeline-item-content"> */}
@@ -105,8 +100,10 @@ export default class ProfessionalPage extends React.Component {
         <VerticalTimeline className="vertical-timeline-custom-line">
           <Timeline></Timeline>
           <VerticalTimelineElement
-            iconStyle={{ background: "#424242", color: "#fff" }}
-            // icon={<StarIcon />}
+            iconStyle={{ background: "#424242", color: "rgb(223, 255, 205)" }}
+            icon={
+              <FontAwesomeIcon icon={faStar} size="2x" transform="left-4" />
+            }
           />
         </VerticalTimeline>
       </div>

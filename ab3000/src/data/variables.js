@@ -1,5 +1,5 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faLaptopCode, faSchool } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faLaptopCode, faSchool, faSearch } from "@fortawesome/free-solid-svg-icons";
 
 export const charPoses = {
   exit: { opacity: 0, y: 20 },
@@ -188,7 +188,7 @@ export const professionalData = [
       "Our product was featured on Fox59 and CBS4."
     ],
     date: "September 2019",
-    title: "HackXD, 2019: Oculis",
+    title: "HackXD, 2019: Birds Aren't Real",
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
@@ -203,9 +203,9 @@ export const professionalData = [
     title: "Purdue University: Electrical & Computer Engineering Department",
     position: "Undergraduate Research Assistant",
     location: "West lafayette, IN",
-    icon: faLaptopCode,
-    iconOffset: "left-5", 
-    iconColor: "rgb(183, 255, 248)",
+    icon: faSearch,
+    iconOffset: "left-3", 
+    iconColor: "rgb(216, 205, 255)",
   },
   {
     text: [
@@ -274,7 +274,6 @@ export const professionalData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    
   },
   {
     text: [
@@ -307,7 +306,6 @@ export const professionalData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    
   },
   {
     text: [
@@ -389,6 +387,7 @@ export const professionalData = [
     title: "Purdue University",
     icon: faSchool,
     iconOffset: "left-5",
+    iconColor: "rgb(255, 205, 205)",
   },
   {
     text: [
@@ -402,6 +401,5 @@ export const professionalData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    
   }
 ];
