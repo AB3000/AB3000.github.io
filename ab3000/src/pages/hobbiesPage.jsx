@@ -56,7 +56,7 @@ import Swiper from "swiper/swiper.scss";
 export default class HobbiesPage extends React.Component {
   render() {
     return (
-      <div className="page-container page">
+      <div className="page-container">
             <h1>Under construction!</h1>
           <div className="animation-left">
           <Link to="/professional">
