@@ -91,7 +91,7 @@ export default class HomePage extends React.Component {
                     style={{
                       fontSize: 18,
                     }}
-                    textLength="50%"
+                    textLength="48%"
                   >
                     ƨɘiddoH
                   </textPath>
