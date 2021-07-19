@@ -76,8 +76,8 @@ export default class HomePage extends React.Component {
                   float: "left",
                   padding: "20px",
                 }}
-                width="200"
-                height="50"
+                width="250"
+                height="80"
               >
                 <path
                   id="left_path"
@@ -109,8 +109,8 @@ export default class HomePage extends React.Component {
                   float: "right",
                   padding: "20px",
                 }}
-                width="200"
-                height="50"
+                width="250"
+                height="80"
               >
                 <path
                   id="right_path"
