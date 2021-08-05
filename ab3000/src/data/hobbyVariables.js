@@ -1,4 +1,93 @@
 
+import Icon from "../pages/icon";
+
+export const testData = [
+  {
+    src: "images/astrology/aries.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <Icon icon="Aries" size={30} />
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 0
+  },
+  {
+    src: "images/astrology/taurus.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <Icon icon="Aries" size={30} />
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 1
+  },
+  {
+    src: "images/astrology/gemini.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <Icon icon="Aries" size={30} />
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 2
+  },
+  {
+    src: "images/astrology/cancer.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <Icon icon="Aries" size={30} />
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 3
+  },
+  {
+    src: "images/astrology/capricorn.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <Icon icon="Aries" size={30} />
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 4
+  },
+];
 
 export const astrologyData = [
   {
@@ -15,7 +104,8 @@ export const astrologyData = [
       Most compatible with Aries, Leo, Sagittarius, Aquarius, and
       Gemini.
     </h3>
-    <h3>"The child of the zodiac"</h3>`
+    <h3>"The child of the zodiac"</h3>`,
+    id: 0
   },
   {
     src: "images/astrology/taurus.png",
@@ -31,7 +121,8 @@ export const astrologyData = [
       Most compatible with Aries, Leo, Sagittarius, Aquarius, and
       Gemini.
     </h3>
-    <h3>"The child of the zodiac"</h3>`
+    <h3>"The child of the zodiac"</h3>`,
+    id: 1
   },
   {
     src: "images/astrology/gemini.png",
@@ -47,7 +138,8 @@ export const astrologyData = [
       Most compatible with Aries, Leo, Sagittarius, Aquarius, and
       Gemini.
     </h3>
-    <h3>"The child of the zodiac"</h3>`
+    <h3>"The child of the zodiac"</h3>`,
+    id: 2
   },
   {
     src: "images/astrology/cancer.png",
@@ -63,7 +155,8 @@ export const astrologyData = [
       Most compatible with Aries, Leo, Sagittarius, Aquarius, and
       Gemini.
     </h3>
-    <h3>"The child of the zodiac"</h3>`
+    <h3>"The child of the zodiac"</h3>`,
+    id: 3
   },
 ];
 
