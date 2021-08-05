@@ -96,7 +96,7 @@ export const astrologyData = [
     backText: `<h1>Aries the Ram</h1>
     <h2>Element: Fire</h2>
     <h2>
-      Symbol: <Icon icon="Aries" size={30} />
+      Symbol: <span class="icon-Aries" data-icon="&#xe90b;"></span>
     </h2>
     <h2>Modality: Cardinal</h2>
     <h2>Season: Spring</h2>
@@ -112,7 +112,7 @@ export const astrologyData = [
     frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
     backText: `<h1>Aries the Ram</h1>
     <h2>Element: Fire</h2>
-    <h2>
+    <h2 id="special-icon">
       Symbol: <Icon icon="Aries" size={30} />
     </h2>
     <h2>Modality: Cardinal</h2>
@@ -129,7 +129,7 @@ export const astrologyData = [
     frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
     backText: `<h1>Aries the Ram</h1>
     <h2>Element: Fire</h2>
-    <h2>
+    <h2 id="special-icon">
       Symbol: <Icon icon="Aries" size={30} />
     </h2>
     <h2>Modality: Cardinal</h2>
@@ -146,7 +146,7 @@ export const astrologyData = [
     frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
     backText: `<h1>Aries the Ram</h1>
     <h2>Element: Fire</h2>
-    <h2>
+    <h2 id="special-icon">
       Symbol: <Icon icon="Aries" size={30} />
     </h2>
     <h2>Modality: Cardinal</h2>

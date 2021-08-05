@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./bootstrap-grid.scss";
 import Icon from "../pages/icon";
-import ReactHtmlParser from "react-html-parser";
+import ReactHtmlParser, { convertNodeToElement } from "react-html-parser";
 import { astrologyData, testData } from "../data/hobbyVariables";
 
 const settings = {
@@ -29,15 +29,14 @@ for (let i = 0; i < slideShowStates.length; i++) {
   slideShowStates[i] = Array(allVariableData[i].length).fill(false);
 }
 
-export default class HobbiesPage extends React.Component {
 
-  constructor(props){
-    super(props)
+export default class HobbiesPage extends React.Component {
+  constructor(props) {
+    super(props);
     this.state = {
       selectedItemState: slideShowStates,
     };
   }
-
 
   // toggleClass = (identifier, id) => {
   //   this.setState((prevState) => {
@@ -53,7 +52,9 @@ export default class HobbiesPage extends React.Component {
     this.setState(
       update(this.state, {
         selectedItemState: {
-          [identifier]: {[id]: {$set: !(this.state.selectedItemState[identifier][id])} }
+          [identifier]: {
+            [id]: { $set: !this.state.selectedItemState[identifier][id] },
+          },
         },
       })
     );
@@ -67,6 +68,7 @@ export default class HobbiesPage extends React.Component {
       (
         <Slider {...settings}>
           {dataset.map((data, idx) => {
+            console.log("parsed backtext is ", ReactHtmlParser(data.backText));
             return (
               <div className="card-wrapper">
                 <div
@@ -86,6 +88,7 @@ export default class HobbiesPage extends React.Component {
                   </div>
                   <div className="card__face--back">
                     {ReactHtmlParser(data.backText)}
+                    {/* {transform(ReactHtmlParser(data.backText))} */}
                   </div>
                 </div>
               </div>
@@ -99,7 +102,7 @@ export default class HobbiesPage extends React.Component {
       <div className="page-container">
         <div className="container mt-5 carousel">
           <h1 className="slider_title">React Image Carousel</h1>
-          {/* <SlideShow identifier={0} dataset={astrologyData}></SlideShow> */}
+          {/* <Icon icon="Aries" size={30} color="orange" /> */}
           {SlideShow({ identifier: 0, dataset: astrologyData })}
         </div>
       </div>
