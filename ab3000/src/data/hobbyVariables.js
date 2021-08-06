@@ -149,6 +149,78 @@ export const astrologyData = [
     id: 7,
     cardColor: "rgb(202, 255, 252)",
   },
+  {
+    src: "images/astrology/sagittarius.png",
+    frontText:
+      "Optimistic, philosophical, adventurous, scholarly, and honest. You'll never forget me.",
+    backText: `<h1>Sagittarius the Archer</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <span class="icon-sagittarius" data-icon="&#xe903;"></span>
+    </h2>
+    <h2>Modality: Mutable</h2>
+    <h2>Season: Fall</h2>
+    <h3>
+      Most compatible with Sagittarius, Aries, Leo, Aquarius, and Libra.
+    </h3>
+    <h3>"The tourist of the zodiac"</h3>`,
+    id: 8,
+    cardColor: "rgb(255, 202, 202)",
+  },
+  {
+    src: "images/astrology/capricorn.png",
+    frontText:
+      "Practical, disciplined, respectful, hardworking, and serious. The early bird catches the worm.",
+    backText: `<h1>Capricorn the Sea Goat</h1>
+    <h2>Element: Earth</h2>
+    <h2>
+      Symbol: <span class="icon-capricorn" data-icon="&#x63;"></span>
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Winter</h2>
+    <h3>
+      Most compatible with Capricorn, Taurus, Virgo, Pisces, and Scorpio.
+    </h3>
+    <h3>"The father of the zodiac"</h3>`,
+    id: 9,
+    cardColor: "rgb(211, 255, 202)",
+  },
+  {
+    src: "images/astrology/libra.png",
+    frontText:
+      "Charming, social, diplomatic, balanced, and cheerful. I'm the eye in a storm.",
+    backText: `<h1>Libra the Scale</h1>
+    <h2>Element: Air</h2>
+    <h2>
+      Symbol: <span class="icon-libra" data-icon="&#xe905;"></span>
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Fall</h2>
+    <h3>
+      Most compatible with Libra, Aquarius, Gemini, Sagittarius, and Leo.
+    </h3>
+    <h3>"The law of the zodiac"</h3>`,
+    id: 10,
+    cardColor: "rgb(255, 250, 202)",
+  },
+  {
+    src: "images/astrology/scorpio.png",
+    frontText:
+      "Mysterious, perceptive, collected, determined, and astute. My wit is sharp.",
+    backText: `<h1>Scorpio the Scorpion</h1>
+    <h2>Element: Water</h2>
+    <h2>
+      Symbol: <span class="icon-scorpio" data-icon="&#x73;"></span>
+    </h2>
+    <h2>Modality: Fixed</h2>
+    <h2>Season: Fall</h2>
+    <h3>
+      Most compatible with Scorpio, Pisces, Cancer, Capricorn, and Virgo.
+    </h3>
+    <h3>"The magician of the zodiac"</h3>`,
+    id: 11,
+    cardColor: "rgb(202, 255, 252)",
+  },
 ];
 
 // export const braceletData = [
