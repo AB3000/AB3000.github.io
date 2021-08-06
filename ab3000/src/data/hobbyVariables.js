@@ -1,11 +1,19 @@
 import Icon from "../pages/icon";
 
+{/* <h1 style="font-family: avenir">Spontaneous. <br> 
+      Adventurous. <br> 
+      Bold. <br> 
+      Confident. <br> 
+      Determined. 
+      <br><br><br> 
+      Never a dull moment!</h1> */}
+
+
 //Some information from https://www.pinterest.de/pin/334533078557639580/
 export const astrologyData = [
   {
     src: "images/astrology/aries.png",
-    frontText:
-      "Spontaneous, adventurous, bold, confident, and determined. Never a dull moment!",
+    frontText: `Spontaneous, adventurous, bold, confident, and determined. Never a dull moment!`,
     backText: `<h1>Aries the Ram</h1>
     <h2>Element: Fire</h2>
     <h2>
@@ -186,38 +194,38 @@ export const astrologyData = [
     cardColor: "rgb(211, 255, 202)",
   },
   {
-    src: "images/astrology/libra.png",
+    src: "images/astrology/aquarius.png",
     frontText:
-      "Charming, social, diplomatic, balanced, and cheerful. I'm the eye in a storm.",
-    backText: `<h1>Libra the Scale</h1>
+      "Friendly, creative, independent, intelligent, and approachable. Crazy ideas change the world.",
+    backText: `<h1>Aquarius the Water-Bearer</h1>
     <h2>Element: Air</h2>
     <h2>
-      Symbol: <span class="icon-libra" data-icon="&#xe905;"></span>
+      Symbol: <span class="icon-aquarius" data-icon="&#x61;"></span>
     </h2>
-    <h2>Modality: Cardinal</h2>
-    <h2>Season: Fall</h2>
+    <h2>Modality: Fixed</h2>
+    <h2>Season: Winter</h2>
     <h3>
-      Most compatible with Libra, Aquarius, Gemini, Sagittarius, and Leo.
+      Most compatible with Aquarius, Gemini, Libra, Aries, and Sagittarius.
     </h3>
-    <h3>"The law of the zodiac"</h3>`,
+    <h3>"The eccentric of the zodiac"</h3>`,
     id: 10,
     cardColor: "rgb(255, 250, 202)",
   },
   {
-    src: "images/astrology/scorpio.png",
+    src: "images/astrology/pisces.png",
     frontText:
-      "Mysterious, perceptive, collected, determined, and astute. My wit is sharp.",
-    backText: `<h1>Scorpio the Scorpion</h1>
+      "Wise, kind, gentle, artistic, and trusting. I sing the body electric.",
+    backText: `<h1>Pisces the Fish</h1>
     <h2>Element: Water</h2>
     <h2>
-      Symbol: <span class="icon-scorpio" data-icon="&#x73;"></span>
+      Symbol: <span class="icon-pisces" data-icon="&#x70;"></span>
     </h2>
-    <h2>Modality: Fixed</h2>
-    <h2>Season: Fall</h2>
+    <h2>Modality: Mutable</h2>
+    <h2>Season: Winter</h2>
     <h3>
-      Most compatible with Scorpio, Pisces, Cancer, Capricorn, and Virgo.
+      Most compatible with Pisces, Cancer, Scorpio, Taurus and Capricorn.
     </h3>
-    <h3>"The magician of the zodiac"</h3>`,
+    <h3>"The elder of the zodiac"</h3>`,
     id: 11,
     cardColor: "rgb(202, 255, 252)",
   },

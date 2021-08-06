@@ -70,7 +70,7 @@ export default class HobbiesPage extends React.Component {
                       <img src={data.src} />
                     </div>
                     <div className="hover-content" style={{ color: "white" }}>
-                      {data.frontText}
+                    {ReactHtmlParser(data.frontText)}
                     </div>
                   </div>
                   <div className="card__face--back" style={{backgroundColor: data.cardColor}}>
