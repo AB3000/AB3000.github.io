@@ -87,7 +87,7 @@ export default class HobbiesPage extends React.Component {
     return (
       <div className="page-container">
         <div className="container mt-5 carousel">
-          <h1 className="slider_title">React Image Carousel</h1>
+          <h1 className="slider_title">Hobbies</h1>
           {SlideShow({ identifier: 0, dataset: astrologyData })}
         </div>
       </div>
