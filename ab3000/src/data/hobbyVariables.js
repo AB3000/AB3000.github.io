@@ -18,7 +18,7 @@ export const astrologyData = [
     </h3>
     <h3>"The child of the zodiac"</h3>`,
     id: 0,
-    cardColor: ""
+    cardColor: "rgb(255, 202, 202)"
   },
   {
     src: "images/astrology/taurus.png",
@@ -35,7 +35,8 @@ export const astrologyData = [
       Gemini.
     </h3>
     <h3>"The child of the zodiac"</h3>`,
-    id: 1
+    id: 1, 
+    cardColor: "rgb(211, 255, 202)"
   },
   {
     src: "images/astrology/gemini.png",
@@ -52,7 +53,8 @@ export const astrologyData = [
       Gemini.
     </h3>
     <h3>"The child of the zodiac"</h3>`,
-    id: 2
+    id: 2,
+    cardColor: "rgb(255, 250, 202)"
   },
   {
     src: "images/astrology/cancer.png",
@@ -69,7 +71,8 @@ export const astrologyData = [
       Gemini.
     </h3>
     <h3>"The child of the zodiac"</h3>`,
-    id: 3
+    id: 3,
+    cardColor: "rgb(202, 255, 252)"
   },
 ];
 

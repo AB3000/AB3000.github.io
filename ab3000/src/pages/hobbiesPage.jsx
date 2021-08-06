@@ -74,7 +74,8 @@ export default class HobbiesPage extends React.Component {
                       {data.frontText}
                     </div>
                   </div>
-                  <div className="card__face--back" style={{backgroundColor: "red"}}>
+                  <div className="card__face--back" style={{backgroundColor: data.cardColor}}>
+                  {/* style={{backgroundColor: "rgb(211, 255, 202)"}} */}
                     {ReactHtmlParser(data.backText)}
                   </div>
                 </div>
