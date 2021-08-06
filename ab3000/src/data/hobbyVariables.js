@@ -1,6 +1,78 @@
 
 import Icon from "../pages/icon";
 
+export const astrologyData = [
+  {
+    src: "images/astrology/aries.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <span class="icon-Aries" data-icon="&#xe90b;"></span>
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 0,
+    cardColor: ""
+  },
+  {
+    src: "images/astrology/taurus.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2 id="special-icon">
+      Symbol: <Icon icon="Aries" size={30} />
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 1
+  },
+  {
+    src: "images/astrology/gemini.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2 id="special-icon">
+      Symbol: <Icon icon="Aries" size={30} />
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 2
+  },
+  {
+    src: "images/astrology/cancer.png",
+    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2 id="special-icon">
+      Symbol: <Icon icon="Aries" size={30} />
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 3
+  },
+];
+
 export const testData = [
   {
     src: "images/astrology/aries.png",
@@ -89,76 +161,7 @@ export const testData = [
   },
 ];
 
-export const astrologyData = [
-  {
-    src: "images/astrology/aries.png",
-    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
-    backText: `<h1>Aries the Ram</h1>
-    <h2>Element: Fire</h2>
-    <h2>
-      Symbol: <span class="icon-Aries" data-icon="&#xe90b;"></span>
-    </h2>
-    <h2>Modality: Cardinal</h2>
-    <h2>Season: Spring</h2>
-    <h3>
-      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
-      Gemini.
-    </h3>
-    <h3>"The child of the zodiac"</h3>`,
-    id: 0
-  },
-  {
-    src: "images/astrology/taurus.png",
-    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
-    backText: `<h1>Aries the Ram</h1>
-    <h2>Element: Fire</h2>
-    <h2 id="special-icon">
-      Symbol: <Icon icon="Aries" size={30} />
-    </h2>
-    <h2>Modality: Cardinal</h2>
-    <h2>Season: Spring</h2>
-    <h3>
-      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
-      Gemini.
-    </h3>
-    <h3>"The child of the zodiac"</h3>`,
-    id: 1
-  },
-  {
-    src: "images/astrology/gemini.png",
-    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
-    backText: `<h1>Aries the Ram</h1>
-    <h2>Element: Fire</h2>
-    <h2 id="special-icon">
-      Symbol: <Icon icon="Aries" size={30} />
-    </h2>
-    <h2>Modality: Cardinal</h2>
-    <h2>Season: Spring</h2>
-    <h3>
-      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
-      Gemini.
-    </h3>
-    <h3>"The child of the zodiac"</h3>`,
-    id: 2
-  },
-  {
-    src: "images/astrology/cancer.png",
-    frontText: "Spontaneous, adventurous, bold, confident, and determined. Which sign am I?",
-    backText: `<h1>Aries the Ram</h1>
-    <h2>Element: Fire</h2>
-    <h2 id="special-icon">
-      Symbol: <Icon icon="Aries" size={30} />
-    </h2>
-    <h2>Modality: Cardinal</h2>
-    <h2>Season: Spring</h2>
-    <h3>
-      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
-      Gemini.
-    </h3>
-    <h3>"The child of the zodiac"</h3>`,
-    id: 3
-  },
-];
+
 
 
 

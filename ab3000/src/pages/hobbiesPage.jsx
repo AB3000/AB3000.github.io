@@ -1,5 +1,4 @@
 import React, { useState, memo } from "react";
-import { Link } from "react-router-dom";
 import update from "immutability-helper";
 import "./hobbiesStyle.scss";
 import Slider from "react-slick";
@@ -7,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./bootstrap-grid.scss";
 import Icon from "../pages/icon";
-import ReactHtmlParser, { convertNodeToElement } from "react-html-parser";
+import ReactHtmlParser from "react-html-parser";
 import { astrologyData, testData } from "../data/hobbyVariables";
 
 const settings = {
@@ -17,8 +16,6 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   cssEase: "linear",
-
-  // focusOnSelect: true,
 };
 
 const allVariableData = [astrologyData, testData];
@@ -37,15 +34,6 @@ export default class HobbiesPage extends React.Component {
       selectedItemState: slideShowStates,
     };
   }
-
-  // toggleClass = (identifier, id) => {
-  //   this.setState((prevState) => {
-  //     const team = prevState.selectedItemState;
-  //     team[identifier][id] = !this.state.selectedItemState[identifier][id];
-  //     console.log("team is", team);
-  //     return { team };
-  //   });
-  // };
 
   toggleClass = (identifier, id) => {
     console.log("identifier is ", identifier, "and id is", id);
@@ -86,9 +74,8 @@ export default class HobbiesPage extends React.Component {
                       {data.frontText}
                     </div>
                   </div>
-                  <div className="card__face--back">
+                  <div className="card__face--back" style={{backgroundColor: "red"}}>
                     {ReactHtmlParser(data.backText)}
-                    {/* {transform(ReactHtmlParser(data.backText))} */}
                   </div>
                 </div>
               </div>
@@ -102,7 +89,6 @@ export default class HobbiesPage extends React.Component {
       <div className="page-container">
         <div className="container mt-5 carousel">
           <h1 className="slider_title">React Image Carousel</h1>
-          {/* <Icon icon="Aries" size={30} color="orange" /> */}
           {SlideShow({ identifier: 0, dataset: astrologyData })}
         </div>
       </div>
