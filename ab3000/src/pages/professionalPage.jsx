@@ -170,6 +170,7 @@ export default class ProfessionalPage extends React.Component {
           />
         </VerticalTimeline>
       </div>
+      
     );
   }
 }
