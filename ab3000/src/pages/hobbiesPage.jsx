@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./bootstrap-grid.scss";
 import Icon from "../pages/icon";
 import ReactHtmlParser from "react-html-parser";
-import { astrologyData, testData } from "../data/hobbyVariables";
+import { astrologyData} from "../data/hobbyVariables";
 
 const settings = {
   dots: true,
@@ -18,9 +18,9 @@ const settings = {
   cssEase: "linear",
 };
 
-const allVariableData = [astrologyData, testData];
+const allVariableData = [astrologyData];
 
-var slideShowStates = new Array(2);
+var slideShowStates = new Array(allVariableData.length);
 
 for (let i = 0; i < slideShowStates.length; i++) {
   slideShowStates[i] = Array(allVariableData[i].length).fill(false);
@@ -52,7 +52,6 @@ export default class HobbiesPage extends React.Component {
     const { selectedItemState } = this.state;
 
     const SlideShow = ({ identifier, dataset }) => (
-      console.log("REACT COMPONENT"),
       (
         <Slider {...settings}>
           {dataset.map((data, idx) => {
@@ -75,7 +74,6 @@ export default class HobbiesPage extends React.Component {
                     </div>
                   </div>
                   <div className="card__face--back" style={{backgroundColor: data.cardColor}}>
-                  {/* style={{backgroundColor: "rgb(211, 255, 202)"}} */}
                     {ReactHtmlParser(data.backText)}
                   </div>
                 </div>
