@@ -77,10 +77,13 @@ $Raleway: "Raleway", sans-serif;
   }
 }
 
-
+.container.carousel{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .carousel {
   .slick-dots {
-    bottom: -2.5vw;
+    bottom: -3.5vw;
     li {
       button {
         width: 20px;
@@ -153,7 +156,7 @@ $Raleway: "Raleway", sans-serif;
 }
 
 .card__face--back {
-  background: rgb(236, 236, 236);
+  // background: rgb(236, 236, 236);
   border-radius: 16px;
   transform: rotateY(180deg);
   overflow: hidden;

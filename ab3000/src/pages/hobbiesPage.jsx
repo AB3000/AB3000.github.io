@@ -1,4 +1,4 @@
-import React, { useState, memo } from "react";
+import React from "react";
 import update from "immutability-helper";
 import { Link } from "react-router-dom";
 import "./hobbiesStyle.scss";
@@ -6,7 +6,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./bootstrap-grid.scss";
-import Icon from "../pages/icon";
 import ReactHtmlParser from "react-html-parser";
 import { astrologyData} from "../data/hobbyVariables";
 
@@ -37,7 +36,7 @@ export default class HobbiesPage extends React.Component {
   }
 
   toggleClass = (identifier, id) => {
-    console.log("identifier is ", identifier, "and id is", id);
+    // console.log("identifier is ", identifier, "and id is", id);
     this.setState(
       update(this.state, {
         selectedItemState: {
@@ -56,7 +55,7 @@ export default class HobbiesPage extends React.Component {
       (
         <Slider {...settings}>
           {dataset.map((data, idx) => {
-            console.log("parsed backtext is ", ReactHtmlParser(data.backText));
+            // console.log("parsed backtext is ", ReactHtmlParser(data.backText));
             return (
               <div className="card-wrapper">
                 <div
