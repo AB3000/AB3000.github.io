@@ -16,6 +16,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 const TimelineItem = ({ data }) => (
   <VerticalTimelineElement
     date={data.date}
+    dateClassName="date"
     contentStyle={{ background: "#ff8787", color: "#000" }}
     iconStyle={{ background: "#424242", color: data.iconColor }}
     icon={
