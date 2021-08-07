@@ -10,6 +10,19 @@ $Raleway: "Raleway", sans-serif;
   overflow: hidden;
 }
 
+.introduction-text {
+  margin: auto;
+  width: 50%;
+  border-radius: 25px;
+  background-color: rgba(0,0,0,0);
+  color: pink;
+  // background-color: rgba(255, 255, 255, 0.454);
+  padding: 20px;
+  line-height: 30px;
+  font-family: fantasy;
+  font-size: large;
+}
+
 .slider_title {
   font-size: 5vw;
   color: #ff8787;
@@ -80,6 +93,7 @@ $Raleway: "Raleway", sans-serif;
 .container.carousel{
   padding-left: 10px;
   padding-right: 10px;
+  // padding-bottom: 80px;
 }
 .carousel {
   .slick-dots {

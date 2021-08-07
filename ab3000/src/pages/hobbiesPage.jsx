@@ -7,7 +7,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./bootstrap-grid.scss";
 import ReactHtmlParser from "react-html-parser";
-import { astrologyData} from "../data/hobbyVariables";
+import { astrologyData, charPoses } from "../data/hobbyVariables";
+import SplitText from "react-pose-text";
 
 const settings = {
   dots: true,
@@ -18,14 +19,13 @@ const settings = {
   cssEase: "linear",
 };
 
-const allVariableData = [astrologyData];
+const allPictureData = [astrologyData];
 
-var slideShowStates = new Array(allVariableData.length);
+var slideShowStates = new Array(allPictureData.length);
 
 for (let i = 0; i < slideShowStates.length; i++) {
-  slideShowStates[i] = Array(allVariableData[i].length).fill(false);
+  slideShowStates[i] = Array(allPictureData[i].length).fill(false);
 }
-
 
 export default class HobbiesPage extends React.Component {
   constructor(props) {
@@ -52,41 +52,42 @@ export default class HobbiesPage extends React.Component {
     const { selectedItemState } = this.state;
 
     const SlideShow = ({ identifier, dataset }) => (
-      (
-        <Slider {...settings}>
-          {dataset.map((data, idx) => {
-            // console.log("parsed backtext is ", ReactHtmlParser(data.backText));
-            return (
-              <div className="card-wrapper">
-                <div
-                  key={data.id}
-                  className={`card ${
-                    selectedItemState[identifier][data.id] ? "is-flipped" : ""
-                  }`}
-                  onClick={() => this.toggleClass(identifier, data.id)}
-                >
-                  <div className="card__face--front">
-                    <div className="card-image">
-                      <img src={data.src} />
-                    </div>
-                    <div className="hover-content" style={{ color: "white" }}>
-                    {ReactHtmlParser(data.frontText)}
-                    </div>
+      <Slider {...settings}>
+        {dataset.map((data, idx) => {
+          // console.log("parsed backtext is ", ReactHtmlParser(data.backText));
+          return (
+            <div className="card-wrapper">
+              <div
+                key={data.id}
+                className={`card ${
+                  selectedItemState[identifier][data.id] ? "is-flipped" : ""
+                }`}
+                onClick={() => this.toggleClass(identifier, data.id)}
+              >
+                <div className="card__face--front">
+                  <div className="card-image">
+                    <img src={data.src} />
                   </div>
-                  <div className="card__face--back" style={{backgroundColor: data.cardColor}}>
-                    {ReactHtmlParser(data.backText)}
+                  <div className="hover-content" style={{ color: "white" }}>
+                    {ReactHtmlParser(data.frontText)}
                   </div>
                 </div>
+                <div
+                  className="card__face--back"
+                  style={{ backgroundColor: data.cardColor }}
+                >
+                  {ReactHtmlParser(data.backText)}
+                </div>
               </div>
-            );
-          })}
-        </Slider>
-      )
+            </div>
+          );
+        })}
+      </Slider>
     );
 
     return (
       <div className="page-container">
-         <div className="animation-left">
+        <div className="animation-left">
           <Link to="/professional">
             <svg
               fill="#ff8787"
@@ -155,9 +156,22 @@ export default class HobbiesPage extends React.Component {
             </svg>
           </Link>
         </div>
-        <div className="container mt-5 carousel">
-          <h1 className="slider_title">Hobbies</h1>
+        {/* <h1 className="slider_title">Hobbies</h1> */}
+
+        {/* <div className="container mt-5 carousel">
+          <h1 className="slider_title">Test</h1>
           {SlideShow({ identifier: 0, dataset: astrologyData })}
+        </div> */}
+
+        <div className="">
+          <div className="introduction-text">
+            <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
+              During my spare time, I love to experiment with 2D digital
+              drawing, 3D modeling, animation, jewelry design, and resin!
+            </SplitText>
+            <h1>Which collection do you want to see?</h1>
+          </div>
+          
         </div>
       </div>
     );
