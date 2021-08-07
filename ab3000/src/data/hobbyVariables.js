@@ -1,13 +1,22 @@
-import Icon from "../pages/icon";
-
-{/* <h1 style="font-family: avenir">Spontaneous. <br> 
+{
+  /* <h1 style="font-family: avenir">Spontaneous. <br> 
       Adventurous. <br> 
       Bold. <br> 
       Confident. <br> 
       Determined. 
       <br><br><br> 
-      Never a dull moment!</h1> */}
+      Never a dull moment!</h1> */
+}
 
+
+export const charPoses = {
+  exit: { opacity: 0, y: 20 },
+  enter: {
+    opacity: 1,
+    y: 0,
+    delay: ({ charIndex }) => charIndex * 10,
+  },
+};
 
 //Some information from https://www.pinterest.de/pin/334533078557639580/
 export const astrologyData = [

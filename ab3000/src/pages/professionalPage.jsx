@@ -147,7 +147,7 @@ export default class ProfessionalPage extends React.Component {
             margin: "130px",
           }}
         >
-          <div className="center-panel">
+          <div className="introduction-panel">
             <SplitText
               initialPose="exit"
               pose="enter"
