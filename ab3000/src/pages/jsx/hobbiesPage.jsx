@@ -9,9 +9,7 @@ import "../css/bootstrap-grid.scss";
 import ReactHtmlParser from "react-html-parser";
 import { astrologyData, charPoses } from "../../data/hobbyVariables";
 import SplitText from "react-pose-text";
-import Button from 'react-bootstrap/Button';
-
-
+import Button from "react-bootstrap/Button";
 
 const settings = {
   dots: true,
@@ -174,7 +172,13 @@ export default class HobbiesPage extends React.Component {
             </SplitText>
             <h1>Which collection do you want to see?</h1>
           </div>
-          <h1>Coming soon!</h1>
+          <h1
+            style={{
+              color: "white",
+            }}
+          >
+            Coming soon!
+          </h1>
         </div>
       </div>
     );
