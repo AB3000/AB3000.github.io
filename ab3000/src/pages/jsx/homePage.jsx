@@ -1,10 +1,10 @@
 import React from "react";
-import "./homeStyle.scss";
+import "../css/homeStyle.scss";
 import { Link } from "react-router-dom";
 import posed from "react-pose";
 import { tween } from "popmotion";
 import { interpolate } from "flubber";
-import { homeStyles, paths } from "../data/variables";
+import { homeStyles, paths } from "../../data/variables";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,

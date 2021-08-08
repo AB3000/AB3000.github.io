@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { professionalData, fasterCharPoses } from "../data/variables";
+import { professionalData, fasterCharPoses } from "../../data/variables";
 import SplitText from "react-pose-text";
-import "./professionalStyle.scss";
+import "../css/professionalStyle.scss";
 import {
   VerticalTimeline,
   VerticalTimelineElement,

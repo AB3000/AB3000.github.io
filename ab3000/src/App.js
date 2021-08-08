@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import './App.css';
-import HomePage from './pages/homePage';
-import ProfessionalPage from './pages/professionalPage';
-import HobbiesPage from './pages/hobbiesPage';
+import HomePage from './pages/jsx/homePage';
+import ProfessionalPage from './pages/jsx/professionalPage';
+import HobbiesPage from './pages/jsx/hobbiesPage';
 //transition group components for smooth transition to pages
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
