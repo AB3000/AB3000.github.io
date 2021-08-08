@@ -174,6 +174,7 @@ export default class HobbiesPage extends React.Component {
             </SplitText>
             <h1>Which collection do you want to see?</h1>
           </div>
+          <h1>Coming soon!</h1>
         </div>
       </div>
     );
