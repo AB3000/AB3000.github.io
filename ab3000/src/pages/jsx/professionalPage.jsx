@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { professionalData, fasterCharPoses } from "../../data/variables";
 import SplitText from "react-pose-text";
-import "../css/professionalStyle.scss";
+import "../css/professional-style.scss";
 import {
   VerticalTimeline,
   VerticalTimelineElement,

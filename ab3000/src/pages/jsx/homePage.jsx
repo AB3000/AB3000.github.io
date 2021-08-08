@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/homeStyle.scss";
+import "../css/home-style.scss";
 import { Link } from "react-router-dom";
 import posed from "react-pose";
 import { tween } from "popmotion";

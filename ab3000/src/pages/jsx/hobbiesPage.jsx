@@ -1,7 +1,7 @@
 import React from "react";
 import update from "immutability-helper";
 import { Link } from "react-router-dom";
-import "../css/hobbiesStyle.scss";
+import "../css/hobbies-style.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -172,13 +172,6 @@ export default class HobbiesPage extends React.Component {
             </SplitText>
             <h1>Which collection do you want to see?</h1>
           </div>
-          <h1
-            style={{
-              color: "white",
-            }}
-          >
-            Coming soon!
-          </h1>
         </div>
       </div>
     );
