@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../css/bootstrap-grid.scss";
+import "../css/fancy-buttons.scss";
 import ReactHtmlParser from "react-html-parser";
 import { astrologyData, charPoses } from "../../data/hobbyVariables";
 import SplitText from "react-pose-text";
@@ -34,6 +35,10 @@ export default class HobbiesPage extends React.Component {
     this.state = {
       selectedItemState: slideShowStates,
     };
+  }
+
+  handleClick(id) {
+    console.log("in cardClick, id is ", id);
   }
 
   toggleClass = (identifier, id) => {
@@ -164,13 +169,33 @@ export default class HobbiesPage extends React.Component {
           {SlideShow({ identifier: 0, dataset: astrologyData })}
         </div> */}
 
-        <div className="">
+        <div className="test">
           <div className="introduction-text">
             <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
               During my spare time, I love to experiment with 2D digital
               drawing, 3D modeling, animation, jewelry design, and resin!
             </SplitText>
             <h1>Which collection do you want to see?</h1>
+            <div className="intro-wrapper">
+              <div className="sketchy link" onClick={() => this.handleClick(0)}>
+                Resin Pendants
+              </div>
+              <div className="sketchy link" onClick={() => this.handleClick(1)}>
+                Jewelry
+              </div>
+              <div className="sketchy link" onClick={() => this.handleClick(2)}>
+                3D Modeling
+              </div>
+              <div className="sketchy link" onClick={() => this.handleClick(3)}>
+                Animation
+              </div>
+            </div>
+          </div>
+          <div >
+            {/* <div className="container mt-5 carousel">
+              <h1 className="slider_title">Test</h1>
+              {SlideShow({ identifier: 0, dataset: astrologyData })}
+            </div> */}
           </div>
         </div>
       </div>

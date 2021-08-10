@@ -47,6 +47,22 @@ $Raleway: "Raleway", sans-serif;
   }
 } //card-wrapper
 
+.intro-wrapper {
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  // padding: 10px;
+  // perspective: 1000px;
+  // box-sizing: border-box;
+  overflow: hidden;
+  // &:active,
+  // &:hover,
+  // &:focus {
+  //   outline: none;
+  //   border: none;
+  // }
+} //intro-wrapper
+
 .card {
     position: relative;
     width: 100%;

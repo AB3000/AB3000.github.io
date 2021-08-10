@@ -1,0 +1,41 @@
+.sketchy {
+    // padding: 4rem 8rem;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 3px solid #444444;
+    // font-size: 2.5rem;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    // background: #ffffff;
+    position: relative; 
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+    
+    &:hover{
+        border: 3px solid #ff7d7d;
+        color: #ff7d7d;
+    }
+
+    &::before {
+        content: '';
+        border: 2px solid #7e7e7e;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+        border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+    }
+}
+
+.sketchy:hover::before{
+    border: 2px solid #ffa1a1;
+}
+
+.sketchy.link {
+    padding: 10px;
+    margin: 10px 10px;
+}
