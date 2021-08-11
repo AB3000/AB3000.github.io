@@ -24,11 +24,12 @@ $Raleway: "Raleway", sans-serif;
 }
 
 .slider_title {
-  font-size: 5vw;
+  // font-size: 5vw;
   color: #ff8787;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 2vw;
+  font-family: fantasy;
 }
 
 .card-wrapper {
@@ -109,7 +110,7 @@ $Raleway: "Raleway", sans-serif;
 .container.carousel{
   padding-left: 10px;
   padding-right: 10px;
-  // padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 .carousel {
   .slick-dots {
@@ -208,3 +209,12 @@ $Raleway: "Raleway", sans-serif;
 span{
   color: black;
 }
+
+.section.is-hidden{
+  // display: none;
+  display: none;
+}
+
+// .section{
+//   display: none;
+// }

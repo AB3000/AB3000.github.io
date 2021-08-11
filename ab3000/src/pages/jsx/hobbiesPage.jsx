@@ -21,7 +21,7 @@ const settings = {
   cssEase: "linear",
 };
 
-const allPictureData = [astrologyData];
+const allPictureData = [astrologyData, astrologyData];
 
 var slideShowStates = new Array(allPictureData.length);
 
@@ -34,11 +34,23 @@ export default class HobbiesPage extends React.Component {
     super(props);
     this.state = {
       selectedItemState: slideShowStates,
+      isActive: false,
+      sectionID: null,
     };
   }
 
   handleClick(id) {
-    console.log("in cardClick, id is ", id);
+    this.setState({ sectionID: id}, function () {
+      //console.log("sectionID is ", this.state.sectionID);
+
+      if(this.state.sectionID === id){
+        console.log("in here");
+        this.setState({ isActive: true});
+      } else{
+        this.setState({isActive: false});
+      }
+
+    });
   }
 
   toggleClass = (identifier, id) => {
@@ -55,7 +67,7 @@ export default class HobbiesPage extends React.Component {
   };
 
   render() {
-    const { selectedItemState } = this.state;
+    const { selectedItemState, isActive, sectionID } = this.state;
 
     const SlideShow = ({ identifier, dataset }) => (
       <Slider {...settings}>
@@ -191,12 +203,24 @@ export default class HobbiesPage extends React.Component {
               </div>
             </div>
           </div>
-          <div >
-            {/* <div className="container mt-5 carousel">
-              <h1 className="slider_title">Test</h1>
+          <div
+            className={`section ${
+              this.state.sectionID === 0 && isActive ? "" : "is-hidden"}`}
+          >
+            <div className="container mt-5 carousel">
+              <h1 className="slider_title">Astrology</h1>
               {SlideShow({ identifier: 0, dataset: astrologyData })}
-            </div> */}
+            </div>
           </div>
+          {/* <div
+            className={`section ${
+              this.state.sectionID === 1 && isActive ? "" : "is-hidden"}`}
+          >
+            <div className="container mt-5 carousel">
+              <h1 className="slider_title">Class 2</h1>
+              {SlideShow({ identifier: 1, dataset: astrologyData })}
+            </div>
+          </div> */}
         </div>
       </div>
     );
