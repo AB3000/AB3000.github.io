@@ -173,13 +173,6 @@ export default class HobbiesPage extends React.Component {
             </svg>
           </Link>
         </div>
-        {/* <h1 className="slider_title">Hobbies</h1> */}
-
-        {/* <div className="container mt-5 carousel">
-          <h1 className="slider_title">Test</h1>
-          {SlideShow({ identifier: 0, dataset: astrologyData })}
-        </div> */}
-
         <div className="test">
           <div className="introduction-text">
             <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
@@ -231,7 +224,30 @@ export default class HobbiesPage extends React.Component {
               <h1 className="slider_title">Astrology</h1>
               {SlideShow({ identifier: 0, dataset: astrologyData })}
             </div>
+            <h1 className="coming-soon">More coming soon!</h1>
           </div>
+          <div
+            className={`section ${
+              this.state.sectionID === 1 && isActive ? "" : "is-hidden"
+            }`}
+          >
+            <h1 className="coming-soon">Coming soon!</h1>
+          </div>
+          <div
+            className={`section ${
+              this.state.sectionID === 2 && isActive ? "" : "is-hidden"
+            }`}
+          >
+            <h1 className="coming-soon">Coming soon!</h1>
+          </div>
+          <div
+            className={`section ${
+              this.state.sectionID === 3 && isActive ? "" : "is-hidden"
+            }`}
+          >
+            <h1 className="coming-soon">Coming soon!</h1>
+          </div>
+          
           {/* <div
             className={`section ${
               this.state.sectionID === 1 && isActive ? "" : "is-hidden"}`}
