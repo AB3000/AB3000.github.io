@@ -39,3 +39,11 @@
     padding: 10px;
     margin: 10px 10px;
 }
+
+.sketchy.link.selected{
+    border: 3px solid #ff7d7d;
+    color: #ff7d7d;
+    &::before {
+        border: 2px solid #ffa1a1;
+    }
+}

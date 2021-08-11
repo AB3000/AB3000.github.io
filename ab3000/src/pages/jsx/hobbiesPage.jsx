@@ -40,16 +40,15 @@ export default class HobbiesPage extends React.Component {
   }
 
   handleClick(id) {
-    this.setState({ sectionID: id}, function () {
+    this.setState({ sectionID: id }, function () {
       //console.log("sectionID is ", this.state.sectionID);
 
-      if(this.state.sectionID === id){
-        console.log("in here");
-        this.setState({ isActive: true});
-      } else{
-        this.setState({isActive: false});
+      if (this.state.sectionID === id) {
+        // console.log("in here");
+        this.setState({ isActive: true });
+      } else {
+        this.setState({ isActive: false });
       }
-
     });
   }
 
@@ -189,23 +188,44 @@ export default class HobbiesPage extends React.Component {
             </SplitText>
             <h1>Which collection do you want to see?</h1>
             <div className="intro-wrapper">
-              <div className="sketchy link" onClick={() => this.handleClick(0)}>
+              <div
+                className={`sketchy link ${
+                  this.state.sectionID === 0 && isActive ? "selected" : ""
+                }`}
+                onClick={() => this.handleClick(0)}
+              >
                 Resin Pendants
               </div>
-              <div className="sketchy link" onClick={() => this.handleClick(1)}>
+              <div
+                className={`sketchy link ${
+                  this.state.sectionID === 1 && isActive ? "selected" : ""
+                }`}
+                onClick={() => this.handleClick(1)}
+              >
                 Jewelry
               </div>
-              <div className="sketchy link" onClick={() => this.handleClick(2)}>
+              <div
+                className={`sketchy link ${
+                  this.state.sectionID === 2 && isActive ? "selected" : ""
+                }`}
+                onClick={() => this.handleClick(2)}
+              >
                 3D Modeling
               </div>
-              <div className="sketchy link" onClick={() => this.handleClick(3)}>
+              <div
+                className={`sketchy link ${
+                  this.state.sectionID === 3 && isActive ? "selected" : ""
+                }`}
+                onClick={() => this.handleClick(3)}
+              >
                 Animation
               </div>
             </div>
           </div>
           <div
             className={`section ${
-              this.state.sectionID === 0 && isActive ? "" : "is-hidden"}`}
+              this.state.sectionID === 0 && isActive ? "" : "is-hidden"
+            }`}
           >
             <div className="container mt-5 carousel">
               <h1 className="slider_title">Astrology</h1>
