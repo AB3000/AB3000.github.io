@@ -9,9 +9,9 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { leftArrow } from './arrows'
 
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-
 
 const TimelineItem = ({ data }) => (
   <VerticalTimelineElement
@@ -22,7 +22,7 @@ const TimelineItem = ({ data }) => (
     icon={
       <FontAwesomeIcon transform={data.iconOffset} icon={data.icon} size="2x" />
     }
-    contentArrowStyle={{ borderRight: '7px solid  #424242' }}
+    contentArrowStyle={{ borderRight: "7px solid  #424242" }}
   >
     {data.title && <h2>{data.title}</h2>}
     {data.position && <h4>Position: {data.position}</h4>}
@@ -72,41 +72,18 @@ export default class ProfessionalPage extends React.Component {
   render() {
     return (
       <div className="page-container page">
-         <div className="animation-left">
-          <Link to="/">
-            <svg
-              transform="translate(0, 200)"
-              fill="#ff8787"
-              style={{
-                float: "left",
-                padding: "20px",
-              }}
-              width="250"
-              height="80"
-            >
-              <path
-                id="left_path"
-                fill="#ff8787"
-                transform="scale(1.03458333) translate(10, -115)"
-                d="m 139.19047,150.28626 c 2.3235,-0.005 4.79464,-0.13319 8.71316,-0.48266 2.4473,-0.21826 4.89771,-0.49303 7.3055,-0.98236 2.6369,-0.53589 7.33212,-1.96601 9.68313,-3.70004 1.07164,-0.79041 1.80047,-1.96271 2.70061,-2.944 0.50955,-1.1434 1.20053,-2.22223 1.52859,-3.43028 1.01533,-3.73885 0.41267,-7.94599 -0.83819,-11.53522 -0.38367,-1.10092 -0.94048,-2.13404 -1.41077,-3.20084 l -7.27087,-3.31452 c 0.50793,1.03821 1.10441,2.03737 1.52342,3.11454 1.33028,3.41972 1.9747,7.41405 1.05936,11.03653 -0.28637,1.13334 -0.90493,2.15562 -1.35754,3.2334 -0.81329,0.92705 -1.47007,2.01979 -2.44016,2.78122 -2.2453,1.76235 -6.43912,3.22227 -9.03097,3.83904 -8.53053,2.02996 -17.43125,1.96356 -26.11934,1.50792 -10.45154,-1.31725 -12.94986,-1.30314 -23.361877,-4.00234 -3.896977,-1.01025 -7.70944,-2.3243 -11.54865,-3.5357 -10.415653,-3.2865 -20.687865,-7.11761 -31.36966,-9.49244 -5.197589,-0.7527 -9.912045,-1.67976 -15.179437,-1.54823 -2.081347,0.052 -4.199429,0.46824 -6.237861,1.11053 l -4.180623,-5.45858 -9.429398,7.18664 -9.429399,7.18612 15.718936,1.02526 15.718938,1.02526 -4.102076,-5.35574 c 0.275437,-0.13061 0.640638,-0.27397 1.318268,-0.53537 2.240563,-0.86432 4.554347,-1.59119 6.982518,-1.72031 5.260964,-0.27975 9.165783,0.5448 14.414624,1.27073 10.403929,2.28997 20.451404,5.87029 30.599165,9.04699 3.833312,1.2 7.636582,2.51363 11.528492,3.50728 9.89934,2.5274 13.53299,2.69903 23.52053,3.99252 5.26096,0.18579 8.00422,0.38145 10.99158,0.37465 z" 
-              />
-              <text dy="-25%">
-                <textPath
-                  href="#left_path"
-                  style={{
-                    fontSize: 18,
-                    fontFamily: "Aclonica"
-                  }}
-                  textLength="30%"
-                  startOffset="80.5%"
-                >
-                  Home
-                </textPath>
-              </text>
-            </svg>
-          </Link>
-        </div>
-
+        {leftArrow(
+          "/",
+          "translate(0, 200)",
+          "#ff8787",
+          "250",
+          "80",
+          "scale(1.03458333) translate(10, -115)",
+          "-10",
+          "30%",
+          "80.5%",
+          "Home"
+        )}
         <div className="animation-right">
           <Link to="/hobbies">
             <svg
@@ -130,7 +107,7 @@ export default class ProfessionalPage extends React.Component {
                   href="#right_path"
                   style={{
                     fontSize: 18,
-                    fontFamily: "Aclonica"
+                    fontFamily: "Aclonica",
                   }}
                   textLength="50%"
                   startOffset="-1.25%"
@@ -171,7 +148,6 @@ export default class ProfessionalPage extends React.Component {
           />
         </VerticalTimeline>
       </div>
-      
     );
   }
 }
