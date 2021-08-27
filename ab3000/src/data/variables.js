@@ -153,7 +153,7 @@ export const paths = {
 
 export const professionalData = [
   {
-    date: "May 2021 - Present",
+    date: "May 2021 - August 2021",
     title: "Cisco",
     position: "Software Engineer",
     location: "San Jose, CA",

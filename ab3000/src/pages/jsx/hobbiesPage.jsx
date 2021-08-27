@@ -1,6 +1,5 @@
 import React from "react";
 import update from "immutability-helper";
-import { Link } from "react-router-dom";
 import "../css/hobbies-style.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -8,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../css/bootstrap-grid.scss";
 import "../css/fancy-buttons.scss";
 import ReactHtmlParser from "react-html-parser";
-import { astrologyData, charPoses } from "../../data/hobbyVariables";
+import { astrologyData, accAstrologyData, charPoses } from "../../data/hobbyVariables";
 import SplitText from "react-pose-text";
 import { leftArrow, rightArrow } from "./arrows";
 
@@ -21,7 +20,7 @@ const settings = {
   cssEase: "linear",
 };
 
-const allPictureData = [astrologyData, astrologyData];
+const allPictureData = [astrologyData, accAstrologyData];
 
 var slideShowStates = new Array(allPictureData.length);
 
@@ -41,10 +40,7 @@ export default class HobbiesPage extends React.Component {
 
   handleClick(id) {
     this.setState({ sectionID: id }, function () {
-      //console.log("sectionID is ", this.state.sectionID);
-
       if (this.state.sectionID === id) {
-        // console.log("in here");
         this.setState({ isActive: true });
       } else {
         this.setState({ isActive: false });
@@ -53,7 +49,6 @@ export default class HobbiesPage extends React.Component {
   }
 
   toggleClass = (identifier, id) => {
-    // console.log("identifier is ", identifier, "and id is", id);
     this.setState(
       update(this.state, {
         selectedItemState: {
@@ -71,7 +66,6 @@ export default class HobbiesPage extends React.Component {
     const SlideShow = ({ identifier, dataset }) => (
       <Slider {...settings}>
         {dataset.map((data, idx) => {
-          // console.log("parsed backtext is ", ReactHtmlParser(data.backText));
           return (
             <div className="card-wrapper">
               <div
@@ -175,10 +169,23 @@ export default class HobbiesPage extends React.Component {
               this.state.sectionID === 0 && isActive ? "" : "is-hidden"
             }`}
           >
+            <div className="dividing-text">
+              <h1 className="coming-soon">
+                ASTROLOGY - During the 2020 pandemic, I found an interest in astrology. 
+                Delving into the traits of my sun sign was exciting, so I thought that others might enjoy
+                learning more about their signs too! During each astrological month, I tried to capture the unique qualities
+                of each sign in pocket-sized pendants. 
+              </h1>
+            </div>
+
             <div className="container mt-5 carousel">
-              <h1 className="slider_title">Astrology</h1>
+              <h1 className="slider_title">The Twelve Signs</h1>
               {SlideShow({ identifier: 0, dataset: astrologyData })}
             </div>
+            {/* <div className="container mt-5 carousel">
+              <h1 className="slider_title">Accompanying Pendants</h1>
+              {SlideShow({ identifier: 1, dataset: accAstrologyData })}
+            </div> */}
             <h1 className="coming-soon">More coming soon!</h1>
           </div>
           <div

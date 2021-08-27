@@ -21,7 +21,7 @@ export const charPoses = {
 //Some information from https://www.pinterest.de/pin/334533078557639580/
 export const astrologyData = [
   {
-    src: "images/astrology/aries.png",
+    src: "images/astrology/main_pendants/aries.png",
     frontText: `Spontaneous, adventurous, bold, confident, and determined. Never a dull moment!`,
     backText: `<h1>Aries the Ram</h1>
     <h2>Element: Fire</h2>
@@ -39,7 +39,7 @@ export const astrologyData = [
     cardColor: "rgb(255, 202, 202)",
   },
   {
-    src: "images/astrology/taurus.png",
+    src: "images/astrology/main_pendants/taurus.png",
     frontText:
       "Intelligent, headstrong, dedicated, reliable, and diligent. I fight well.",
     backText: `<h1>Taurus the Bull</h1>
@@ -58,7 +58,7 @@ export const astrologyData = [
     cardColor: "rgb(211, 255, 202)",
   },
   {
-    src: "images/astrology/gemini.png",
+    src: "images/astrology/main_pendants/gemini.png",
     frontText:
       "Playful, curious, affectionate, witty, and adaptable. Catch me if you can!",
     backText: `<h1>Gemini the Twins</h1>
@@ -76,7 +76,7 @@ export const astrologyData = [
     cardColor: "rgb(255, 250, 202)",
   },
   {
-    src: "images/astrology/cancer.png",
+    src: "images/astrology/main_pendants/cancer.png",
     frontText:
       "Compassionate, sensitive, nurturing, patient, and romantic. I'll always be by your side.",
     backText: `<h1>Cancer the Crab</h1>
@@ -94,7 +94,7 @@ export const astrologyData = [
     cardColor: "rgb(202, 255, 252)",
   },
   {
-    src: "images/astrology/leo.png",
+    src: "images/astrology/main_pendants/leo.png",
     frontText:
       "Ambitious, loyal, confident, generous, and perseverant. Heads turn when I make an entrance.",
     backText: `<h1>Leo the Lion</h1>
@@ -112,7 +112,7 @@ export const astrologyData = [
     cardColor: "rgb(255, 202, 202)",
   },
   {
-    src: "images/astrology/virgo.png",
+    src: "images/astrology/main_pendants/virgo.png",
     frontText:
       "Intelligent, meticulous, practical, organized, and adaptable. I'm not afraid of standing alone.",
     backText: `<h1>Virgo the Maiden</h1>
@@ -131,7 +131,7 @@ export const astrologyData = [
     cardColor: "rgb(211, 255, 202)",
   },
   {
-    src: "images/astrology/libra.png",
+    src: "images/astrology/main_pendants/libra.png",
     frontText:
       "Charming, social, diplomatic, balanced, and cheerful. I'm the eye in a storm.",
     backText: `<h1>Libra the Scale</h1>
@@ -149,7 +149,7 @@ export const astrologyData = [
     cardColor: "rgb(255, 250, 202)",
   },
   {
-    src: "images/astrology/scorpio.png",
+    src: "images/astrology/main_pendants/scorpio.png",
     frontText:
       "Mysterious, perceptive, collected, determined, and astute. My wit is sharp.",
     backText: `<h1>Scorpio the Scorpion</h1>
@@ -167,7 +167,7 @@ export const astrologyData = [
     cardColor: "rgb(202, 255, 252)",
   },
   {
-    src: "images/astrology/sagittarius.png",
+    src: "images/astrology/main_pendants/sagittarius.png",
     frontText:
       "Optimistic, philosophical, adventurous, scholarly, and honest. You'll never forget me.",
     backText: `<h1>Sagittarius the Archer</h1>
@@ -185,7 +185,7 @@ export const astrologyData = [
     cardColor: "rgb(255, 202, 202)",
   },
   {
-    src: "images/astrology/capricorn.png",
+    src: "images/astrology/main_pendants/capricorn.png",
     frontText:
       "Practical, disciplined, respectful, hardworking, and serious. The early bird catches the worm.",
     backText: `<h1>Capricorn the Sea Goat</h1>
@@ -203,7 +203,7 @@ export const astrologyData = [
     cardColor: "rgb(211, 255, 202)",
   },
   {
-    src: "images/astrology/aquarius.png",
+    src: "images/astrology/main_pendants/aquarius.png",
     frontText:
       "Friendly, creative, independent, intelligent, and approachable. Crazy ideas change the world.",
     backText: `<h1>Aquarius the Water-Bearer</h1>
@@ -221,7 +221,7 @@ export const astrologyData = [
     cardColor: "rgb(255, 250, 202)",
   },
   {
-    src: "images/astrology/pisces.png",
+    src: "images/astrology/main_pendants/pisces.png",
     frontText:
       "Wise, kind, gentle, artistic, and trusting. I sing the body electric.",
     backText: `<h1>Pisces the Fish</h1>
@@ -240,6 +240,227 @@ export const astrologyData = [
   },
 ];
 
+
+export const accAstrologyData = [
+  {
+    src: "images/astrology/acc_pendants/gemini_one.png",
+    frontText: `Spontaneous, adventurous, bold, confident, and determined. Never a dull moment!`,
+    backText: `<h1>Aries the Ram</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <span class="icon-aries" data-icon="&#xe90b;"></span>
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Aries, Leo, Sagittarius, Aquarius, and
+      Gemini.
+    </h3>
+    <h3>"The leader of the zodiac"</h3>`,
+    id: 0,
+    cardColor: "rgb(255, 202, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/taurus.png",
+    frontText:
+      "Intelligent, headstrong, dedicated, reliable, and diligent. I fight well.",
+    backText: `<h1>Taurus the Bull</h1>
+    <h2>Element: Earth</h2>
+    <h2>
+      Symbol: <span class="icon-taurus" data-icon="&#x74;"></span>
+    </h2>
+    <h2>Modality: Fixed</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Taurus, Virgo, Capricorn, Cancer, and
+      Pisces.
+    </h3>
+    <h3>"The owner of the zodiac"</h3>`,
+    id: 1,
+    cardColor: "rgb(211, 255, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/gemini.png",
+    frontText:
+      "Playful, curious, affectionate, witty, and adaptable. Catch me if you can!",
+    backText: `<h1>Gemini the Twins</h1>
+    <h2>Element: Air</h2>
+    <h2>
+      Symbol: <span class="icon-gemini" data-icon="&#x67;"></span>
+    </h2>
+    <h2>Modality: Mutable</h2>
+    <h2>Season: Spring</h2>
+    <h3>
+      Most compatible with Gemini, Libra, Aquarius, Leo, and Aries.
+    </h3>
+    <h3>"The child of the zodiac"</h3>`,
+    id: 2,
+    cardColor: "rgb(255, 250, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/cancer.png",
+    frontText:
+      "Compassionate, sensitive, nurturing, patient, and romantic. I'll always be by your side.",
+    backText: `<h1>Cancer the Crab</h1>
+    <h2>Element: Water</h2>
+    <h2>
+      Symbol: <span class="icon-cancer" data-icon="&#x908;"></span>
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Summer</h2>
+    <h3>
+      Most compatible with Cancer, Scorpio, Pisces, Virgo, and Taurus.
+    </h3>
+    <h3>"The mother of the zodiac"</h3>`,
+    id: 3,
+    cardColor: "rgb(202, 255, 252)",
+  },
+  {
+    src: "images/astrology/main_pendants/leo.png",
+    frontText:
+      "Ambitious, loyal, confident, generous, and perseverant. Heads turn when I make an entrance.",
+    backText: `<h1>Leo the Lion</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <span class="icon-leo" data-icon="&#x6c;"></span>
+    </h2>
+    <h2>Modality: Fixed</h2>
+    <h2>Season: Summer</h2>
+    <h3>
+      Most compatible with Leo, Sagittarius, Aries, Gemini, and Libra.
+    </h3>
+    <h3>"The protector of the zodiac"</h3>`,
+    id: 4,
+    cardColor: "rgb(255, 202, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/virgo.png",
+    frontText:
+      "Intelligent, meticulous, practical, organized, and adaptable. I'm not afraid of standing alone.",
+    backText: `<h1>Virgo the Maiden</h1>
+    <h2>Element: Earth</h2>
+    <h2>
+      Symbol: <span class="icon-virgo" data-icon="&#x76;"></span>
+    </h2>
+    <h2>Modality: Mutable</h2>
+    <h2>Season: Summer</h2>
+    <h3>
+      Most compatible with Virgo, Taurus, Capricorn, Scorpio, and
+      Cancer.
+    </h3>
+    <h3>"The helper of the zodiac"</h3>`,
+    id: 5,
+    cardColor: "rgb(211, 255, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/libra.png",
+    frontText:
+      "Charming, social, diplomatic, balanced, and cheerful. I'm the eye in a storm.",
+    backText: `<h1>Libra the Scale</h1>
+    <h2>Element: Air</h2>
+    <h2>
+      Symbol: <span class="icon-libra" data-icon="&#xe905;"></span>
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Fall</h2>
+    <h3>
+      Most compatible with Libra, Aquarius, Gemini, Sagittarius, and Leo.
+    </h3>
+    <h3>"The law of the zodiac"</h3>`,
+    id: 6,
+    cardColor: "rgb(255, 250, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/scorpio.png",
+    frontText:
+      "Mysterious, perceptive, collected, determined, and astute. My wit is sharp.",
+    backText: `<h1>Scorpio the Scorpion</h1>
+    <h2>Element: Water</h2>
+    <h2>
+      Symbol: <span class="icon-scorpio" data-icon="&#x73;"></span>
+    </h2>
+    <h2>Modality: Fixed</h2>
+    <h2>Season: Fall</h2>
+    <h3>
+      Most compatible with Scorpio, Pisces, Cancer, Capricorn, and Virgo.
+    </h3>
+    <h3>"The magician of the zodiac"</h3>`,
+    id: 7,
+    cardColor: "rgb(202, 255, 252)",
+  },
+  {
+    src: "images/astrology/main_pendants/sagittarius.png",
+    frontText:
+      "Optimistic, philosophical, adventurous, scholarly, and honest. You'll never forget me.",
+    backText: `<h1>Sagittarius the Archer</h1>
+    <h2>Element: Fire</h2>
+    <h2>
+      Symbol: <span class="icon-sagittarius" data-icon="&#xe903;"></span>
+    </h2>
+    <h2>Modality: Mutable</h2>
+    <h2>Season: Fall</h2>
+    <h3>
+      Most compatible with Sagittarius, Aries, Leo, Aquarius, and Libra.
+    </h3>
+    <h3>"The tourist of the zodiac"</h3>`,
+    id: 8,
+    cardColor: "rgb(255, 202, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/capricorn.png",
+    frontText:
+      "Practical, disciplined, respectful, hardworking, and serious. The early bird catches the worm.",
+    backText: `<h1>Capricorn the Sea Goat</h1>
+    <h2>Element: Earth</h2>
+    <h2>
+      Symbol: <span class="icon-capricorn" data-icon="&#x63;"></span>
+    </h2>
+    <h2>Modality: Cardinal</h2>
+    <h2>Season: Winter</h2>
+    <h3>
+      Most compatible with Capricorn, Taurus, Virgo, Pisces, and Scorpio.
+    </h3>
+    <h3>"The father of the zodiac"</h3>`,
+    id: 9,
+    cardColor: "rgb(211, 255, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/aquarius.png",
+    frontText:
+      "Friendly, creative, independent, intelligent, and approachable. Crazy ideas change the world.",
+    backText: `<h1>Aquarius the Water-Bearer</h1>
+    <h2>Element: Air</h2>
+    <h2>
+      Symbol: <span class="icon-aquarius" data-icon="&#x61;"></span>
+    </h2>
+    <h2>Modality: Fixed</h2>
+    <h2>Season: Winter</h2>
+    <h3>
+      Most compatible with Aquarius, Gemini, Libra, Aries, and Sagittarius.
+    </h3>
+    <h3>"The eccentric of the zodiac"</h3>`,
+    id: 10,
+    cardColor: "rgb(255, 250, 202)",
+  },
+  {
+    src: "images/astrology/main_pendants/pisces.png",
+    frontText:
+      "Wise, kind, gentle, artistic, and trusting. I sing the body electric.",
+    backText: `<h1>Pisces the Fish</h1>
+    <h2>Element: Water</h2>
+    <h2>
+      Symbol: <span class="icon-pisces" data-icon="&#x70;"></span>
+    </h2>
+    <h2>Modality: Mutable</h2>
+    <h2>Season: Winter</h2>
+    <h3>
+      Most compatible with Pisces, Cancer, Scorpio, Taurus and Capricorn.
+    </h3>
+    <h3>"The elder of the zodiac"</h3>`,
+    id: 11,
+    cardColor: "rgb(202, 255, 252)",
+  },
+];
 // export const braceletData = [
 //   {
 //     path: require("../assets/images/Web-Files/Bracelets/FullSizeRender 2.png")
