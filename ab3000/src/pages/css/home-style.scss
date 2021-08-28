@@ -56,10 +56,14 @@
 
 a {
   color: inherit;
+  &:hover{
+    color: #ff7d7d;
+  }
 }
 
 a:link {
   text-decoration: none !important;
+
 }
 
 .animation-right:hover {
