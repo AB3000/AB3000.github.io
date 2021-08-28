@@ -1,5 +1,5 @@
 import React from "react";
-import { professionalData, fasterCharPoses } from "../../data/variables";
+import { professionalData, fasterCharPoses } from "../../data/professionalVariables";
 import SplitText from "react-pose-text";
 import "../css/professional-style.scss";
 import {
