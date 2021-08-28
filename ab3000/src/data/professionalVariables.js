@@ -153,7 +153,11 @@ export const paths = {
 
 export const professionalData = [
   {
-    date: "May 2021 - August 2021",
+    text: [
+      "Moved conveyor panels in InControlWare to match Autocad specifications.",
+      "Designed and leveraged SQL scripts to manipulate the lengths, positions, and angles of panels in bulk."
+    ],
+    date: "May - August 2021",
     title: "Cisco",
     position: "Software Engineer",
     location: "San Jose, CA",
@@ -181,6 +185,19 @@ export const professionalData = [
     icon: faGraduationCap,
     iconOffset: "left-4.5",
     iconColor: "rgb(255, 205, 205)",
+  },
+  {
+    text: [
+      "Led a group of seven students in preparing code under a Minecraft repository for open-sourcing under Microsoft.",
+      "Coordinated communication of information amongst team members, Microsoft mentors, and CS407 professors."
+    ],
+
+    date: "August - December 2020",
+    title: "RenderDragon - CS407 and Microsoft",
+    position: "Team Leader and Software Engineer",
+    icon: faLaptopCode,
+    iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
   },
   {
     text: [
