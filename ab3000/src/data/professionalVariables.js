@@ -154,8 +154,9 @@ export const paths = {
 export const professionalData = [
   {
     text: [
-      "Moved conveyor panels in InControlWare to match Autocad specifications.",
-      "Designed and leveraged SQL scripts to manipulate the lengths, positions, and angles of panels in bulk."
+      "Contributed to App Hosting and cross-compatibility changes in the Catalyst 9400 team.",
+      "Ran builds and performed bug-fixing for minor issues."
+      
     ],
     date: "May - August 2021",
     title: "Cisco",
