@@ -452,5 +452,32 @@ export const professionalData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-  }
+  },
+  {
+    text: [
+      "Constructed, modeled, and animated several 2D and 3D characters, objects and scenes for games, clips, and app logos.",
+      "Used software such as Inkscape, Krita, Adobe Photoshop, Adobe Animate, Unity, and Maya Autodesk."
+    ],
+    date: "Summer 2015 - present",
+    title: "2D and 3D modeling",
+    icon: faLaptopCode,
+    iconOffset: "left-5",
+    iconColor: "rgb(183, 255, 248)",
+  },
+  {
+    text: [
+      "Designed simple platforms to promote awareness and propose cures to several eye diseases, such as Glaucoma.",
+      "Developed and copyrighted an android app (South Asian Diet Watch) within 3 months. This app checks a person's BMI and lists foods with their glycemic indices, used for people with diabetes.", 
+      "The app can be found in google play and downloaded for free (currently undergoing updates/maintenance).",
+      "This app was accepted into the Endocrine Society of America."
+    ],
+    date: "Summer 2015",
+    title: "Gloria Wu, MD",
+    position: "Android App / Software Engineering Intern",
+    location: "Cambrian Park, San Jose, CA",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+  },
+
 ];
