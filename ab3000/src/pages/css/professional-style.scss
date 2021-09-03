@@ -11,6 +11,8 @@
     margin: 4px 10px;
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 20px;
+    
   }
   
   .button:hover {
@@ -73,9 +75,16 @@
   }
   
 
+
 .vertical-timeline.vertical-timeline-custom-line::before {
   background: #424242;
 }
+
+.vertical-timeline-element{
+  border-radius: 20px;
+}
+
+
 
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element-icon {
   box-shadow: 0 0 0 4px rgb(249, 205, 255), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
