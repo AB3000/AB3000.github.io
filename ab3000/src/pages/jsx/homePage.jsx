@@ -10,7 +10,8 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { leftArrow, rightArrow } from './arrows'
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { leftArrow, rightArrow } from "./arrows";
 
 const pathIds = Object.keys(paths);
 
@@ -67,8 +68,30 @@ export default class HomePage extends React.Component {
           </svg>
         </div>
         <div className="center-container">
-        {leftArrow("/hobbies", "translate(0, 200)", "black", "250", "80", "scale(1.03458333) translate(0, -110)", "-10", "40%", "77%", "Hobbies")}
-        {rightArrow("/professional", "translate(0, 200) scale(-1,-1)", "#ff8787", "250", "80", "scale(0.26458333) translate(0, -450)", "-10", "48%", "-3", "Professional")}
+          {leftArrow(
+            "/hobbies",
+            "translate(0, 200)",
+            "black",
+            "250",
+            "80",
+            "scale(1.03458333) translate(0, -110)",
+            "-10",
+            "40%",
+            "77%",
+            "Hobbies"
+          )}
+          {rightArrow(
+            "/professional",
+            "translate(0, 200) scale(-1,-1)",
+            "#ff8787",
+            "250",
+            "80",
+            "scale(0.26458333) translate(0, -450)",
+            "-10",
+            "48%",
+            "-3",
+            "Professional"
+          )}
           <div className="profile-container">
             Aarushi Banerjee
             <h6> Software Engineer </h6>
@@ -87,6 +110,9 @@ export default class HomePage extends React.Component {
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+              <a href="mailto:ab2424@cornell.edu">
+                <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </div>
           </div>
