@@ -153,6 +153,14 @@ export const paths = {
 
 export const professionalData = [
   {
+    date: "August 2021",
+    title: "Started my master's at Cornell Tech!",
+    location: "New York, New York",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "rgb(255, 205, 205)",
+  },
+  {
     text: [
       "Contributed to App Hosting and cross-compatibility changes in the Catalyst 9400 team.",
       "Ran builds and performed bug-fixing for minor issues."
