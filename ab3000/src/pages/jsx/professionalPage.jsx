@@ -159,7 +159,7 @@ export default class ProfessionalPage extends React.Component {
               and internships in machine learning and software engineering. I enjoy
               collaborating with people to design applications for entertainment
               and educational purposes. For my personal projects, I am interested
-              in learning new things through designing mini games and text
+              in experimentation with designing mini games and creating text
               analysis programs.
             </SplitText>
           </div>
