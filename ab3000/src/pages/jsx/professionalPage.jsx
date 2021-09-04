@@ -156,9 +156,9 @@ export default class ProfessionalPage extends React.Component {
               charPoses={fasterCharPoses}
             >
               Most of my professional work involves research, fulltime positons,
-              and internships in machine learning and education. I enjoy
+              and internships in machine learning and software engineering. I enjoy
               collaborating with people to design applications for entertainment
-              and scholastic purposes. For my personal projects, I am interested
+              and educational purposes. For my personal projects, I am interested
               in learning new things through designing mini games and text
               analysis programs.
             </SplitText>
