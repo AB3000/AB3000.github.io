@@ -291,7 +291,7 @@ export const timelineData = [
       "Presented this research in Purdue's Fall 2019 Research Expo.",
     ],
     date: "August 2019 - May 2020",
-    title: "Purdue University: Electrical & Computer Engineering Department",
+    title: "Purdue University: Department of Electrical & Computer Engineering",
     position: "Undergraduate Research Assistant",
     location: "West Lafayette, IN",
     icon: faSearch,
