@@ -1,5 +1,9 @@
 import React from "react";
-import { professionalData, fasterCharPoses } from "../../data/professionalVariables";
+import {
+  timelineData,
+  skillData,
+  fasterCharPoses,
+} from "../../data/professionalVariables";
 import SplitText from "react-pose-text";
 import "../css/professional-style.scss";
 import {
@@ -33,9 +37,9 @@ const TimelineItem = ({ data }) => (
 
 //check if at least one element in the array
 const Timeline = () =>
-  professionalData.length > 0 && (
+  timelineData.length > 0 && (
     <div>
-      {professionalData.map((data, idx) => (
+      {timelineData.map((data, idx) => (
         <TimelineItem data={data} key={idx} />
       ))}
     </div>
@@ -68,7 +72,77 @@ function addLinks(links) {
 }
 
 export default class ProfessionalPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isActive: true,
+      majorSectionID: 0,
+      skillSectionID: 0,
+    };
+  }
+
+  handleClick(id, majorSectionClick) {
+    if (majorSectionClick) {
+      this.setState({ majorSectionID: id }, function () {
+        if (this.state.majorSectionID === id) {
+          this.setState({ isActive: true });
+        } else {
+          this.setState({ isActive: false });
+        }
+      });
+    } else {
+      //skill subsection clicked
+      this.setState({ skillSectionID: id }, function () {
+        if (this.state.skillSectionID === id) {
+          this.setState({ isActive: true });
+        } else {
+          this.setState({ isActive: false });
+        }
+      });
+    }
+  }
+
   render() {
+    const { isActive, majorSectionID, skillSectionID } = this.state;
+
+    const SkillButtons = () =>
+      skillData.length > 0 && (
+        <div>
+          {skillData.map((data, idx) => (
+            <div
+              className={`underline link ${
+                this.state.skillSectionID === idx && isActive ? "selected" : ""
+              }`}
+              id={`skill-${idx}`}
+              onClick={() => this.handleClick(idx, false)}
+            >
+              {data.title}
+            </div>
+          ))}
+        </div>
+      );
+
+    const Skills = () =>
+      skillData.length > 0 && (
+        <div className="skill-container">
+          {skillData.map((data, idx) => (
+            <div
+              className={`section ${
+                this.state.skillSectionID === idx && isActive ? "" : "is-hidden"
+              }`}
+            >
+              {data.skills.map((skill) => (
+                <p className="skill">
+                  <img className="skill-box" src={skill[1]} />
+                  <br></br>
+                  {skill[0]}
+                </p>
+              ))}
+            </div>
+          ))}
+        </div>
+      );
+
     return (
       <div className="page-container page">
         {leftArrow(
@@ -95,7 +169,7 @@ export default class ProfessionalPage extends React.Component {
           "-1.25%",
           "Hobbies"
         )}
-        <div
+        {/* <div
           className="welcome-container"
           style={{
             margin: "130px",
@@ -114,16 +188,55 @@ export default class ProfessionalPage extends React.Component {
               through designing mini games and text analysis programs.
             </SplitText>
           </div>
+        </div> */}
+        <div
+          className="welcome-container"
+          style={{
+            margin: "130px",
+          }}
+        >
+          <div className="intro-wrapper">
+            <div
+              className={`sketchy link ${
+                this.state.majorSectionID === 0 && isActive ? "selected" : ""
+              }`}
+              onClick={() => this.handleClick(0, true)}
+            >
+              Timeline
+            </div>
+            <div
+              className={`sketchy link ${
+                this.state.majorSectionID === 1 && isActive ? "selected" : ""
+              }`}
+              onClick={() => this.handleClick(1, true)}
+            >
+              Skills
+            </div>
+          </div>
         </div>
-        <VerticalTimeline className="vertical-timeline-custom-line">
-          <Timeline></Timeline>
-          <VerticalTimelineElement
-            iconStyle={{ background: "#424242", color: "rgb(223, 255, 205)" }}
-            icon={
-              <FontAwesomeIcon icon={faStar} size="2x" transform="left-4" />
-            }
-          />
-        </VerticalTimeline>
+        <div
+          className={`section ${
+            this.state.majorSectionID === 0 && isActive ? "" : "is-hidden"
+          }`}
+        >
+          <VerticalTimeline className="vertical-timeline-custom-line">
+            <Timeline></Timeline>
+            <VerticalTimelineElement
+              iconStyle={{ background: "#424242", color: "rgb(223, 255, 205)" }}
+              icon={
+                <FontAwesomeIcon icon={faStar} size="2x" transform="left-4" />
+              }
+            />
+          </VerticalTimeline>
+        </div>
+        <div
+          className={`section ${
+            this.state.majorSectionID === 1 && isActive ? "" : "is-hidden"
+          }`}
+        >
+          {SkillButtons()}
+          {Skills()}
+        </div>
       </div>
     );
   }

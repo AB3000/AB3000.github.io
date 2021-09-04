@@ -151,7 +151,47 @@ export const paths = {
     "M 154.83739,122.52651 C -142.88726,343.76453 447.69381,297.94038 99.988407,129.50932 -247.71698,-38.921733 132.1277,473.25203 65.935629,91.601978 -0.25645129,-290.0481 -185.00078,298.99194 87.26407,38.806855 359.5289,-221.37821 -219.69163,-88.044358 142.51275,26.262594 504.71716,140.56955 155.52245,-308.47427 172.00855,72.140231 188.49464,452.75471 452.56202,-98.711488 154.83739,122.52651 Z",
 };
 
-export const professionalData = [
+export const skillData = [
+  {
+    title: "Programming",
+    skills: [
+      ["Java", "images/skill_icons/programming/java.svg"],
+      ["python", "images/skill_icons/programming/python.svg"],
+      ["C", "images/skill_icons/programming/c.svg"],
+      ["C++", "images/skill_icons/programming/c++.svg"],
+      ["C#", "images/skill_icons/programming/c-sharp.svg"],
+      ["R: RStudio", "images/skill_icons/programming/r.svg"],
+      ["SQL", "images/skill_icons/programming/sql.svg"],
+      ["Bash Scripting", "images/skill_icons/programming/bash.svg"],
+      ["Raspberry PI - ARM Assembly", "images/skill_icons/programming/arm.svg"],
+    ],
+  },
+  {
+    title: "Web Development",
+    skills: [
+      ["HTML", "images/skill_icons/web_dev/html.svg"],
+      ["CSS", "images/skill_icons/web_dev/css.svg"],
+      ["Javascript", "images/skill_icons/web_dev/javascript.svg"],
+      ["React", "images/skill_icons/web_dev/react.svg"],
+      ["Node/Express.js", "images/skill_icons/web_dev/node-express-js.svg"],
+      ["ejs", "images/skill_icons/web_dev/ejs.svg"],
+      ["jsx", "images/skill_icons/web_dev/jsx.svg"],
+    ],
+  },
+  {
+    title: "UX/UI + Modeling",
+    skills: [
+      ["Autodesk Maya", "images/skill_icons/ui/maya.svg"],
+      ["Adobe Animate", "images/skill_icons/ui/adobe-animate.svg"],
+      ["Adobe Photoshop", "images/skill_icons/ui/adobe-photoshop.svg"],
+      ["Adobe Illustrate", "images/skill_icons/ui/adobe-illustrator.svg"],
+      ["Unity", "images/skill_icons/ui/unity.svg"],
+      ["iMovie", "images/skill_icons/ui/imovie.svg"],
+    ],
+  },
+];
+
+export const timelineData = [
   {
     date: "August 2021",
     title: "Started my master's at Cornell Tech!",

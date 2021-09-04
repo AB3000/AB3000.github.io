@@ -99,3 +99,42 @@ span{
 .date{
   color: gray;
 }
+
+.skill-container{
+  width:75%;
+  display: inline-block;
+}
+
+
+// .skill{
+//   border-radius: 20px;
+//   display: inline-block;
+//   background-image:
+//   linear-gradient(
+//     to right, 
+//     rgb(208, 216, 255), #ffc1f5
+//   );
+//   padding: 10px;
+//   font-family: Raleway;
+//   font-weight: bold;
+//   margin: 5px;
+  
+// }
+
+.skill{
+  display: inline-block;
+  // background:gray;
+  background-color: #222222;
+  padding: 10px;
+  font-family: Raleway;
+  font-weight: bold;
+  color: gray;
+  margin: 10px;
+  
+}
+
+.skill-box{
+  height: 60px;
+  width:60px;
+}
+
