@@ -29,7 +29,8 @@ export const leftArrow = (leftLink, outerTrans, color, w, h, trans, dy, tL, sO, 
                 href="#left_path"
                 style={{
                   fontSize: 18,
-                  fontFamily: "Aclonica",
+                  fontFamily: "Raleway",
+                  fontWeight: "bold",
                 }}
                 textLength={tL}
                 startOffset={sO}
@@ -72,7 +73,8 @@ export const rightArrow = (rightLink, outerTrans, color, w, h, trans, dy, tL, sO
                 href="#right_path"
                 style={{
                   fontSize: 18,
-                  fontFamily: "Aclonica",
+                  fontFamily: "Raleway",
+                  fontWeight: "bold"
                 }}
                 textLength={tL}
                 startOffset={sO}

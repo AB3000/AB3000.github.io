@@ -145,73 +145,70 @@ export default class ProfessionalPage extends React.Component {
 
     return (
       <div className="page-container page">
-        {leftArrow(
-          "/",
-          "translate(0, 200)",
-          "#ff8787",
-          "250",
-          "80",
-          "scale(1.03458333) translate(10, -115)",
-          "-10",
-          "30%",
-          "80.5%",
-          "Home"
-        )}
-        {rightArrow(
-          "/hobbies",
-          "translate(0, 200) scale(-1,-1)",
-          "#ff8787",
-          "250",
-          "80",
-          "scale(0.26458333) translate(0, -450)",
-          "-10",
-          "40%",
-          "-1.25%",
-          "Hobbies"
-        )}
-        {/* <div
-          className="welcome-container"
-          style={{
-            margin: "130px",
-          }}
-        >
+        <div className="intro-wrapper"
+        style={{
+          margin: "10px 10px"
+        }}>
           <div className="introduction-panel">
             <SplitText
               initialPose="exit"
               pose="enter"
               charPoses={fasterCharPoses}
             >
-              Most of my professional work involves research and internships in
-              machine learning and education. I enjoy collaborating with people
-              to design applications for entertainment and scholastic purposes.
-              For my personal projects, I am interested in learning new things
-              through designing mini games and text analysis programs.
+              Most of my professional work involves research, fulltime positons,
+              and internships in machine learning and education. I enjoy
+              collaborating with people to design applications for entertainment
+              and scholastic purposes. For my personal projects, I am interested
+              in learning new things through designing mini games and text
+              analysis programs.
             </SplitText>
           </div>
-        </div> */}
+        </div>
         <div
           className="welcome-container"
           style={{
-            margin: "130px",
+            margin: "50px",
           }}
         >
-          <div className="intro-wrapper">
-            <div
-              className={`sketchy link ${
-                this.state.majorSectionID === 0 && isActive ? "selected" : ""
-              }`}
-              onClick={() => this.handleClick(0, true)}
-            >
-              Timeline
-            </div>
-            <div
-              className={`sketchy link ${
-                this.state.majorSectionID === 1 && isActive ? "selected" : ""
-              }`}
-              onClick={() => this.handleClick(1, true)}
-            >
-              Skills
-            </div>
+          {leftArrow(
+            "/",
+            "translate(0, 0)",
+            "#ff8787",
+            "250",
+            "80",
+            "scale(1.03458333) translate(10, -115)",
+            "-10",
+            "30%",
+            "80.5%",
+            "Home"
+          )}
+          {rightArrow(
+            "/hobbies",
+            "scale(-1,-1)",
+            "#ff8787",
+            "250",
+            "80",
+            "scale(0.26458333) translate(0, -450)",
+            "-10",
+            "40%",
+            "-1.25%",
+            "Hobbies"
+          )}
+          <div
+            className={`sketchy link ${
+              this.state.majorSectionID === 0 && isActive ? "selected" : ""
+            }`}
+            onClick={() => this.handleClick(0, true)}
+          >
+            Timeline
+          </div>
+          <div
+            className={`sketchy link ${
+              this.state.majorSectionID === 1 && isActive ? "selected" : ""
+            }`}
+            onClick={() => this.handleClick(1, true)}
+          >
+            Skills
           </div>
         </div>
         <div
