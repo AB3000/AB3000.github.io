@@ -171,6 +171,7 @@ export const skillData = [
     skills: [
       ["HTML", "images/skill_icons/web_dev/html.svg"],
       ["CSS", "images/skill_icons/web_dev/css.svg"],
+      ["Sass", "images/skill_icons/web_dev/sass.svg"],
       ["Javascript", "images/skill_icons/web_dev/javascript.svg"],
       ["React", "images/skill_icons/web_dev/react.svg"],
       ["Node/Express.js", "images/skill_icons/web_dev/node-express-js.svg"],
