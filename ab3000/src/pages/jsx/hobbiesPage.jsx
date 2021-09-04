@@ -106,8 +106,8 @@ export default class HobbiesPage extends React.Component {
           "50",
           "scale(1.03458333) translate(0, -103)",
           "-8",
-          "63%",
-          "74.5%",
+          "65%",
+          "73.5%",
           "Professional"
         )}
         {rightArrow(
@@ -118,8 +118,8 @@ export default class HobbiesPage extends React.Component {
           "50",
           "scale(0.26458333) translate(0, -610)",
           "-8",
-          "30%",
-          "3.25%",
+          "35%",
+          "2.25%",
           "Home"
         )}
         <div className="test">
