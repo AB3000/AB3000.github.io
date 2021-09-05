@@ -33,6 +33,7 @@
     "react-id-swiper": "^2.4.0",
     "react-native": "^0.64.2",
     "react-native-web": "^0.17.1",
+    "react-pdf": "^5.3.2",
     "react-pose": "^4.0.9",
     "react-pose-text": "^3.1.0",
     "react-random-shapes": "^0.4.1",
