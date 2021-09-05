@@ -95,40 +95,31 @@ export default class ProfessionalPage extends React.Component {
     };
   }
 
-  handleClick(id, sectionClick) {
-    if (sectionClick === "header") {
-      this.setState({ majorSectionID: id }, function () {
-        if (this.state.majorSectionID === id) {
-          this.setState({ isActive: true });
-        } else {
-          this.setState({ isActive: false });
-        }
-      });
-    } else if (sectionClick === "skills"){
-      //skill subsection clicked
-      this.setState({ skillSectionID: id }, function () {
-        if (this.state.skillSectionID === id) {
-          this.setState({ isActive: true });
-        } else {
-          this.setState({ isActive: false });
-        }
-      });
-    } else {
-      this.setState({ resumeTypeID: id }, function () {
-        if (this.state.resumeTypeID === id) {
-          this.setState({ isActive: true });
-        } else {
-          this.setState({ isActive: false });
-        }
-      });
-      this.setState({ isDark: !(this.state.isDark)});
-    }
+  handleClick(id, sectionClicked) {
+    //sectionClicked cases
+    //majorSectionID = main header clicked
+    //skillSectionID = skill subsection button clicked
+    //resumeTypeID = resume light-dark toggle clicked
+
+    // var sections = [majorSectionID, skillSectionID, resumeTypeID];
+    // const sectionClicked = sections[sectionClick];
+    this.setState({ [sectionClicked]: id }, function () {
+      if (this.state[sectionClicked] === id) {
+        this.setState({ isActive: true });
+      } else {
+        this.setState({ isActive: false });
+      }
+
+      if (sectionClicked === "resumeTypeID") {
+        //toggle between light and dark
+        this.setState({ isDark: !this.state.isDark });
+      }
+    });
   }
 
   render() {
-    const { isActive, isDark, majorSectionID, skillSectionID } = this.state;
-
-    
+    const { isActive, isDark, majorSectionID, skillSectionID, resumeTypeID } =
+      this.state;
 
     const SkillButtons = () =>
       skillData.length > 0 && (
@@ -139,7 +130,7 @@ export default class ProfessionalPage extends React.Component {
                 this.state.skillSectionID === idx && isActive ? "selected" : ""
               }`}
               id={`skill-${idx}`}
-              onClick={() => this.handleClick(idx, "skills")}
+              onClick={() => this.handleClick(idx, "skillSectionID")}
             >
               {data.title}
             </div>
@@ -168,21 +159,21 @@ export default class ProfessionalPage extends React.Component {
         </div>
       );
 
-      const ResumeChoiceButtons = () => (
-        <div>
-          {["dark", "light"].map((data, idx) => (
-            <div
-              className={`underline link ${
-                this.state.resumeTypeID === idx && isActive ? "selected" : ""
-              }`}
-              id={`resume-color-${idx}`}
-              onClick={() => this.handleClick(idx, "resume")}
-            >
-              {data}
-            </div>
-          ))}
-        </div>
-      );
+    const ResumeChoiceButtons = () => (
+      <div>
+        {["dark", "light"].map((data, idx) => (
+          <div
+            className={`underline link ${
+              this.state.resumeTypeID === idx && isActive ? "selected" : ""
+            }`}
+            id={`resume-color-${idx}`}
+            onClick={() => this.handleClick(idx, "resumeTypeID")}
+          >
+            {data}
+          </div>
+        ))}
+      </div>
+    );
 
     return (
       <div className="page-container page">
@@ -191,8 +182,7 @@ export default class ProfessionalPage extends React.Component {
           style={{
             margin: "10px 10px",
           }}
-        >
-        </div>
+        ></div>
         <div
           className="welcome-container"
           style={{
@@ -227,7 +217,7 @@ export default class ProfessionalPage extends React.Component {
             className={`sketchy link ${
               this.state.majorSectionID === 0 && isActive ? "selected" : ""
             }`}
-            onClick={() => this.handleClick(0, "header")}
+            onClick={() => this.handleClick(0, "majorSectionID")}
           >
             Timeline
           </div>
@@ -235,7 +225,7 @@ export default class ProfessionalPage extends React.Component {
             className={`sketchy link ${
               this.state.majorSectionID === 1 && isActive ? "selected" : ""
             }`}
-            onClick={() => this.handleClick(1, "header")}
+            onClick={() => this.handleClick(1, "majorSectionID")}
           >
             Skills
           </div>
@@ -243,7 +233,7 @@ export default class ProfessionalPage extends React.Component {
             className={`sketchy link ${
               this.state.majorSectionID === 2 && isActive ? "selected" : ""
             }`}
-            onClick={() => this.handleClick(2, "header")}
+            onClick={() => this.handleClick(2, "majorSectionID")}
           >
             Resume
           </div>
@@ -253,7 +243,7 @@ export default class ProfessionalPage extends React.Component {
             this.state.majorSectionID === 0 && isActive ? "" : "is-hidden"
           }`}
         >
-           <div className="introduction-panel">
+          <div className="introduction-panel">
             <SplitText
               initialPose="exit"
               pose="enter"
@@ -299,7 +289,14 @@ export default class ProfessionalPage extends React.Component {
             src="pdfs/Aarushi_Resume.pdf"
           /> */}
           {ResumeChoiceButtons()}
-          <Frame src={isDark ? "pdfs/Dark_Aarushi_Resume.pdf" : "pdfs/Aarushi_Resume.pdf"} key={this.state.majorSectionID}></Frame>
+          <Frame
+            src={
+              isDark
+                ? "pdfs/Dark_Aarushi_Resume.pdf"
+                : "pdfs/Aarushi_Resume.pdf"
+            }
+            key={this.state.majorSectionID}
+          ></Frame>
         </div>
       </div>
     );
