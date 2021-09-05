@@ -14,6 +14,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { leftArrow, rightArrow } from "./arrows";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import "../css/horizontal-timeline.scss";
 
 const TimelineItem = ({ data }) => (
   <VerticalTimelineElement
@@ -147,13 +148,17 @@ export default class ProfessionalPage extends React.Component {
                 this.state.skillSectionID === idx && isActive ? "" : "is-hidden"
               }`}
             >
-              {data.skills.map((skill) => (
-                <p className="skill">
-                  <img className="skill-box" src={skill[1]} />
-                  <br></br>
-                  {skill[0]}
-                </p>
-              ))}
+              {data.skills.length > 0 ? (
+                data.skills.map((skill) => (
+                  <p className="skill">
+                    <img className="skill-box" src={skill[1]} />
+                    <br></br>
+                    {skill[0]}
+                  </p>
+                ))
+              ) : (
+                <h1 style={{ color: "rgb(208, 216, 255)" }}>Coming soon!</h1>
+              )}
             </div>
           ))}
         </div>
@@ -289,6 +294,44 @@ export default class ProfessionalPage extends React.Component {
             }
             key={this.state.majorSectionID}
           ></Frame>
+          {/* <ul class="timeline" id="timeline">
+            <li class="li complete">
+              <div class="timestamp">
+                <span class="author">Abhi Sharma</span>
+                <span class="date">11/15/2014</span>
+              </div>
+              <div class="status">
+                <h4> Shift Created </h4>
+              </div>
+            </li>
+            <li class="li complete">
+              <div class="timestamp">
+                <span class="author">PAM Admin</span>
+                <span class="date">11/15/2014</span>
+              </div>
+              <div class="status">
+                <h4> Email Sent </h4>
+              </div>
+            </li>
+            <li class="li complete">
+              <div class="timestamp">
+                <span class="author">Aaron Rodgers</span>
+                <span class="date">11/15/2014</span>
+              </div>
+              <div class="status">
+                <h4> SIC Approval </h4>
+              </div>
+            </li>
+            <li class="li">
+              <div class="timestamp">
+                <span class="author">PAM Admin</span>
+                <span class="date">TBD</span>
+              </div>
+              <div class="status">
+                <h4> Shift Completed </h4>
+              </div>
+            </li>
+          </ul> */}
         </div>
       </div>
     );

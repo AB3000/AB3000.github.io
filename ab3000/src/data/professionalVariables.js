@@ -190,6 +190,10 @@ export const skillData = [
       ["iMovie", "images/skill_icons/ui/imovie.svg"],
     ],
   },
+  {
+    title: "Languages",
+    skills: []
+  }
 ];
 
 export const timelineData = [
