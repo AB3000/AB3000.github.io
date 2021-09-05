@@ -280,14 +280,6 @@ export default class ProfessionalPage extends React.Component {
             this.state.majorSectionID === 2 && isActive ? "" : "is-hidden"
           }`}
         >
-          {/* <iframe
-            style={{
-              width: "75%",
-              height: "800px",
-              overflow: "auto",
-            }}
-            src="pdfs/Aarushi_Resume.pdf"
-          /> */}
           {ResumeChoiceButtons()}
           <Frame
             src={
