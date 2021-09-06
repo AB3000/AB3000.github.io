@@ -173,7 +173,7 @@ export default class HobbiesPage extends React.Component {
               <h1 className="coming-soon">
                 ASTROLOGY - During the 2020 pandemic, I found an interest in astrology. 
                 Delving into the traits of my sun sign was exciting, so I thought that others might enjoy
-                learning more about their signs too! During each astrological month, I tried to capture the unique qualities
+                learning more about theirs too! During each astrological month, I tried to capture the unique qualities
                 of each sign in pocket-sized pendants. 
               </h1>
             </div>
