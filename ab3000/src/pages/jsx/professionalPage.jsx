@@ -2,6 +2,7 @@ import React from "react";
 import {
   timelineData,
   skillData,
+  languages,
   fasterCharPoses,
 } from "../../data/professionalVariables";
 import SplitText from "react-pose-text";
@@ -42,6 +43,19 @@ const Timeline = () =>
       {timelineData.map((data, idx) => (
         <TimelineItem data={data} key={idx} />
       ))}
+    </div>
+  );
+
+const Languages = () =>
+  languages.length > 0 && (
+    <div class="flex-parent">
+	    <div class="input-flex-container">
+      {languages.map((data, idx) => (
+        <div class="input">
+        <span data-level={data[0]} data-language={data[1]}></span>
+      </div>
+      ))}
+    </div>
     </div>
   );
 
@@ -156,9 +170,7 @@ export default class ProfessionalPage extends React.Component {
                     {skill[0]}
                   </p>
                 ))
-              ) : (
-                <h1 style={{ color: "rgb(208, 216, 255)" }}>Coming soon!</h1>
-              )}
+              ) : Languages()}
             </div>
           ))}
         </div>
@@ -294,44 +306,6 @@ export default class ProfessionalPage extends React.Component {
             }
             key={this.state.majorSectionID}
           ></Frame>
-          {/* <ul class="timeline" id="timeline">
-            <li class="li complete">
-              <div class="timestamp">
-                <span class="author">Abhi Sharma</span>
-                <span class="date">11/15/2014</span>
-              </div>
-              <div class="status">
-                <h4> Shift Created </h4>
-              </div>
-            </li>
-            <li class="li complete">
-              <div class="timestamp">
-                <span class="author">PAM Admin</span>
-                <span class="date">11/15/2014</span>
-              </div>
-              <div class="status">
-                <h4> Email Sent </h4>
-              </div>
-            </li>
-            <li class="li complete">
-              <div class="timestamp">
-                <span class="author">Aaron Rodgers</span>
-                <span class="date">11/15/2014</span>
-              </div>
-              <div class="status">
-                <h4> SIC Approval </h4>
-              </div>
-            </li>
-            <li class="li">
-              <div class="timestamp">
-                <span class="author">PAM Admin</span>
-                <span class="date">TBD</span>
-              </div>
-              <div class="status">
-                <h4> Shift Completed </h4>
-              </div>
-            </li>
-          </ul> */}
         </div>
       </div>
     );

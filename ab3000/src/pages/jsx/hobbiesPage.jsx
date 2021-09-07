@@ -182,10 +182,6 @@ export default class HobbiesPage extends React.Component {
               <h1 className="slider_title">The Twelve Signs</h1>
               {SlideShow({ identifier: 0, dataset: astrologyData })}
             </div>
-            {/* <div className="container mt-5 carousel">
-              <h1 className="slider_title">Accompanying Pendants</h1>
-              {SlideShow({ identifier: 1, dataset: accAstrologyData })}
-            </div> */}
             <h1 className="coming-soon">More coming soon!</h1>
           </div>
           <div
@@ -209,16 +205,6 @@ export default class HobbiesPage extends React.Component {
           >
             <h1 className="coming-soon">Coming soon!</h1>
           </div>
-
-          {/* <div
-            className={`section ${
-              this.state.sectionID === 1 && isActive ? "" : "is-hidden"}`}
-          >
-            <div className="container mt-5 carousel">
-              <h1 className="slider_title">Class 2</h1>
-              {SlideShow({ identifier: 1, dataset: astrologyData })}
-            </div>
-          </div> */}
         </div>
       </div>
     );
