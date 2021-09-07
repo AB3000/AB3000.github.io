@@ -98,17 +98,19 @@ $inactive: #aeb6bf;
     &::after {
       content: attr(data-level);
       color: rgb(208, 216, 255);
+      font-weight: bold;
       top: 25px;
       transform: translateX(-50%);
-      font-size: 14px;
+      font-size: 18px;
     }
     &::before {
       content: attr(data-language);
       color: pink;
+      font-weight: bold;
       top: -65px;
       width: 70px;
       transform: translateX(-5px) rotateZ(-45deg);
-      font-size: 14px;
+      font-size: 16px;
       text-indent: -10px;
     }
   }
