@@ -274,8 +274,8 @@ export default class ProfessionalPage extends React.Component {
               pose="enter"
               charPoses={fasterCharPoses}
             >
-              Most of my professional work involves research, full time positions,
-              and internships in machine learning and software engineering. I
+              Most of my professional work involves full time positions,
+              internships, and research in machine learning and software engineering. I
               enjoy collaborating with people to design applications for
               entertainment and educational purposes. For my personal projects,
               I am interested in experimentation with designing mini games and
