@@ -254,6 +254,14 @@ export default class ProfessionalPage extends React.Component {
           >
             Resume
           </div>
+          <div
+            className={`sketchy link ${
+              this.state.majorSectionID === 3 && isActive ? "selected" : ""
+            }`}
+            onClick={() => this.handleClick(3, "majorSectionID")}
+          >
+            Awards
+          </div>
         </div>
         <div
           className={`section ${
@@ -266,7 +274,7 @@ export default class ProfessionalPage extends React.Component {
               pose="enter"
               charPoses={fasterCharPoses}
             >
-              Most of my professional work involves research, fulltime positons,
+              Most of my professional work involves research, full time positions,
               and internships in machine learning and software engineering. I
               enjoy collaborating with people to design applications for
               entertainment and educational purposes. For my personal projects,
@@ -306,6 +314,13 @@ export default class ProfessionalPage extends React.Component {
             }
             key={this.state.majorSectionID}
           ></Frame>
+        </div>
+        <div
+          className={`section ${
+            this.state.majorSectionID === 3 && isActive ? "" : "is-hidden"
+          }`}
+        >
+          <h1 style={{color: "rgb(208, 216, 255)"}}>Coming soon!</h1>
         </div>
       </div>
     );
