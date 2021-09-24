@@ -113,10 +113,17 @@ span{
   font-weight: bold;
   color: gray;
   margin: 10px;
+  transition: 0.3s;
 }
 
 .skill-box{
   height: 60px;
   width:60px;
 }
+
+.skill:hover{
+  background-color: rgb(112, 112, 112);
+  color: rgb(0, 0, 0);
+}
+
 
