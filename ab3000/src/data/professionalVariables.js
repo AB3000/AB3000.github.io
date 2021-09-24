@@ -195,6 +195,7 @@ export const skillData = [
       ["Adobe Animate", "images/skill_icons/ui/adobe-animate.svg"],
       ["Adobe Photoshop", "images/skill_icons/ui/adobe-photoshop.svg"],
       ["Adobe Illustrate", "images/skill_icons/ui/adobe-illustrator.svg"],
+      ["Inkscape", "images/skill_icons/ui/inkscape.svg"],
       ["Unity", "images/skill_icons/ui/unity.svg"],
       ["iMovie", "images/skill_icons/ui/imovie.svg"],
     ],
