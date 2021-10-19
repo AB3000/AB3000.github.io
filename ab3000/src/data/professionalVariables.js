@@ -540,6 +540,7 @@ export const awardData = [
     icon: faSchool,
     iconOffset: "left-5",
     iconColor: "#5ab337",
-    iconBackground: "#121211"
+    iconBackground: "#121211",
+    iconOutline: "#5ab337"
   },
 ];
