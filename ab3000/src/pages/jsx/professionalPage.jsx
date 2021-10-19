@@ -1,6 +1,7 @@
 import React from "react";
 import {
   timelineData,
+  awardData,
   skillData,
   languages,
   fasterCharPoses,
@@ -37,10 +38,10 @@ const TimelineItem = ({ data }) => (
 );
 
 //check if at least one element in the array
-const Timeline = () =>
-  timelineData.length > 0 && (
+const Timeline = ({tData}) =>
+  tData.length > 0 && (
     <div>
-      {timelineData.map((data, idx) => (
+      {tData.map((data, idx) => (
         <TimelineItem data={data} key={idx} />
       ))}
     </div>
@@ -283,7 +284,7 @@ export default class ProfessionalPage extends React.Component {
             </SplitText>
           </div>
           <VerticalTimeline className="vertical-timeline-custom-line">
-            <Timeline></Timeline>
+            <Timeline tData={timelineData}></Timeline>
             <VerticalTimelineElement
               iconStyle={{ background: "#424242", color: "rgb(223, 255, 205)" }}
               icon={
@@ -320,7 +321,16 @@ export default class ProfessionalPage extends React.Component {
             this.state.majorSectionID === 3 && isActive ? "" : "is-hidden"
           }`}
         >
-          <h1 style={{color: "rgb(208, 216, 255)"}}>Coming soon!</h1>
+          {/* <h1 style={{color: "rgb(208, 216, 255)"}}>Coming soon!</h1> */}
+          <VerticalTimeline className="vertical-timeline-custom-line">
+            <Timeline tData={awardData}></Timeline>
+            <VerticalTimelineElement
+              iconStyle={{ background: "#424242", color: "rgb(223, 255, 205)" }}
+              icon={
+                <FontAwesomeIcon icon={faStar} size="2x" transform="left-4" />
+              }
+            />
+          </VerticalTimeline>
         </div>
       </div>
     );
