@@ -23,7 +23,7 @@ const TimelineItem = ({ data }) => (
     date={data.date}
     dateClassName="date"
     contentStyle={{ background: "#ff8787", color: "#000" }}
-    iconStyle={{ background: "#424242", color: data.iconColor }}
+    iconStyle={{ background: "iconBackground" in data ? data.iconBackground : "#424248", color: data.iconColor }}
     icon={
       <FontAwesomeIcon transform={data.iconOffset} icon={data.icon} size="2x" />
     }

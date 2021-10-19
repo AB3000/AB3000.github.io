@@ -535,10 +535,11 @@ export const timelineData = [
 export const awardData = [
   {
     date: "August 2021",
-    title: "Started my master's at Cornell Tech!",
-    location: "New York, New York",
+    title: "Outstanding Computer Science Achievement in Introduction to Java",
+    location: "Homestead High School",
     icon: faSchool,
     iconOffset: "left-5",
-    iconColor: "rgb(255, 205, 205)",
+    iconColor: "#5ab337",
+    iconBackground: "#121211"
   },
 ];
