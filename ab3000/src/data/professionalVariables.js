@@ -214,6 +214,7 @@ export const timelineData = [
     icon: faSchool,
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -227,6 +228,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -240,6 +242,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
   {
     date: "December 2020",
@@ -248,6 +251,7 @@ export const timelineData = [
     icon: faGraduationCap,
     iconOffset: "left-4.5",
     iconColor: "rgb(255, 205, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -261,6 +265,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -277,6 +282,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -297,6 +303,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -311,6 +318,7 @@ export const timelineData = [
     icon: faSearch,
     iconOffset: "left-3",
     iconColor: "rgb(216, 205, 255)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -328,6 +336,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -347,6 +356,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -361,6 +371,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -378,6 +389,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -395,6 +407,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -409,6 +422,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -428,6 +442,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -446,6 +461,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -463,6 +479,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -481,6 +498,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     date: "August 2017",
@@ -489,6 +507,7 @@ export const timelineData = [
     icon: faSchool,
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -502,6 +521,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -513,6 +533,7 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
+    boxColor: "#ff8787"
   },
   {
     text: [
@@ -528,6 +549,7 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787"
   },
 ];
 
@@ -541,6 +563,7 @@ export const awardData = [
     iconOffset: "left-5",
     iconColor: "#5ab337",
     iconBackground: "#121211",
-    iconOutline: "#5ab337"
+    iconOutline: "#5ab337",
+    // boxColor: "#ff8787"
   },
 ];

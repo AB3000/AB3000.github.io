@@ -22,7 +22,8 @@ const TimelineItem = ({ data }) => (
   <VerticalTimelineElement
     date={data.date}
     dateClassName="date"
-    contentStyle={{ background: "#ff8787", color: "#000" }}
+    contentStyle={{ background: data.boxColor, color: "#000", 
+    borderBottom: "0 0 0 3px #ffa1a1"}}
     iconStyle={{ background: "iconBackground" in data ? data.iconBackground : "#424248", color: data.iconColor, 
     boxShadow: "iconOutline" in data ? `0 0 0 4px ${data.iconOutline}` : "0 0 0 4px rgb(249, 205, 255)"}}
     icon={
