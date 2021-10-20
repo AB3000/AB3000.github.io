@@ -23,7 +23,7 @@ const TimelineItem = ({ data }) => (
     date={data.date}
     dateClassName="date"
     contentStyle={{ background: data.boxColor, color: "#000", 
-    borderBottom: "0 0 0 3px #ffa1a1"}}
+    boxShadow: `0 3px 0 0px ${data.boxBorder}`}}
     iconStyle={{ background: "iconBackground" in data ? data.iconBackground : "#424248", color: data.iconColor, 
     boxShadow: "iconOutline" in data ? `0 0 0 4px ${data.iconOutline}` : "0 0 0 4px rgb(249, 205, 255)"}}
     icon={
@@ -31,10 +31,10 @@ const TimelineItem = ({ data }) => (
     }
     contentArrowStyle={{ borderRight: "7px solid  #424242" }}
   >
-    {data.title && <h2>{data.title}</h2>}
+    {data.title && <h2 style={{color: data.titleColor}}>{data.title}</h2>}
     {data.position && <h4>Position: {data.position}</h4>}
-    <time>{data.location}</time>
-    {"text" in data ? splitBullets(data.text) : ""}
+    <time style={{color: data.locColor}}>{data.location}</time>
+    {"text" in data ? splitBullets(data.text, data.textColor) : ""}
     {"links" in data ? addLinks(data.links) : ""}
   </VerticalTimelineElement>
 );
@@ -75,11 +75,11 @@ const Frame = (pdf) => (
   </div>
 );
 
-function splitBullets(points) {
+function splitBullets(points, c) {
   if (points.length > 1) {
     points = points.map((point) => <li>{point}</li>);
   }
-  return <ul>{points}</ul>;
+  return <ul style={{color: c}}>{points}</ul>;
 }
 
 function addLinks(links) {

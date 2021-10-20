@@ -214,7 +214,8 @@ export const timelineData = [
     icon: faSchool,
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -228,7 +229,8 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -242,7 +244,8 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     date: "December 2020",
@@ -251,7 +254,8 @@ export const timelineData = [
     icon: faGraduationCap,
     iconOffset: "left-4.5",
     iconColor: "rgb(255, 205, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -265,7 +269,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -282,7 +287,8 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -303,7 +309,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -318,7 +325,8 @@ export const timelineData = [
     icon: faSearch,
     iconOffset: "left-3",
     iconColor: "rgb(216, 205, 255)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -336,7 +344,8 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -356,7 +365,8 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -371,7 +381,8 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -389,7 +400,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -407,7 +419,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -422,7 +435,8 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -442,7 +456,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -461,7 +476,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -479,7 +495,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -498,7 +515,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     date: "August 2017",
@@ -507,7 +525,8 @@ export const timelineData = [
     icon: faSchool,
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -521,7 +540,8 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -533,7 +553,8 @@ export const timelineData = [
     icon: faLaptopCode,
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
   {
     text: [
@@ -549,14 +570,35 @@ export const timelineData = [
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
-    boxColor: "#ff8787"
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1"
   },
 ];
 
 
 export const awardData = [
   {
-    date: "August 2021",
+    text: [
+      `Received a "Zora Neale Hurston Award for Good Medicine / Well Rounded Student" in my 10th grade World Literature and Writing class.`
+    ],
+    date: "April 2015",
+    title: "World Literature and Writing",
+    location: "Homestead High School",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#5ab337",
+    iconBackground: "#121211",
+    iconOutline: "#5ab337",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Received this merit award for "outstanding Computer Science achievement" in an Introduction to Java course in 9th grade.`
+    ],
+    date: "April 2014",
     title: "Outstanding Computer Science Achievement in Introduction to Java",
     location: "Homestead High School",
     icon: faSchool,
@@ -564,6 +606,9 @@ export const awardData = [
     iconColor: "#5ab337",
     iconBackground: "#121211",
     iconOutline: "#5ab337",
-    // boxColor: "#ff8787"
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
   },
 ];
