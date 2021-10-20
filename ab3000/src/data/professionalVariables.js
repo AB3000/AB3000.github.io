@@ -4,6 +4,7 @@ import {
   faSchool,
   faSearch,
   faGraduationCap,
+  faFlagUsa
 } from "@fortawesome/free-solid-svg-icons";
 
 export var fasterCharPoses = {
@@ -579,10 +580,95 @@ export const timelineData = [
 export const awardData = [
   {
     text: [
+      `Received this merit award in French IV for excellent class performance.`
+    ],
+    date: "February 2017",
+    title: "Merit Certificate in French IV",
+    location: "Homestead High School",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#5ab337",
+    iconBackground: "#121211",
+    iconOutline: "#5ab337",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Received this merit award for "exceptional writing and speaking skills and constant effort to use the French language in creative ways."`
+    ],
+    date: "April 2016",
+    title: "The Marcel Pagnol Award in French III",
+    location: "Homestead High School",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#5ab337",
+    iconBackground: "#121211",
+    iconOutline: "#5ab337",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Awarded for having a PSAT score within the top 3% of test-takers.`
+    ],
+    date: "September 2015",
+    title: "Letter of Commendation (National Merit Scholarship Program)",
+    location: "Homestead High School",
+    icon: faFlagUsa,
+    iconOffset: "left-2",
+    iconColor: "blue",
+    iconBackground: "#121211",
+    iconOutline: "#d41717",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Received this merit award for "outstanding performance" in my 10th grade World History class.`
+    ],
+    date: "April 2015",
+    title: "Outstanding Performance in World History",
+    location: "Homestead High School",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#5ab337",
+    iconBackground: "#121211",
+    iconOutline: "#5ab337",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Received this merit award for "exceptional writing and speaking skills and constant effort to use the French language in creative ways."`
+    ],
+    date: "April 2015",
+    title: "The Marcel Pagnol Award in French II",
+    location: "Homestead High School",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#5ab337",
+    iconBackground: "#121211",
+    iconOutline: "#5ab337",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
       `Received a "Zora Neale Hurston Award for Good Medicine / Well Rounded Student" in my 10th grade World Literature and Writing class.`
     ],
     date: "April 2015",
-    title: "World Literature and Writing",
+    title: "The Zora Neale Hurston Award in World Literature and Writing",
     location: "Homestead High School",
     icon: faSchool,
     iconOffset: "left-5",
