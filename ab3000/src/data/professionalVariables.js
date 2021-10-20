@@ -580,10 +580,27 @@ export const timelineData = [
 export const awardData = [
   {
     text: [
+      `Received the "Dr. Francisco Jiminez Award for the Strongest Work Ethic" in my Mythology and Folklore class.`
+    ],
+    date: "April 2017",
+    title: "Mythology and Folklore: Dr. Francisco Jiminez Award for Work Ethic",
+    location: "Homestead High School",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#5ab337",
+    iconBackground: "#121211",
+    iconOutline: "#5ab337",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
       `Received this merit award in French IV for excellent class performance.`
     ],
     date: "February 2017",
-    title: "Merit Certificate in French IV",
+    title: "French IV: Merit Certificate",
     location: "Homestead High School",
     icon: faSchool,
     iconOffset: "left-5",
@@ -600,7 +617,7 @@ export const awardData = [
       `Received this merit award for "exceptional writing and speaking skills and constant effort to use the French language in creative ways."`
     ],
     date: "April 2016",
-    title: "The Marcel Pagnol Award in French III",
+    title: "French III: The Marcel Pagnol Award",
     location: "Homestead High School",
     icon: faSchool,
     iconOffset: "left-5",
@@ -617,7 +634,7 @@ export const awardData = [
       `Awarded for having a PSAT score within the top 3% of test-takers.`
     ],
     date: "September 2015",
-    title: "Letter of Commendation (National Merit Scholarship Program)",
+    title: "National Merit Scholarship Program: Letter of Commendation",
     location: "Homestead High School",
     icon: faFlagUsa,
     iconOffset: "left-2",
@@ -634,7 +651,7 @@ export const awardData = [
       `Received this merit award for "outstanding performance" in my 10th grade World History class.`
     ],
     date: "April 2015",
-    title: "Outstanding Performance in World History",
+    title: "World History: Outstanding Performance",
     location: "Homestead High School",
     icon: faSchool,
     iconOffset: "left-5",
@@ -651,7 +668,7 @@ export const awardData = [
       `Received this merit award for "exceptional writing and speaking skills and constant effort to use the French language in creative ways."`
     ],
     date: "April 2015",
-    title: "The Marcel Pagnol Award in French II",
+    title: "French II: The Marcel Pagnol Award",
     location: "Homestead High School",
     icon: faSchool,
     iconOffset: "left-5",
@@ -668,7 +685,7 @@ export const awardData = [
       `Received a "Zora Neale Hurston Award for Good Medicine / Well Rounded Student" in my 10th grade World Literature and Writing class.`
     ],
     date: "April 2015",
-    title: "The Zora Neale Hurston Award in World Literature and Writing",
+    title: "World Literature and Writing: The Zora Neale Hurston Award",
     location: "Homestead High School",
     icon: faSchool,
     iconOffset: "left-5",
@@ -685,7 +702,7 @@ export const awardData = [
       `Received this merit award for "outstanding Computer Science achievement" in an Introduction to Java course in 9th grade.`
     ],
     date: "April 2014",
-    title: "Outstanding Computer Science Achievement in Introduction to Java",
+    title: "Introduction to Java: Outstanding Computer Science Achievement",
     location: "Homestead High School",
     icon: faSchool,
     iconOffset: "left-5",
