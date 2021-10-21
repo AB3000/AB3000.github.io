@@ -4,7 +4,8 @@ import {
   faSchool,
   faSearch,
   faGraduationCap,
-  faFlagUsa
+  faFlagUsa,
+  faPaintBrush
 } from "@fortawesome/free-solid-svg-icons";
 
 export var fasterCharPoses = {
@@ -578,6 +579,72 @@ export const timelineData = [
 
 
 export const awardData = [
+  {
+    text: [
+      `Received this community service award for 12 hours of tutoring services in math after school.`
+    ],
+    date: "May 2017",
+    title: `Academic Center Tutoring: Community Service Award`,
+    location: "Homestead High School",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#5ab337",
+    iconBackground: "#121211",
+    iconOutline: "#5ab337",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Cord handed for performing more than 20 hours of service in French-themed events in my local community.`
+    ],
+    date: "May 2017",
+    title: "French National Honor Society: Recognition",
+    location: "Homestead High School",
+    icon: faFlagUsa,
+    iconOffset: "left-2",
+    iconBackground: "linear-gradient(90deg, rgba(8,0,255,1) 0%, rgba(255,255,255,1) 50%, rgba(217,0,0,1) 100%)",
+    iconOutline: "pink",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Cord handed for assisting in art-related events for more than 20 hours in my school and community.`
+    ],
+    date: "May 2017",
+    title: "National Art Honor Society: Recognition",
+    location: "Homestead High School",
+    icon: faFlagUsa,
+    iconOffset: "left-2",
+    iconBackground: "linear-gradient(45deg, rgba(255,7,7,1) 0%, rgba(255,145,0,1) 24%, rgba(241,255,65,1) 54%, rgba(0,212,255,1) 100%)",
+    iconOutline: "black",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Received a merit award for "Doin' It Wright" in my government and economics class.`
+    ],
+    date: "April 2017",
+    title: `Government and Economics: "Doin' It Wright"`,
+    location: "Homestead High School",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#5ab337",
+    iconBackground: "#121211",
+    iconOutline: "#5ab337",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
   {
     text: [
       `Received the "Dr. Francisco Jiminez Award for the Strongest Work Ethic" in my Mythology and Folklore class.`

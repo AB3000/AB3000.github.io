@@ -15,8 +15,17 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { leftArrow, rightArrow } from "./arrows";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faPaintBrush } from "@fortawesome/free-solid-svg-icons";
 import "../css/horizontal-timeline.scss";
+
+
+<svg width="0" height="0">
+  <linearGradient id="blue-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
+    <stop stopColor="#7a6ded" offset="0%" />
+    <stop stopColor="#591885" offset="100%" />
+  </linearGradient>
+</svg>
+
 
 const TimelineItem = ({ data }) => (
   <VerticalTimelineElement
@@ -27,7 +36,7 @@ const TimelineItem = ({ data }) => (
     iconStyle={{ background: "iconBackground" in data ? data.iconBackground : "#424248", color: data.iconColor, 
     boxShadow: "iconOutline" in data ? `0 0 0 4px ${data.iconOutline}` : "0 0 0 4px rgb(249, 205, 255)"}}
     icon={
-      <FontAwesomeIcon transform={data.iconOffset} icon={data.icon} size="2x"/>
+        <FontAwesomeIcon transform={data.iconOffset} icon={data.icon} size="2x"/>
     }
     contentArrowStyle={{ borderRight: "7px solid  #424242" }}
   >
