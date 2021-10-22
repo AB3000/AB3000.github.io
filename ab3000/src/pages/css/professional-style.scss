@@ -122,4 +122,13 @@ span{
   color: rgb(0, 0, 0);
 }
 
+.rainbow-gradient{
+  background-clip: text;
+  background-image: linear-gradient(red, yellow);
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5em;
+  margin-left: 30%;
+  float: left;
+  margin-top: 30%;
+}
 

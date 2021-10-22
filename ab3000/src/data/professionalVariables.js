@@ -594,7 +594,8 @@ export const awardData = [
     boxColor: "#121211",
     boxBorder: "#5ab337", 
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
+    style: `{fontSize: 1.5em}`
   },
   {
     text: [
