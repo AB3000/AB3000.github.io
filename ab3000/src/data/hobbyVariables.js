@@ -82,7 +82,7 @@ export const astrologyData = [
     backText: `<h1>Cancer the Crab</h1>
     <h2>Element: Water</h2>
     <h2>
-      Symbol: <span class="icon-cancer" data-icon="&#x908;"></span>
+      Symbol: <span class="icon-cancer" data-icon="&#xe908;"></span>
     </h2>
     <h2>Modality: Cardinal</h2>
     <h2>Season: Summer</h2>
