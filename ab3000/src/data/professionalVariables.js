@@ -5,7 +5,7 @@ import {
   faSearch,
   faGraduationCap,
   faFlagUsa,
-  faPaintBrush
+  faPaintBrush,
 } from "@fortawesome/free-solid-svg-icons";
 
 export var fasterCharPoses = {
@@ -153,14 +153,12 @@ export const paths = {
     "M 154.83739,122.52651 C -142.88726,343.76453 447.69381,297.94038 99.988407,129.50932 -247.71698,-38.921733 132.1277,473.25203 65.935629,91.601978 -0.25645129,-290.0481 -185.00078,298.99194 87.26407,38.806855 359.5289,-221.37821 -219.69163,-88.044358 142.51275,26.262594 504.71716,140.56955 155.52245,-308.47427 172.00855,72.140231 188.49464,452.75471 452.56202,-98.711488 154.83739,122.52651 Z",
 };
 
-
 export const languages = [
   ["Basic", "Bengali, Hindi"],
   ["Intermediate", ""],
   ["Proficient", "French"],
   ["Native", "English"],
 ];
-
 
 export const skillData = [
   {
@@ -204,8 +202,8 @@ export const skillData = [
   },
   {
     title: "Languages",
-    skills: []
-  }
+    skills: [],
+  },
 ];
 
 export const timelineData = [
@@ -217,7 +215,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -232,7 +230,7 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -247,7 +245,7 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     date: "December 2020",
@@ -257,7 +255,7 @@ export const timelineData = [
     iconOffset: "left-4.5",
     iconColor: "rgb(255, 205, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -272,7 +270,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -290,7 +288,7 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -312,7 +310,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -328,7 +326,7 @@ export const timelineData = [
     iconOffset: "left-3",
     iconColor: "rgb(216, 205, 255)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -347,7 +345,7 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -368,7 +366,7 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -384,7 +382,7 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -403,7 +401,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -422,7 +420,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -438,7 +436,7 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -459,7 +457,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -479,7 +477,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -498,7 +496,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -518,7 +516,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     date: "August 2017",
@@ -528,7 +526,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -543,7 +541,7 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -556,7 +554,7 @@ export const timelineData = [
     iconOffset: "left-5",
     iconColor: "rgb(183, 255, 248)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
   {
     text: [
@@ -573,16 +571,84 @@ export const timelineData = [
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
     boxColor: "#ff8787",
-    borderColor: "#ffa1a1"
+    borderColor: "#ffa1a1",
   },
 ];
 
-
 export const awardData = [
- 
   {
     text: [
-      `Certificate and seal on diploma for showing proficiency in French and English.`
+      "Our team won first place in the UX Hackathon: Humanizing AI.",
+      "We received a check and a seat at Firestarter, a program for helping students build startups.",
+    ],
+    date: "September 2019",
+    title: `First Place: UX Hackathon`,
+    location: "Purdue University",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "rgba(255,181,0,1)",
+    iconBackground: "#121211",
+    iconOutline: "rgba(255,181,0,1)",
+    boxColor: "#121211",
+    boxBorder: "rgba(255,181,0,1)",
+    textColor: "rgba(255,181,0,0.8)",
+    locColor: "#303e49",
+  },
+  {
+    text: [
+      "Our team won the award for Best Prototype at the UX Hackathon: Humanizing AI.",
+    ],
+    date: "September 2019",
+    title: "Best Prototype: UX Hackathon",
+    location: "Purdue University",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "rgba(255,181,0,1)",
+    iconBackground: "#121211",
+    iconOutline: "rgba(255,181,0,1)",
+    boxColor: "#121211",
+    boxBorder: "rgba(255,181,0,1)",
+    textColor: "rgba(255,181,0,0.8)",
+    locColor: "#303e49",
+  },
+  {
+    text: [
+      "Our team won the Best User Experience award at the UX Hackathon: Humanizing AI.",
+    ],
+    date: "September 2019",
+    title: "Best User Experience: UX Hackathon",
+    location: "Purdue University",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "rgba(255,181,0,1)",
+    iconBackground: "#121211",
+    iconOutline: "rgba(255,181,0,1)",
+    boxColor: "#121211",
+    boxBorder: "rgba(255,181,0,1)",
+    textColor: "rgba(255,181,0,0.8)",
+    locColor: "#303e49",
+  },
+  {
+    text: [
+      "Our hackathon team won the award for the most technical project at the UX Hackathon: Humanizing AI.",
+      "We used natural language processing and built a chrome extension that utilizes this algorithm.",
+    ],
+    date: "September 2019",
+    title: `Most Technical Project: UX Hackathon`,
+    location: "Purdue University",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "rgba(255,181,0,1)",
+    iconBackground: "#121211",
+    iconOutline: "rgba(255,181,0,1)",
+    boxColor: "#121211",
+    boxBorder: "rgba(255,181,0,1)",
+    textColor: "rgba(255,181,0,0.8)",
+    locColor: "#303e49",
+  },
+  {
+    text: [
+      `Certificate and seal on diploma for showing proficiency in French and English.`,
     ],
     date: "June 2017",
     title: "California Seal of Billiteracy",
@@ -593,13 +659,13 @@ export const awardData = [
     iconBackground: "black",
     iconOutline: "rgba(255,181,0,0.8)",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Medal for performing more than 80 hours of local community service within my senior year of high school.`
+      `Medal for performing more than 80 hours of local community service within my senior year of high school.`,
     ],
     date: "June 2017",
     title: `Community Service Award`,
@@ -610,14 +676,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#610606",
     boxColor: "#121211",
-    boxBorder: "#610606", 
+    boxBorder: "#610606",
     textColor: "#a80c0c",
     locColor: "#303e49",
-    style: `{fontSize: 1.5em}`
   },
   {
     text: [
-      `Award placed on diploma for maintaining high grades in English, Mathematics, Science, History, and other electives in high school.`
+      `Award placed on diploma for maintaining high grades in English, Mathematics, Science, History, and other electives in high school.`,
     ],
     date: "June 2017",
     title: "Golden State Seal Merit",
@@ -628,13 +693,13 @@ export const awardData = [
     iconBackground: "black",
     iconOutline: "rgba(255,181,0,0.8)",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received this community service award for 12 hours of tutoring services in math after school.`
+      `Received this community service award for 12 hours of tutoring services in math after school.`,
     ],
     date: "May 2017",
     title: `Academic Center Tutoring: Community Service Award`,
@@ -645,14 +710,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
     locColor: "#303e49",
-    style: `{fontSize: 1.5em}`
   },
   {
     text: [
-      `Cord handed for performing more than 20 hours of service in French-themed events in my local community.`
+      `Cord handed for performing more than 20 hours of service in French-themed events in my local community.`,
     ],
     date: "May 2017",
     title: "French National Honor Society: Recognition",
@@ -663,13 +727,13 @@ export const awardData = [
     iconBackground: "black",
     iconOutline: "pink",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Cord handed for assisting in art-related events for more than 20 hours in my school and community.`
+      `Cord handed for assisting in art-related events for more than 20 hours in my school and community.`,
     ],
     date: "May 2017",
     title: "National Art Honor Society: Recognition",
@@ -680,13 +744,13 @@ export const awardData = [
     iconBackground: "black",
     iconOutline: "rgba(0,224,233, 0.8)",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received a merit award for "Doin' It Wright" in my government and economics class.`
+      `Received a merit award for "Doin' It Wright" in my government and economics class.`,
     ],
     date: "April 2017",
     title: `Government and Economics: "Doin' It Wright"`,
@@ -697,13 +761,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received the "Dr. Francisco Jiminez Award for the Strongest Work Ethic" in my Mythology and Folklore class.`
+      `Received the "Dr. Francisco Jiminez Award for the Strongest Work Ethic" in my Mythology and Folklore class.`,
     ],
     date: "April 2017",
     title: "Mythology and Folklore: Dr. Francisco Jiminez Award for Work Ethic",
@@ -714,13 +778,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received this merit award in French IV for excellent class performance.`
+      `Received this merit award in French IV for excellent class performance.`,
     ],
     date: "February 2017",
     title: "French IV: Merit Certificate",
@@ -731,13 +795,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received this merit award for "exceptional writing and speaking skills and constant effort to use the French language in creative ways."`
+      `Received this merit award for "exceptional writing and speaking skills and constant effort to use the French language in creative ways."`,
     ],
     date: "April 2016",
     title: "French III: The Marcel Pagnol Award",
@@ -748,14 +812,12 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
-    text: [
-      `Awarded for having a PSAT score within the top 3% of test-takers.`
-    ],
+    text: [`Awarded for having a PSAT score within the top 3% of test-takers.`],
     date: "September 2015",
     title: "National Merit Scholarship Program: Letter of Commendation",
     location: "Homestead High School",
@@ -765,13 +827,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#d41717",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received this merit award for "outstanding performance" in my 10th grade World History class.`
+      `Received this merit award for "outstanding performance" in my 10th grade World History class.`,
     ],
     date: "April 2015",
     title: "World History: Outstanding Performance",
@@ -782,13 +844,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received this merit award for "exceptional writing and speaking skills and constant effort to use the French language in creative ways."`
+      `Received this merit award for "exceptional writing and speaking skills and constant effort to use the French language in creative ways."`,
     ],
     date: "April 2015",
     title: "French II: The Marcel Pagnol Award",
@@ -799,13 +861,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received a "Zora Neale Hurston Award for Good Medicine / Well Rounded Student" in my 10th grade World Literature and Writing class.`
+      `Received a "Zora Neale Hurston Award for Good Medicine / Well Rounded Student" in my 10th grade World Literature and Writing class.`,
     ],
     date: "April 2015",
     title: "World Literature and Writing: The Zora Neale Hurston Award",
@@ -816,13 +878,13 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
   {
     text: [
-      `Received this merit award for "outstanding Computer Science achievement" in an Introduction to Java course in 9th grade.`
+      `Received this merit award for "outstanding Computer Science achievement" in an Introduction to Java course in 9th grade.`,
     ],
     date: "April 2014",
     title: "Introduction to Java: Outstanding Computer Science Achievement",
@@ -833,8 +895,8 @@ export const awardData = [
     iconBackground: "#121211",
     iconOutline: "#5ab337",
     boxColor: "#121211",
-    boxBorder: "#5ab337", 
+    boxBorder: "#5ab337",
     textColor: "green",
-    locColor: "#303e49"
+    locColor: "#303e49",
   },
 ];
