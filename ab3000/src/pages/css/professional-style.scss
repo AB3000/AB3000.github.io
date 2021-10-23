@@ -122,13 +122,25 @@ span{
   color: rgb(0, 0, 0);
 }
 
-.rainbow-gradient{
-  background-clip: text;
-  background-image: linear-gradient(90deg, rgba(255,0,0,1) 4%, rgba(255,239,0,1) 33%, rgba(0,224,233,1) 68%, rgba(137,0,217,1) 100%);
-  -webkit-text-fill-color: transparent;
-  // font-size: 1.5em;
+
+.gradient{
   margin-left: 30%;
   float: left;
   margin-top: 30%;
+  font-size: 1.5em;
 }
+
+.rainbow-gradient{
+    background-clip: text;
+    background-image: linear-gradient(90deg, rgba(255,0,0,1) 4%, rgba(255,239,0,1) 33%, rgba(0,224,233,1) 68%, rgba(137,0,217,1) 100%);
+    -webkit-text-fill-color: transparent;
+}
+  
+.french-gradient{
+  background-clip: text;
+  background-image: linear-gradient(90deg, rgba(208,0,0,1) 0%, rgba(255,255,255,1) 36%, rgba(0,50,217,1) 100%);
+  -webkit-text-fill-color: transparent;
+}
+
+
 
