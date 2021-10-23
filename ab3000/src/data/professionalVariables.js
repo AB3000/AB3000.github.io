@@ -578,6 +578,42 @@ export const timelineData = [
 export const awardData = [
   {
     text: [
+      `From my first semester till graduation, I have 
+       consistently maintained Semester Honors and my place on the Dean's List.`,
+    ],
+    date: "August 2017 - December 2020",
+    title: "Dean's List and Semester Honors",
+    location: "Purdue University",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "rgba(255,181,0,1)",
+    iconBackground: "#121211",
+    iconOutline: "rgba(255,181,0,1)",
+    boxColor: "#121211",
+    boxBorder: "rgba(255,181,0,1)",
+    textColor: "rgba(255,181,0,0.8)",
+    locColor: "#303e49",
+  },
+  {
+    text: [
+      "Our team won third place ($500 check) for a pitch competition where we presented our Humanazing AI idea.",
+      "I designed the business model slides for the product."
+    ],
+    date: "November 2019",
+    title: `Third Place: Crossing State Street`,
+    location: "Purdue University",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "rgba(255,181,0,1)",
+    iconBackground: "#121211",
+    iconOutline: "rgba(255,181,0,1)",
+    boxColor: "#121211",
+    boxBorder: "rgba(255,181,0,1)",
+    textColor: "rgba(255,181,0,0.8)",
+    locColor: "#303e49",
+  },
+  {
+    text: [
       "Our team won first place in the UX Hackathon: Humanizing AI.",
       "We received a check and a seat at Firestarter, a program for helping students build startups.",
       "Our team got a broadcasted TV interview with Fox59 and CBS4."
