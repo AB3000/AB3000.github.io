@@ -580,6 +580,7 @@ export const awardData = [
     text: [
       "Our team won first place in the UX Hackathon: Humanizing AI.",
       "We received a check and a seat at Firestarter, a program for helping students build startups.",
+      "Our team got a broadcasted TV interview with Fox59 and CBS4."
     ],
     date: "September 2019",
     title: `First Place: UX Hackathon`,
