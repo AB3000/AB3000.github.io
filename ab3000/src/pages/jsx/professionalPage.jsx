@@ -335,7 +335,7 @@ export default class ProfessionalPage extends React.Component {
             this.state.majorSectionID === 3 && isActive ? "" : "is-hidden"
           }`}
         >
-          <h1 style={{color: "rgb(208, 216, 255)"}}>More coming soon!</h1>
+          {/* <h1 style={{color: "rgb(208, 216, 255)"}}>More coming soon!</h1> */}
           <VerticalTimeline className="vertical-timeline-custom-line">
             <Timeline tData={awardData}></Timeline>
             <VerticalTimelineElement
