@@ -127,7 +127,7 @@ span{
   margin-left: 30%;
   float: left;
   margin-top: 30%;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 .rainbow-gradient{
@@ -140,6 +140,13 @@ span{
   background-clip: text;
   background-image: linear-gradient(90deg, rgba(208,0,0,1) 0%, rgba(255,255,255,1) 36%, rgba(0,50,217,1) 100%);
   -webkit-text-fill-color: transparent;
+}
+
+.california-gradient{
+  background-clip: text;
+  background-image: linear-gradient(90deg, rgba(255,238,115,1) 0%, rgba(255,181,0,1) 100%);
+  -webkit-text-fill-color: transparent;
+  
 }
 
 

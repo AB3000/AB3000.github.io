@@ -579,6 +579,59 @@ export const timelineData = [
 
 
 export const awardData = [
+ 
+  {
+    text: [
+      `Certificate and seal on diploma for showing proficiency in French and English.`
+    ],
+    date: "June 2017",
+    title: "California Seal of Billiteracy",
+    location: "Homestead High School",
+    icon: "icon-california",
+    iconCode: "&#xe900;",
+    iconGradient: "gradient california-gradient",
+    iconBackground: "black",
+    iconOutline: "rgba(255,181,0,0.8)",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
+  {
+    text: [
+      `Medal for performing more than 80 hours of local community service within my senior year of high school.`
+    ],
+    date: "June 2017",
+    title: `Community Service Award`,
+    location: "Fremont Union High School District",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#610606",
+    iconBackground: "#121211",
+    iconOutline: "#610606",
+    boxColor: "#121211",
+    boxBorder: "#610606", 
+    textColor: "#a80c0c",
+    locColor: "#303e49",
+    style: `{fontSize: 1.5em}`
+  },
+  {
+    text: [
+      `Award placed on diploma for maintaining high grades in English, Mathematics, Science, History, and other electives in high school.`
+    ],
+    date: "June 2017",
+    title: "Golden State Seal Merit",
+    location: "Homestead High School",
+    icon: "icon-california",
+    iconCode: "&#xe900;",
+    iconGradient: "gradient california-gradient",
+    iconBackground: "black",
+    iconOutline: "rgba(255,181,0,0.8)",
+    boxColor: "#121211",
+    boxBorder: "#5ab337", 
+    textColor: "green",
+    locColor: "#303e49"
+  },
   {
     text: [
       `Received this community service award for 12 hours of tutoring services in math after school.`
