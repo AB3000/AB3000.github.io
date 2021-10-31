@@ -578,7 +578,7 @@ export const timelineData = [
 export const awardData = [
   {
     text: [
-      `Received a $25,000 Merit Scholarship for my year at Cornell Tech.`,
+      `Received a $25,000 merit scholarship for my year at Cornell Tech.`,
     ],
     date: "December 2020",
     title: "Merit Scholarship",
