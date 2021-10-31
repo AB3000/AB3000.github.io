@@ -578,6 +578,23 @@ export const timelineData = [
 export const awardData = [
   {
     text: [
+      `Received a $25,000 Merit Scholarship for my year at Cornell Tech.`,
+    ],
+    date: "December 2020",
+    title: "Merit Scholarship",
+    location: "Cornell Tech",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#bf2121",
+    iconBackground: "#121211",
+    iconOutline: "#cccccc",
+    boxColor: "#121211",
+    boxBorder: "#bf2121",
+    textColor: "#bf2121",
+    locColor: "#303e49",
+  },
+  {
+    text: [
       `From my first semester till graduation, I have 
        consistently maintained Semester Honors and my place on the Dean's List.`,
     ],
