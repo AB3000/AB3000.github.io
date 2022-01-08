@@ -583,6 +583,78 @@ export const mbtiData = [
     id: 9,
     cardColor: "rgb(255, 250, 202)",
   },
+  {
+    src: "images/mbti/ESFJ.png",
+    frontText: `Popular. <br/> Harmonious. <br/> Compassionate.`,
+    backText: `<h1>ESFJ</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/> 
+    Sensing - Loves the finer details <br/> <br/> 
+    Feeling - Makes emotion-driven decisions <br/> <br/> 
+    Judging - Prefers traditional or proven methods </h4>
+    <h3>"The Consul"</h3>`,
+    id: 10,
+    cardColor: "rgb(202, 255, 252)",
+  },
+  {
+    src: "images/mbti/ISFJ.png",
+    frontText: `Passionate. <br/> Protective. <br/> Loyal.`,
+    backText: `<h1>ISFJ</h1> 
+    <h4>Introverted - Energized from solitude <br/> <br/> 
+    Sensing - Loves the finer details <br/> <br/> 
+    Feeling - Makes emotion-driven decisions <br/> <br/> 
+    Judging - Prefers traditional or proven methods </h4>
+    <h3>"The Defender"</h3>`,
+    id: 11,
+    cardColor: "rgb(202, 255, 252)",
+  },
+  {
+    src: "images/mbti/ENFP.png",
+    frontText: `Temporary Filler Text`,
+    backText: `<h1>ENFP</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/> 
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Feeling - Makes emotion-driven decisions <br/> <br/> 
+    Perceiving - Prefers experimentation or new approaches</h4>
+    <h3>"FILLER"</h3>`,
+    id: 12,
+    cardColor: "rgb(211, 255, 202)",
+  },
+  {
+    src: "images/mbti/INFP.png",
+    frontText: `Kind. <br/> Poetic. <br/> Charitable.`,
+    backText: `<h1>INFP</h1> 
+    <h4>Introverted - Energized from solitude <br/> <br/> 
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Feeling - Makes emotion-driven decisions <br/> <br/> 
+    Perceiving - Prefers experimentation or new approaches</h4>
+    <h3>"The Mediator"</h3>`,
+    id: 13,
+    cardColor: "rgb(211, 255, 202)",
+  },
+  {
+    src: "images/mbti/ENTP.png",
+    frontText: `Smart. <br/> Curious. <br/> Innovative.`,
+    backText: `<h1>ENTP</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/> 
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Thinking - Makes logic-driven decisions <br/> <br/> 
+    Perceiving - Prefers experimentation or new approaches</h4>
+    <h3>"The Debater"</h3>`,
+    id: 14,
+    cardColor: "#E9D8FF",
+  },
+  {
+    src: "images/mbti/INTP.png",
+    frontText: `Imaginative. <br/> Easy-going. <br/> Patient.`,
+    backText: `<h1>INTP</h1> 
+    <h4>Introverted - Energized from solitude <br/> <br/> 
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Thinking - Makes logic-driven decisions <br/> <br/> 
+    Perceiving - Prefers experimentation or new approaches</h4>
+    <h3>"The Logician"</h3>`,
+    id: 15,
+    cardColor: "#E9D8FF",
+  },
  
 ];
 
