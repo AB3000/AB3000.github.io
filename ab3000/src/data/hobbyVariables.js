@@ -461,6 +461,46 @@ export const accAstrologyData = [
     cardColor: "rgb(202, 255, 252)",
   },
 ];
+
+export const mbtiData = [
+  {
+    src: "images/mbti/ENFJ.png",
+    frontText: `Warm. <br/> Realistic. <br/> Reliable.`,
+    backText: `<h1>ENFJ</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/> 
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Feeling - Makes emotion-driven decisions <br/> <br/> 
+    Judging - Prefers traditional or proven methods </h4>
+    <h3>"The Protagonist"</h3>`,
+    id: 0,
+    cardColor: "rgb(211, 255, 202)",
+  },
+  {
+    src: "images/mbti/INFJ.png",
+    frontText: `Practical. <br/> Deep. <br/> Kind. <br/>`,
+    backText: `<h1>INFJ</h1> 
+    <h4>Introverted - Energized from solitude <br/> <br/> 
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Feeling - Makes emotion-driven decisions <br/> <br/> 
+    Judging - Prefers traditional or proven methods </h4>
+    <h3>"The Advocate"</h3>`,
+    id: 1,
+    cardColor: "rgb(211, 255, 202)",
+  },
+  {
+    src: "images/mbti/ENTJ.png",
+    frontText: `Practical. <br/> Deep. <br/> Kind. <br/>`,
+    backText: `<h1>ENTJ</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/>  
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Thinking - Makes logic-driven decisions <br/> <br/> 
+    Judging - Prefers traditional or proven methods </h4>
+    <h3>"The Commander"</h3>`,
+    id: 2,
+    cardColor: "#E9D8FF",
+  },
+];
+
 // export const braceletData = [
 //   {
 //     path: require("../assets/images/Web-Files/Bracelets/FullSizeRender 2.png")

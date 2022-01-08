@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../css/bootstrap-grid.scss";
 import "../css/fancy-buttons.scss";
 import ReactHtmlParser from "react-html-parser";
-import { astrologyData, accAstrologyData, charPoses } from "../../data/hobbyVariables";
+import { astrologyData, accAstrologyData, mbtiData, charPoses } from "../../data/hobbyVariables";
 import SplitText from "react-pose-text";
 import { leftArrow, rightArrow } from "./arrows";
 
@@ -20,7 +20,7 @@ const settings = {
   cssEase: "linear",
 };
 
-const allPictureData = [astrologyData, accAstrologyData];
+const allPictureData = [astrologyData, mbtiData, accAstrologyData];
 
 var slideShowStates = new Array(allPictureData.length);
 
@@ -171,7 +171,7 @@ export default class HobbiesPage extends React.Component {
           >
             <div className="dividing-text">
               <h1 className="coming-soon">
-                ASTROLOGY - During the 2020 pandemic, I found an interest in astrology. 
+                ASTROLOGY - During the first full year (2020) of the pandemic, I found an interest in astrology. 
                 Delving into the traits of my sun sign was exciting, so I thought that others might enjoy
                 learning more about theirs too! During each astrological month, I tried to capture the unique qualities
                 of each sign in pocket-sized pendants. 
@@ -182,6 +182,23 @@ export default class HobbiesPage extends React.Component {
               <h1 className="slider_title">The Twelve Signs</h1>
               {SlideShow({ identifier: 0, dataset: astrologyData })}
             </div>
+
+            <div className="dividing-text">
+              <h1 className="coming-soon">
+                MBTI - With another year came a new "series"! This time, I made batches of pendants representing the 
+                MBTI personality categories. <br/> 
+                {/* First Letter: Extroverted (energizes from others) or Introverted (energizes alone) <br/> 
+                Second Letter: Sensing (loves details) or iNtuitive (loves the big picture) <br/> 
+                Third Letter: Feeling (emotion-driven decisions) or Thinking (logic-driven decisions) <br/>
+                Fourth Letter: Perceiving (flexible) vs. Judging (traditional)  */}
+              </h1>
+            </div>
+
+            <div className="container mt-5 carousel">
+              <h1 className="slider_title">The Sixteen Personalities</h1>
+              {SlideShow({ identifier: 1, dataset: mbtiData })}
+            </div>
+
             <h1 className="coming-soon">More coming soon!</h1>
           </div>
           <div
