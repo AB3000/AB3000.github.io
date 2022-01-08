@@ -22,7 +22,7 @@ export const charPoses = {
 export const astrologyData = [
   {
     src: "images/astrology/main_pendants/aries.png",
-    frontText: `Spontaneous, adventurous, bold, confident, and determined. Never a dull moment!`,
+    frontText: `<h4>Spontaneous, adventurous, bold, confident, and determined. Never a dull moment!</h4>`,
     backText: `<h1>Aries the Ram</h1>
     <h2>Element: Fire</h2>
     <h2>
@@ -477,7 +477,7 @@ export const mbtiData = [
   },
   {
     src: "images/mbti/INTJ.png",
-    frontText: `Logical. <br/> Consistent. <br/> Ambitious. <br/>`,
+    frontText: `Diplomatic. <br/> Resilient. <br/> Intelligent. <br/>`,
     backText: `<h1>INTJ</h1> 
     <h4>Introverted - Energized from solitude <br/> <br/> 
     iNtuitive - Loves the big picture <br/> <br/> 
