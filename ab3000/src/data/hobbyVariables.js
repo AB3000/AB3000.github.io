@@ -609,13 +609,13 @@ export const mbtiData = [
   },
   {
     src: "images/mbti/ENFP.png",
-    frontText: `Temporary Filler Text`,
+    frontText: `Energetic. <br/> Lighthearted. <br/> Friendly.`,
     backText: `<h1>ENFP</h1> 
     <h4>Extroverted - Energized from others <br/> <br/> 
     iNtuitive - Loves the big picture <br/> <br/> 
     Feeling - Makes emotion-driven decisions <br/> <br/> 
     Perceiving - Prefers experimentation or new approaches</h4>
-    <h3>"FILLER"</h3>`,
+    <h3>"The Campaigner"</h3>`,
     id: 12,
     cardColor: "rgb(211, 255, 202)",
   },
