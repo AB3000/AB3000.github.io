@@ -185,12 +185,8 @@ export default class HobbiesPage extends React.Component {
 
             <div className="dividing-text">
               <h1 className="coming-soon">
-                MBTI - With another year came a new "series"! This time, I made batches of pendants representing the 
+                MBTI - With another year (2021) came a new "series"! This time, I made batches of pendants representing the 
                 MBTI personality categories. <br/> 
-                {/* First Letter: Extroverted (energizes from others) or Introverted (energizes alone) <br/> 
-                Second Letter: Sensing (loves details) or iNtuitive (loves the big picture) <br/> 
-                Third Letter: Feeling (emotion-driven decisions) or Thinking (logic-driven decisions) <br/>
-                Fourth Letter: Perceiving (flexible) vs. Judging (traditional)  */}
               </h1>
             </div>
 
