@@ -464,6 +464,30 @@ export const accAstrologyData = [
 
 export const mbtiData = [
   {
+    src: "images/mbti/ENTJ.png",
+    frontText: `Logical. <br/> Consistent. <br/> Ambitious. <br/>`,
+    backText: `<h1>ENTJ</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/>  
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Thinking - Makes logic-driven decisions <br/> <br/> 
+    Judging - Prefers traditional or proven methods </h4>
+    <h3>"The Commander"</h3>`,
+    id: 0,
+    cardColor: "#E9D8FF",
+  },
+  {
+    src: "images/mbti/INTJ.png",
+    frontText: `Logical. <br/> Consistent. <br/> Ambitious. <br/>`,
+    backText: `<h1>INTJ</h1> 
+    <h4>Introverted - Energized from solitude <br/> <br/> 
+    iNtuitive - Loves the big picture <br/> <br/> 
+    Thinking - Makes logic-driven decisions <br/> <br/> 
+    Judging - Prefers traditional or proven methods </h4>
+    <h3>"The Architect"</h3>`,
+    id: 1,
+    cardColor: "#E9D8FF",
+  },
+  {
     src: "images/mbti/ENFJ.png",
     frontText: `Warm. <br/> Realistic. <br/> Reliable.`,
     backText: `<h1>ENFJ</h1> 
@@ -472,7 +496,7 @@ export const mbtiData = [
     Feeling - Makes emotion-driven decisions <br/> <br/> 
     Judging - Prefers traditional or proven methods </h4>
     <h3>"The Protagonist"</h3>`,
-    id: 0,
+    id: 2,
     cardColor: "rgb(211, 255, 202)",
   },
   {
@@ -484,21 +508,34 @@ export const mbtiData = [
     Feeling - Makes emotion-driven decisions <br/> <br/> 
     Judging - Prefers traditional or proven methods </h4>
     <h3>"The Advocate"</h3>`,
-    id: 1,
+    id: 3,
     cardColor: "rgb(211, 255, 202)",
   },
   {
-    src: "images/mbti/ENTJ.png",
-    frontText: `Practical. <br/> Deep. <br/> Kind. <br/>`,
-    backText: `<h1>ENTJ</h1> 
-    <h4>Extroverted - Energized from others <br/> <br/>  
-    iNtuitive - Loves the big picture <br/> <br/> 
+    src: "images/mbti/ESTJ.png",
+    frontText: `Efficient. <br/> Scrupulous. <br/> Assertive.`,
+    backText: `<h1>ESTJ</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/> 
+    Sensing - Loves the finer details <br/> <br/> 
     Thinking - Makes logic-driven decisions <br/> <br/> 
     Judging - Prefers traditional or proven methods </h4>
-    <h3>"The Commander"</h3>`,
-    id: 2,
-    cardColor: "#E9D8FF",
+    <h3>"The Executive"</h3>`,
+    id: 4,
+    cardColor: "rgb(202, 255, 252)",
   },
+  {
+    src: "images/mbti/ISTJ.png",
+    frontText: `Responsible. <br/> Organized. <br/> Honest.`,
+    backText: `<h1>ISTJ</h1> 
+    <h4>Introverted - Energized from solitude <br/> <br/> 
+    Sensing - Loves the finer details <br/> <br/> 
+    Thinking - Makes logic-driven decisions <br/> <br/> 
+    Judging - Prefers traditional or proven methods </h4>
+    <h3>"The Logistician"</h3>`,
+    id: 5,
+    cardColor: "rgb(202, 255, 252)",
+  },
+ 
 ];
 
 // export const braceletData = [
