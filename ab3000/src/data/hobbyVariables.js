@@ -535,6 +535,54 @@ export const mbtiData = [
     id: 5,
     cardColor: "rgb(202, 255, 252)",
   },
+  {
+    src: "images/mbti/ESTP.png",
+    frontText: `Social. <br/> Intelligent. <br/> Bold.`,
+    backText: `<h1>ESTP</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/> 
+    Sensing - Loves the finer details <br/> <br/> 
+    Thinking - Makes logic-driven decisions <br/> <br/> 
+    Perceiving - Prefers experimentation or new approaches</h4>
+    <h3>"The Entrepreneur"</h3>`,
+    id: 6,
+    cardColor: "rgb(255, 250, 202)",
+  },
+  {
+    src: "images/mbti/ISTP.png",
+    frontText: `Creative. <br/> Rational. <br/> Relaxed.`,
+    backText: `<h1>ISTP</h1> 
+    <h4>Introverted - Energized from solitude <br/> <br/> 
+    Sensing - Loves the finer details <br/> <br/> 
+    Thinking - Makes logic-driven decisions <br/> <br/> 
+    Perceiving - Prefers experimentation or new approaches</h4>
+    <h3>"The Virtuoso"</h3>`,
+    id: 7,
+    cardColor: "rgb(255, 250, 202)",
+  },
+  {
+    src: "images/mbti/ESFP.png",
+    frontText: `Enthusiastic. <br/> Spontaneous. <br/> Energetic.`,
+    backText: `<h1>ESFP</h1> 
+    <h4>Extroverted - Energized from others <br/> <br/> 
+    Sensing - Loves the finer details <br/> <br/> 
+    Feeling - Makes emotion-driven decisions <br/> <br/> 
+    Perceiving - Prefers experimentation or new approaches</h4>
+    <h3>"The Entertainer"</h3>`,
+    id: 8,
+    cardColor: "rgb(255, 250, 202)",
+  },
+  {
+    src: "images/mbti/ISFP.png",
+    frontText: `Charming. <br/> Artistic. <br/> Gentle.`,
+    backText: `<h1>ISFP</h1> 
+    <h4>Introverted - Energized from solitude <br/> <br/> 
+    Sensing - Loves the finer details <br/> <br/> 
+    Feeling - Makes emotion-driven decisions <br/> <br/> 
+    Perceiving - Prefers experimentation or new approaches</h4>
+    <h3>"The Adventurer"</h3>`,
+    id: 9,
+    cardColor: "rgb(255, 250, 202)",
+  },
  
 ];
 
