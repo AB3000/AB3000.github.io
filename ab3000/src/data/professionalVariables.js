@@ -208,6 +208,19 @@ export const skillData = [
 
 export const timelineData = [
   {
+    text: [
+    ],
+    date: "January 2022 - Present",
+    title: "Cornell Tech",
+    position: "Grader, CS5726 (Learning, Inference, and Decision Making from Data)",
+    location: "New York, New York",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+  },
+  {
     date: "August 2021",
     title: "Started my master's at Cornell Tech!",
     location: "New York, New York",

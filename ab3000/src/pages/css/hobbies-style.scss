@@ -194,6 +194,10 @@ $Raleway: "Raleway", sans-serif;
   background: rgb(0, 0, 0);
   border-radius: 16px;
   overflow: hidden;
+  h4{
+    font-family: fantasy;
+    color: white;
+  }
 }
 
 .card.is-flipped {
@@ -212,3 +216,5 @@ span {
   font-family: fantasy;
   color: pink;
 }
+
+
