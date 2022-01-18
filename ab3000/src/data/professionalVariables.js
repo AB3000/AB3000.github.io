@@ -698,7 +698,7 @@ export const awardData = [
   {
     text: [
       "Our hackathon team won the award for the most technical project at the UX Hackathon: Humanizing AI.",
-      "We used natural language processing and built a chrome extension that utilizes this algorithm.",
+      "I designed the natural language processing algorithm underlying the chrome extension we built.",
     ],
     date: "September 2019",
     title: `Most Technical Project: UX Hackathon`,
