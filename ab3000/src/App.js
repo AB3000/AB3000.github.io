@@ -27,7 +27,7 @@ class App extends Component {
 
   //function to get path's depth
   getPathDepth(location) {
-    // gives path e.g: home is '/', professional is '/professional'
+    // gives path e.g: home is '/', professional is '/career'
     let pathArr = location.pathname.split('/');
     //returns all elements in path that are not empty strings
     pathArr = pathArr.filter(n => n !== '');
@@ -60,7 +60,7 @@ class App extends Component {
           >
             <Switch location={location}>
               <Route path='/' exact component={HomePage} /> {/* depth 0*/}
-              <Route path='/professional' exact component={ProfessionalPage} />
+              <Route path='/career' exact component={ProfessionalPage} />
               <Route path='/hobbies' exact component={HobbiesPage} />
             </Switch>
           </div>

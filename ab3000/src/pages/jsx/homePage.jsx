@@ -81,7 +81,7 @@ export default class HomePage extends React.Component {
             "Hobbies"
           )}
           {rightArrow(
-            "/professional",
+            "/career",
             "translate(0, 200) scale(-1,-1)",
             "#ff8787",
             "250",
