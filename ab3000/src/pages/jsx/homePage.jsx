@@ -88,9 +88,9 @@ export default class HomePage extends React.Component {
             "80",
             "scale(0.26458333) translate(0, -450)",
             "-10",
-            "48%",
-            "-5",
-            "Professional"
+            "30%",
+            "5",
+            "Career"
           )}
           <div className="profile-container">
             Aarushi Banerjee
