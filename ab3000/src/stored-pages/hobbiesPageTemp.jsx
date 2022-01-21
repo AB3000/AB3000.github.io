@@ -9,6 +9,7 @@ import Icon from "../pages/icon";
 import ReactHtmlParser from "react-html-parser";
 import { astrologyData, testData } from "../data/hobbyVariables";
 
+//number of cards that appear to a user on a browser 
 const settings = {
   dots: true,
   infinite: true,
@@ -16,10 +17,9 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   cssEase: "linear",
-
-  // focusOnSelect: true,
 };
 
+//current
 const allVariableData = [astrologyData, testData];
 
 var slideShowStates = new Array(2);

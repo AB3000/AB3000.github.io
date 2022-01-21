@@ -89,7 +89,7 @@ export default class HomePage extends React.Component {
             "scale(0.26458333) translate(0, -450)",
             "-10",
             "48%",
-            "-3",
+            "-5",
             "Professional"
           )}
           <div className="profile-container">

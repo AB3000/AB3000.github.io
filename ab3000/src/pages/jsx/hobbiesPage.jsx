@@ -11,6 +11,7 @@ import { astrologyData, accAstrologyData, mbtiData, charPoses } from "../../data
 import SplitText from "react-pose-text";
 import { leftArrow, rightArrow } from "./arrows";
 
+//settings for series / carousels of pendants 
 const settings = {
   dots: true,
   infinite: true,
@@ -20,7 +21,9 @@ const settings = {
   cssEase: "linear",
 };
 
+//different slideshow carousels for each series of pendants 
 const allPictureData = [astrologyData, mbtiData, accAstrologyData];
+
 
 var slideShowStates = new Array(allPictureData.length);
 
@@ -38,6 +41,7 @@ export default class HobbiesPage extends React.Component {
     };
   }
 
+  //used to display the clicked hobby section (jewelry, resin pendants, animation, etc.)
   handleClick(id) {
     this.setState({ sectionID: id }, function () {
       if (this.state.sectionID === id) {
@@ -48,6 +52,7 @@ export default class HobbiesPage extends React.Component {
     });
   }
 
+  //flips card backwards when clicked 
   toggleClass = (identifier, id) => {
     this.setState(
       update(this.state, {
@@ -63,6 +68,7 @@ export default class HobbiesPage extends React.Component {
   render() {
     const { selectedItemState, isActive, sectionID } = this.state;
 
+    //add cards to carousel, handles logic when cards are clicked and flipped 
     const SlideShow = ({ identifier, dataset }) => (
       <Slider {...settings}>
         {dataset.map((data, idx) => {
@@ -98,6 +104,7 @@ export default class HobbiesPage extends React.Component {
 
     return (
       <div className="page-container">
+        {/* (leftLink, outerTrans, color, width, height, trans, dy, text length, start offset, text) */}
         {leftArrow(
           "/professional",
           "none",
@@ -106,9 +113,9 @@ export default class HobbiesPage extends React.Component {
           "50",
           "scale(1.03458333) translate(0, -103)",
           "-8",
-          "65%",
-          "73.5%",
-          "Professional"
+          "40%",
+          "80%",
+          "Career"
         )}
         {rightArrow(
           "/",
