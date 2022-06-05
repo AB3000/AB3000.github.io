@@ -20,10 +20,10 @@ export var fasterCharPoses = {
 export const homeStyles = [
   {
     opacity: 1,
-    fill: "#ff8787",
+    fill: "rgba(255, 135, 135, 100)",
     fillOpacity: 1,
-    fillRule: "evenodd",
-    stroke: "#ff8787",
+    // fillRule: "evenodd",
+    stroke: "rgba(255, 135, 135, 100)",
     strokeWidth: 0,
     strokeLinejoin: "round",
     strokeMiterlimit: 4,
@@ -208,12 +208,23 @@ export const skillData = [
 
 export const timelineData = [
   {
+    date: "May 2022",
+    title: "Graduated Cornell Tech University!",
+    location: "New York, NY",
+    icon: faGraduationCap,
+    iconOffset: "left-4.5",
+    iconColor: "rgb(255, 205, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+  },
+  {
     text: [
+      "Graded tests, homeworks, and projects through the semester."
     ],
-    date: "January 2022 - Present",
+    date: "January 2022 - May 2022",
     title: "Cornell Tech",
     position: "Grader, CS5726 (Learning, Inference, and Decision Making from Data)",
-    location: "New York, New York",
+    location: "New York, NY",
     icon: faBriefcase,
     iconOffset: "left-2.5",
     iconColor: "rgb(250, 255, 205)",
@@ -223,7 +234,7 @@ export const timelineData = [
   {
     date: "August 2021",
     title: "Started my master's at Cornell Tech!",
-    location: "New York, New York",
+    location: "New York, NY",
     icon: faSchool,
     iconOffset: "left-5",
     iconColor: "rgb(255, 205, 205)",

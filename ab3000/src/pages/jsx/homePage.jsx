@@ -68,6 +68,7 @@ export default class HomePage extends React.Component {
           </svg>
         </div>
         <div className="center-container">
+          {/* (link, outerTrans, color, width, height, trans, dy, text length, start offset, text) */}
           {leftArrow(
             "/hobbies",
             "translate(0, 200)",

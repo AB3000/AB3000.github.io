@@ -221,6 +221,7 @@ export default class ProfessionalPage extends React.Component {
             margin: "50px",
           }}
         >
+          {/* (link, outerTrans, color, width, height, trans, dy, text length, start offset, text) */}
           {leftArrow(
             "/",
             "translate(0, 0)",

@@ -104,7 +104,7 @@ export default class HobbiesPage extends React.Component {
 
     return (
       <div className="page-container">
-        {/* (leftLink, outerTrans, color, width, height, trans, dy, text length, start offset, text) */}
+        {/* (link, outerTrans, color, width, height, trans, dy, text length, start offset, text) */}
         {leftArrow(
           "/career",
           "none",
