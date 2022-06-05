@@ -602,6 +602,23 @@ export const timelineData = [
 export const awardData = [
   {
     text: [
+      `Voted "best demeanor inside and outside the classroom" by faculty and staff.`
+    ],
+    date: "May 2022",
+    title: "Spirit of Cornell Tech Award",
+    location: "Cornell Tech",
+    icon: faSchool,
+    iconOffset: "left-5",
+    iconColor: "#bf2121",
+    iconBackground: "#121211",
+    iconOutline: "#cccccc",
+    boxColor: "#121211",
+    boxBorder: "#bf2121",
+    textColor: "#bf2121",
+    locColor: "#303e49",
+  },
+  {
+    text: [
       `Received a $25,000 merit scholarship for my year at Cornell Tech.`,
     ],
     date: "December 2020",
