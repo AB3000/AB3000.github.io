@@ -95,7 +95,7 @@ export default class HomePage extends React.Component {
             "Career"
           )}
           <div className="profile-container">
-          <h5>Aarushi Banerjee</h5>
+            <h5>Aarushi Banerjee</h5>
             <img src={"images/main_logo.svg"} />
             <h5> Software Engineer</h5>
             <div className="icon-container">
@@ -117,7 +117,10 @@ export default class HomePage extends React.Component {
               <a href="mailto:ab2424@cornell.edu">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
-              <a href="https://www.youtube.com/channel/UCo7f_INMY5gvsKPk8lWO52A">
+              <a
+                href="https://www.youtube.com/channel/UCo7f_INMY5gvsKPk8lWO52A"
+                target="_blank"
+              >
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
             </div>
