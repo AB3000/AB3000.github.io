@@ -9,6 +9,7 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { leftArrow, rightArrow } from "./arrows";
@@ -94,8 +95,9 @@ export default class HomePage extends React.Component {
             "Career"
           )}
           <div className="profile-container">
-            Aarushi Banerjee
-            <h6> Software Engineer </h6>
+          <h5>Aarushi Banerjee</h5>
+            <img src={"images/main_logo.svg"} />
+            <h5> Software Engineer</h5>
             <div className="icon-container">
               <a
                 href="https://www.instagram.com/someone_alive_somehow/"
@@ -114,6 +116,9 @@ export default class HomePage extends React.Component {
               </a>
               <a href="mailto:ab2424@cornell.edu">
                 <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+              <a href="https://www.youtube.com/channel/UCo7f_INMY5gvsKPk8lWO52A">
+                <FontAwesomeIcon icon={faYoutube} />
               </a>
             </div>
           </div>
