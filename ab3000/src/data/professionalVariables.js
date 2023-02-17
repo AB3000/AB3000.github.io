@@ -208,6 +208,20 @@ export const skillData = [
 
 export const timelineData = [
   {
+    text: [
+      "Fullstack development in Angular, Javascript, Java, and python."
+    ],
+    date: "July 2022 - Present",
+    title: "Rightfoot",
+    position: "Software Engineer",
+    location: "San Francisco, CA (remote)",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+  },
+  {
     date: "May 2022",
     title: "Graduated Cornell Tech University!",
     location: "New York, NY",

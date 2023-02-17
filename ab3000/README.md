@@ -68,4 +68,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
-`npm run deploy -- -m "Deploy React app to GitHub Pages"` within the ab3000 subdirectory to deploy.
+`npm run deploy -- -m "Deploy React app to GitHub Pages"` within the ab3000 subdirectory to deploy.0
