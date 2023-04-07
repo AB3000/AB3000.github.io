@@ -615,7 +615,7 @@ export const timelineData = [
       "The app can be found in google play and downloaded for free (currently undergoing updates/maintenance).",
       "This app was accepted into the Endocrine Society of America.",
     ],
-    date: "Summer 2015",
+    date: "Summer 2014",
     title: "Gloria Wu, MD",
     position: "Android App / Software Engineering Intern",
     location: "Cambrian Park, San Jose, CA",
