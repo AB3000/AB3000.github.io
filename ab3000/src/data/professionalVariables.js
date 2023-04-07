@@ -221,7 +221,9 @@ export const skillData = [
 export const timelineData = [
   {
     text: [
-      "Fullstack development in Angular, Javascript, Java, and python."
+      "Fullstack development and devops for loan payment APIs.",
+      "Performed auditing (SOC2) to build and obtain client trust.",
+      "Performed on-call rotations to conduct releases and resolve customer payment issues."
     ],
     date: "July 2022 - Present",
     title: "Rightfoot",
