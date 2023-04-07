@@ -176,6 +176,18 @@ export const skillData = [
     ],
   },
   {
+    title: "Machine Learning",
+    skills: [
+      ["PyTorch", "images/skill_icons/ml/pytorch.svg"],
+      ["Keras", "images/skill_icons/ml/keras.svg"],
+      ["Tensorflow", "images/skill_icons/ml/tensorflow.svg"],
+      ["Deep Learning", "images/skill_icons/ml/deep-learning.svg"],
+      ["Generative AI", "images/skill_icons/ml/generative-ai.svg"],
+      ["Natural Language Processing", "images/skill_icons/ml/NLP.svg"],
+      ["Neural Networks", "images/skill_icons/ml/nn.svg"],
+    ],
+  },
+  {
     title: "Web Development",
     skills: [
       ["HTML", "images/skill_icons/web_dev/html.svg"],
