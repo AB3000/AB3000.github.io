@@ -3,6 +3,7 @@ import {
   timelineData,
   awardData,
   skillData,
+  projectData,
   languages,
   fasterCharPoses,
 } from "../../data/professionalVariables";
@@ -278,6 +279,14 @@ export default class ProfessionalPage extends React.Component {
           >
             Awards
           </div>
+          <div
+            className={`sketchy link ${
+              this.state.majorSectionID === 4 && isActive ? "selected" : ""
+            }`}
+            onClick={() => this.handleClick(4, "majorSectionID")}
+          >
+            Projects
+          </div>
         </div>
         <div
           className={`section ${
@@ -336,9 +345,23 @@ export default class ProfessionalPage extends React.Component {
             this.state.majorSectionID === 3 && isActive ? "" : "is-hidden"
           }`}
         >
-          {/* <h1 style={{color: "rgb(208, 216, 255)"}}>More coming soon!</h1> */}
           <VerticalTimeline className="vertical-timeline-custom-line">
             <Timeline tData={awardData}></Timeline>
+            <VerticalTimelineElement
+              iconStyle={{ background: "#424242", color: "rgb(223, 255, 205)" }}
+              icon={
+                <FontAwesomeIcon icon={faStar} size="2x" transform="left-4" />
+              }
+            />
+          </VerticalTimeline>
+        </div>
+        <div
+          className={`section ${
+            this.state.majorSectionID === 4 && isActive ? "" : "is-hidden"
+          }`}
+        >
+          <VerticalTimeline className="vertical-timeline-custom-line">
+            <Timeline tData={projectData}></Timeline>
             <VerticalTimelineElement
               iconStyle={{ background: "#424242", color: "rgb(223, 255, 205)" }}
               icon={

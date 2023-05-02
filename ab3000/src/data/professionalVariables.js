@@ -8,6 +8,115 @@ import {
   faPaintBrush,
 } from "@fortawesome/free-solid-svg-icons";
 
+export const projectData = [
+  {
+    text: [
+      "Created a Fashion GAN to generate shirts of various colors, lengths, and cuts.",
+      "Brought together a team of five to create a Fashion GAN, trained on over 16,000 images of clothing on Google Colab.",
+    ],
+    date: "May 2022",
+    title: "High Quality Fashion GAN",
+    position: "Lead",
+    location: "Cornell Tech",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+    links: [
+      {
+        url: "https://www.overleaf.com/read/pdrfkbdzhdyq",
+        text: "See Project",
+      },
+    ],
+  },
+  {
+    text: [
+      "Created a Fashion GAN from scratch to generate 784x784 grayscale fashion images.",
+      "Made use of PyTorch to build layers within the model and train it on Google Colab.",
+    ],
+    date: "May 2022",
+    title: "Grayscale Fashion GAN",
+    position: "Solo Developer",
+    location: "Cornell Tech",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+    links: [
+      {
+        url: "https://www.overleaf.com/read/dyjqbqzjkmvx",
+        text: "See Project",
+      },
+    ],
+  },
+  {
+    text: [
+      "Designed a recurrent neural network (RNN) from scratch that performs binary addition.",
+    ],
+    date: "April 2022",
+    title: "RNN Performing Binary Addition",
+    position: "Solo Developer",
+    location: "Cornell Tech",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+    links: [
+      {
+        url: "https://www.overleaf.com/read/bmgzsdddsxrk",
+        text: "See Project",
+      },
+    ],
+  },
+  {
+    text: [
+      "Designed a Convolutional Neural network (CNN) from scratch and attacked it with adversaries" +
+       " I created to show how misclassification can occur.",
+      "Performed Transfer learning and showed the visual maps.",
+      "Made use of TensorFlow and Pytorch to build layers for the models and train them.",
+    ],
+    date: "March 2022",
+    title: "Designing and Fooling CNNs",
+    position: "Solo Developer",
+    location: "Cornell Tech",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+    links: [
+      {
+        url: "https://www.overleaf.com/read/pzhbhvbkhsdz",
+        text: "See Project",
+      },
+    ],
+  },
+  {
+    text: [
+      "Built a shallow neural network to classify the years that songs were made and predict when songs were made based on .WAV files.",
+      "Built a shallow Softmax classifier entirely from scratch (no ML libraries used) to classify flower images.",
+    ],
+    date: "March 2022",
+    title: "Softmax / Classification Neural Net (entirely from scratch!)",
+    position: "Solo Developer",
+    location: "Cornell Tech",
+    icon: faBriefcase,
+    iconOffset: "left-2.5",
+    iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+    links: [
+      {
+        url: "https://www.overleaf.com/read/rrxhnrmnvtgj",
+        text: "See Project",
+      },
+    ],
+  },
+];
+
 export var fasterCharPoses = {
   exit: { opacity: 0, y: 20 },
   enter: {
