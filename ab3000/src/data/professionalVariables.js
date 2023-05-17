@@ -111,6 +111,27 @@ export const projectData = [
       },
     ],
   },
+   {
+    text: [
+      "Collaborated with two other students to research the most effective ways to enter symbolic input in VR.",
+      "Compared and contrasted three methods (keyboard typing, virtual typing, and virtual typing + character display)",
+      "Conducted experiments on 10 participants to test out our hypothesis.",
+    ],
+    date: "January 2022 - May 2022",
+    title: "Virtual Reality Symbolic Input Research",
+    position: "Researcher / Writer",
+    location: "Cornell Tech",
+    icon: faFile,
+    iconColor: "rgb(250, 255, 205)",
+    boxColor: "#ff8787",
+    borderColor: "#ffa1a1",
+    links: [
+      {
+        url: "https://www.overleaf.com/read/tkmcrszxzhjt",
+        text: "See Project",
+      },
+    ],
+  },
 ];
 
 export var fasterCharPoses = {
@@ -326,13 +347,15 @@ export const skillData = [
 export const timelineData = [
   {
     text: [
-      "Fullstack development and devops for loan payment APIs.",
+      "Fullstack development (frontend + backend + database) and devOps engineering for loan payment APIs.",
+      "Created extensive frontend and backend unit tests for various features.", 
+      "Performed on-call rotations to conduct releases through Terraform and CircleCI.",
+      "Investigated and resolved customer payment issues.",
       "Performed auditing (SOC2) to build and obtain client trust.",
-      "Performed on-call rotations to conduct releases and resolve customer payment issues."
     ],
     date: "July 2022 - Present",
     title: "Rightfoot",
-    position: "Software Engineer",
+    position: "Software Engineer (Fullstack, DevOps, QA)",
     location: "San Francisco, CA (remote)",
     icon: faBriefcase,
     iconOffset: "left-2.5",
