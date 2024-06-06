@@ -99,12 +99,12 @@ export default class HomePage extends React.Component {
             <img src={"images/main_logo.svg"} />
             <h5> Software Engineer</h5>
             <div className="icon-container">
-              <a
+              {/* <a
                 href="https://www.instagram.com/someone_alive_somehow/"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faInstagram} />
-              </a>
+              </a> */}
               <a href="https://github.com/AB3000" target="_blank">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
@@ -117,12 +117,12 @@ export default class HomePage extends React.Component {
               <a href="mailto:ab2424@cornell.edu">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
-              <a
+              {/* <a
                 href="https://www.youtube.com/channel/UCo7f_INMY5gvsKPk8lWO52A"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faYoutube} />
-              </a>
+              </a> */}
             </div>
           </div>
           <br></br>

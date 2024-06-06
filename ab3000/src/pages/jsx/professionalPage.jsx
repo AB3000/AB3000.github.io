@@ -300,11 +300,11 @@ export default class ProfessionalPage extends React.Component {
               charPoses={fasterCharPoses}
             >
               Most of my professional work involves full time positions,
-              internships, and research in machine learning and software engineering. I
-              enjoy collaborating with people to design applications for
-              entertainment and educational purposes. For my personal projects,
-              I am interested in experimentation with designing mini games and
-              creating text analysis programs.
+              internships, and research in machine learning and software engineering.
+              My machine learning experience is mainly in LLMs, while my 
+              software engineering experience is in devOps and fullstack development.
+              I have gained experience in a variety of industries, ranging from 
+              finance to education. 
             </SplitText>
           </div>
           <VerticalTimeline className="vertical-timeline-custom-line">
